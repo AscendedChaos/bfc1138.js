@@ -280,14 +280,14 @@
 	<File>Units_land_cis_aat_tank.xml</File>
 	<File>Units_land_cis_crabdroid.xml</File>
     <File>Units_Space_Hyena.xml</File>
+    <File>Units_Space_CIS_Bellubab.xml</File>
 	<File>Units_land_cis_destroyerdroids.xml</File>
 	<File>Units_land_cis_enforcer_tank.xml</File>
 	<File>Units_land_CIS_HMP.xml</File>
 	<File>Units_land_cis_Homing_Spider.xml</File>
 	<File>Units_Land_cis_stap.xml</File>
 	<File>Units_land_cis_super_battledroid.xml</File>
-	<File></File>
-	<File></File>
+    
 	
 	<!-- Expansion Units: Republic -->
 	<File>Units_hero_republic_Commander_Keller.xml</File>
