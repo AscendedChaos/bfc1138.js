@@ -1914,7 +1914,7 @@ HP_NEWISD_Engines,
         <Scale_Factor>0.5</Scale_Factor>
         <Select_Box_Scale>150</Select_Box_Scale>
         <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
-        <Mass>0.98</Mass>
+        <Mass>0.68</Mass>
         <No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 
         <Ranking_In_Category>2</Ranking_In_Category>

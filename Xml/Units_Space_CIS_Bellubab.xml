@@ -12,7 +12,7 @@
         <Space_Model_Name>CIS_Belbullab_22.alo</Space_Model_Name>
         
 		<!--<Scale_Factor>0.35</Scale_Factor>--> <!-- From 0.7 -->
-        <Scale_Factor>0.04</Scale_Factor>
+        <Scale_Factor>0.05</Scale_Factor>
         
         <Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
@@ -196,7 +196,7 @@
 		<Property_Flags> SmallShip </Property_Flags>
 
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
-		<Create_Team_Type>NTB_630_Squadron_Container </Create_Team_Type>
+        <Create_Team_Type>Belbullab_Squadron_Container</Create_Team_Type>
 		<Max_Squad_Size> 6 </Max_Squad_Size>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
