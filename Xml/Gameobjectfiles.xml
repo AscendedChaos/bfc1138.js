@@ -279,6 +279,7 @@
 	<File>Units_land_cis_battledroid.xml</File>
 	<File>Units_land_cis_aat_tank.xml</File>
 	<File>Units_land_cis_crabdroid.xml</File>
+    <File>Units_Space_Hyena.xml</File>
 	<File>Units_land_cis_destroyerdroids.xml</File>
 	<File>Units_land_cis_enforcer_tank.xml</File>
 	<File>Units_land_CIS_HMP.xml</File>
