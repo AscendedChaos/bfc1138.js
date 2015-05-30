@@ -1,0 +1,279 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Empire Version) *****-->
+<!--****************************************************-->
+
+
+
+<Story>
+
+    <Event Name="Universal_Story_Start">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>0</Event_Param1>
+        <Story_Dialog>Dialog_Expansion_GC_Solo</Story_Dialog>
+        <Story_Chapter>12</Story_Chapter>
+        <Story_Tag>Intro_Tag</Story_Tag>
+    </Event>
+
+
+    <Event Name="A_Multimedia_Event">
+        <Event_Type>STORY_GENERIC</Event_Type>
+        <Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
+        <Reward_Type>MULTIMEDIA</Reward_Type>
+        <Reward_Param1>TEXT_EMPIRE_START</Reward_Param1>
+        <Reward_Param2>-1</Reward_Param2>
+        <Reward_Param9>Tarkin_Loop</Reward_Param9>
+        <Reward_Param10>5</Reward_Param10>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+
+
+    <Event Name="Kill_the_screen_text">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>15</Event_Param1>
+        <Reward_Type>SCREEN_TEXT</Reward_Type>
+        <Reward_Param1>TEXT_EMPIRE_START</Reward_Param1>
+        <Reward_Param4>remove</Reward_Param4>
+        <Prereq>A_Multimedia_Event</Prereq>
+    </Event>
+
+    <Event Name="Stop_the_commandbar_movie">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+        <Prereq>Kill_the_screen_text</Prereq>
+    </Event>
+
+    <!-- Empire Hero Release -->
+
+
+    <!-- Spawn Starting Heroes -->
+
+    <Event Name="Empire_AI_Unlock_Research_Facility">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>E_Ground_Research_Facility</Reward_Param1>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+    <Event Name="Empire_AI_Heroes_01">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Grand_Moff_Tarkin_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+    <Event Name="Empire_AI_Heroes_02">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+    <Event Name="Empire_AI_Heroes_03">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Mara_Jade_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+
+    <Event Name="Empire_AI_Heroes_04">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>THE_Inquisitor_Squadron</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+
+
+
+    <!-- Spawn Tech Level 1 Heroes -->
+
+    <Event Name="Empire_Enters_Tech_01">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>1</Event_Param1>
+    </Event>
+
+    <!--ADDED
+    <Event Name="Spawn_Boba_Fett">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Boba_Fett_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_01</Prereq>
+    </Event>-->
+
+
+    <!-- Spawn Time Era 2 Heroes -->
+
+    <Event Name="Empire_Enters_Tech_02">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>2</Event_Param1>
+    </Event>
+
+    <Event Name="Spawn_Veers">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>General_Veers_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Lock_PH1_Triton">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_Triton_Squad_ph1</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Lock_Commander_Stormtroopers">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Field_Com_Empire_PH1_Team</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Lock_PH1_Stormtroopers">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_Stormtrooper_Ph1_Squad</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Lock_ATAR">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_ATAR_Squad</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+
+    <!-- Spawn Time Era 3 Heroes -->
+
+    <Event Name="Empire_Enters_Tech_03">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>3</Event_Param1>
+    </Event>
+
+    <Event Name="Spawn_Piett">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Lock_IMP_MAAT">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_MAAT</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+
+    <!-- Spawn Time Era 4 Heroes -->
+
+    <Event Name="Empire_Enters_Tech_04">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>4</Event_Param1>
+    </Event>
+
+    <Event Name="Spawn_Arc_Hammer">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Arc_Hammer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Lock_ISD_I">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_I_Star_Destroyer</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Lock_Venator">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Venator_IMP</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Lock_Acclamator">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Acclamator_Assault_Ship_IMP</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Lock_Victory_MKI">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>IMP_Victory_Destroyer</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <!-- Spawn Time Era 5 Heroes -->
+
+    <Event Name="Empire_Enters_Tech_05">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>5</Event_Param1>
+    </Event>
+
+    <Event Name="Spawn_Thrawn">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Admonitor_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+    <Event Name="Remove_Avenger">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <!--<Reward_Type>LOCK_UNIT</Reward_Type>-->
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+        <Reward_Param1>Avenger_StarDestroyer</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+    <Event Name="Lock_Avenger">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Avenger_StarDestroyer</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+    <Event Name="Remove_Avenger_Team">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <!--<Reward_Type>LOCK_UNIT</Reward_Type>-->
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+        <Reward_Param1>Darth_Team_Avenger</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+    <Event Name="Lock_Avenger_Team">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Darth_Team_Avenger</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+    
+    <Event Name="Remove_Inquisitor">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <!--<Reward_Type>LOCK_UNIT</Reward_Type>-->
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+        <Reward_Param1>THE_Inquisitor_Squadron</Reward_Param1>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+</Story>

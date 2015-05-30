@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<Storm_Commando_Data>
+	<GroundInfantry Name="Storm_Commando">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_STORMCOMMANDO</Text_ID>
+		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier Rebel_Assault_Squad </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_IMP_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STORMCOMMANDO TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		
+		<Icon_Name>i_button_stormcommando.tga</Icon_Name>
+
+		<Land_Model_Name>Ei_StormCommando.alo</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Ei_StormCommando.ALO,
+			Urban, 				Ei_StormCommando.ALO,
+			Arctic, 			Ei_StormCommando.ALO,
+			Volcanic, 			Ei_StormCommando.ALO,
+			Desert, 			Ei_StormCommando.ALO,
+			Forest, 			Ei_StormCommando.ALO,
+			Swamp, 				Ei_StormCommando.ALO
+		</Land_Terrain_Model_Mapping>
+        
+		
+		<Scale_Factor>1.5</Scale_Factor>
+		<GUI_Row> 1 </GUI_Row>
+		<Mass>1.0</Mass>
+		<Size_Value>75</Size_Value>
+
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Max_Speed>0.8</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .3 </FormationSpacing> 
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<OverrideAcceleration> 0.05 </OverrideAcceleration>
+		<OverrideDeceleration> 0.05 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+		
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
+
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Health>65</Tactical_Health>
+		<Autoresolve_Health>30</Autoresolve_Health>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Damage>4</Damage>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+
+		<!--<Projectile_Types> Proj_Infiltrator_Blaster_Green </Projectile_Types>-->
+        
+        <!--<Projectile_Types>Proj_Hand_Blaster_Blue</Projectile_Types>-->
+        
+        <Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
+		
+        <Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 7.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 7.0 </Targeting_Fire_Inaccuracy>
+		
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>325.0</Land_FOW_Reveal_Range>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		
+		<SFXEvent_Select>Unit_Select_Sabateur</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Sabateur</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Sabateur</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Sabateur</SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Assist_Move_Sabateur</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Assist_Attack_Sabateur</SFXEvent_Group_Attack>
+		<SFXEvent_Fire>Unit_Underworld_Infantry_Fire</SFXEvent_Fire>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sabateur</SFXEvent_Fleet_Move>
+		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_2_Death</Death_SFXEvent_Start_Die>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
+		<MovementClass> Infantry </MovementClass>
+
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> No </Is_Squashable>
+		<Create_Team>No</Create_Team>
+
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<AI_Combat_Power>12</AI_Combat_Power>
+
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<!--<Unit_Ability>
+				<Type>PLACE_REMOTE_BOMB</Type>
+				<Recharge_Seconds>18.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Saboteur_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>DETONATE_REMOTE_BOMB</Type>
+			</Unit_Ability>-->
+            
+            <!-- Primary ability -->
+            <Unit_Ability>
+                <Type>SPREAD_OUT</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+            </Unit_Ability>
+            
+
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+
+			<Galactic_Sabotage_Ability Name="Saboteur_Galactic_Sabotage">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Activated</Activation_Style>
+				<Causes_Despawn>Yes</Causes_Despawn>
+				<Can_Destroy_Special_Structure>True</Can_Destroy_Special_Structure>
+				<Sabotage_Cost_Increase_Factor> 2.0 </Sabotage_Cost_Increase_Factor>
+			</Galactic_Sabotage_Ability>
+		
+			
+			<System_Spy_Ability Name="Saboteur_Limited_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+			</System_Spy_Ability>
+
+			<!--<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack"> 
+				<Activation_Style> User_Input </Activation_Style> 
+				<Activation_Min_Range>5.0</Activation_Min_Range>
+				<Activation_Max_Range>130.0</Activation_Max_Range>
+				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
+				<Toss_Anim>BOMBTOSS</Toss_Anim>
+				<Spawn_Frame>12.0</Spawn_Frame>
+				<Spawn_Bone>MuzzleB_00</Spawn_Bone>
+			</Remote_Bomb_Ability>-->
+
+		</Abilities>
+	</GroundInfantry>
+	<GroundCompany Name="Imperial_StormCommando_Squad">
+		<Text_ID>TEXT_IMPERIAL_STORMCOMMANDO_SQUAD</Text_ID>
+		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier Rebel_Assault_Squad </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STORMCOMMANDO TEXT_DESC_CI_CANTIDAD_9 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_IMP_COMMANDO</Encyclopedia_Unit_Class>
+		<Is_Stealth_Company>No</Is_Stealth_Company>
+		
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Space_Station>0</Build_Tab_Space_Station>
+        
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>8</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Piracy_Value_Credits>55</Piracy_Value_Credits>
+		<Build_Cost_Credits>800</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds><!--is 45-->
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<!--<Build_Limit_Current_Per_Player>15</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>-->
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>3</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
+        
+        <!--<Required_Planets>Fondor, Kuat, Coruscant</Required_Planets>-->
+        
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Units> Storm_Commando, Storm_Commando, Storm_Commando, Storm_Commando, Storm_Commando, Storm_Commando, Storm_Commando, Storm_Commando, Storm_Commando</Company_Units>
+		<Max_Squad_Size> 9 </Max_Squad_Size>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<!--<Company_Transport_Unit>StormAttack_IMP</Company_Transport_Unit>-->
+        <Company_Transport_Unit>Imperial_Landing_Craft_II</Company_Transport_Unit>
+		<Icon_Name>i_button_stormcommando.tga</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Score_Cost_Credits>120</Score_Cost_Credits>
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<!--<Unit_Ability>
+				<Type>PLACE_REMOTE_BOMB</Type>
+				<Recharge_Seconds>18.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Saboteur_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>DETONATE_REMOTE_BOMB</Type>
+			</Unit_Ability>-->
+            
+            <!-- Primary ability -->
+            <Unit_Ability>
+                <Type>SPREAD_OUT</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+            </Unit_Ability>
+
+			
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+
+			
+			<Galactic_Sabotage_Ability Name="Saboteur_Galactic_Sabotage">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Activated</Activation_Style>
+				<Causes_Despawn>Yes</Causes_Despawn>
+				<Can_Destroy_Special_Structure>True</Can_Destroy_Special_Structure>
+				<Sabotage_Cost_Increase_Factor> 2.0 </Sabotage_Cost_Increase_Factor>
+			</Galactic_Sabotage_Ability>
+			
+			<System_Spy_Ability Name="Saboteur_Limited_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+			</System_Spy_Ability>
+
+			<!--<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack"> 
+				<Activation_Style> User_Input </Activation_Style> 
+				<Activation_Min_Range>5.0</Activation_Min_Range>
+				<Activation_Max_Range>130.0</Activation_Max_Range>
+				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
+				<Toss_Anim>BOMBTOSS</Toss_Anim>
+				<Spawn_Frame>12.0</Spawn_Frame>
+				<Spawn_Bone>MuzzleB_00</Spawn_Bone>
+			</Remote_Bomb_Ability>-->
+
+		</Abilities>
+		<Population_Value>1</Population_Value>
+	</GroundCompany>
+</Storm_Commando_Data>

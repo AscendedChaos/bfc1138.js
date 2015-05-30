@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+
+<Hard_Point_Files>
+    <File>HARDPOINTS_BELLATOR.xml</File>
+    <File>HARDPOINTS_STAR_DESTROYERS.xml</File>
+    <File>HardPoints_Blue_Diver.xml</File>
+    <File>Units_hero_rebel_outrider.xml</File>
+    <File>Hardpoints_Rebel_R41.xml</File>
+    <File>HardPoints_Raider_Corvette.xml</File>
+    
+    <File>HardPoints_Rebel_Gunboat.xml</File>
+    <File>HardPoints_Imperial_Gunboat.xml</File>
+    
+    <File>Hardpoints_Empire_TIE_Inquisitor.xml</File>
+    <File>Hardpoints_Empire_Procursator.xml</File>
+    
+    <File>Hardpoints_Empire_Imperial_Escort_Carrier.xml</File>
+    <File>Hardpoints_Empire_TIE_Hunter.xml</File>
+    
+    <File>Hardpoints_Rebel_Corsec.xml</File>
+    <File>Hardpoints_Empire_DominatorSD.xml</File>
+    
+    <File>Hardpoints_Empire_Juggernaut.xml</File>
+    <File>Hardpoints_Rebel_Tanks.xml</File>
+    
+    <File>HardPoints_Gozanti.xml</File>
+    <File>Hardpoints_Empire_Gladiator_Star_Destroyer.xml</File>
+    <File>Hardpoints_Empire_New_Acclamator.xml</File>
+    
+    <File>HardPoints_TCW.xml</File>
+    <File>Hardpoints_Empire_Predator.xml</File>
+    <File>Hardpoints_Republic_Valiant.xml</File>
+    
+    <!--<File>HARDPOINTS_REBEL_LUCREHULK.xml</File>-->
+    <File>HARDPOINTS_REBEL_FRIGATES.xml</File>
+    <File>HARDPOINTS_EXECUTOR.xml</File>
+	<File>HardPoints_BER.xml</File>
+	<File>HardPoints.xml</File>
+	<File>CIN_HardPoints.xml</File>
+	<File>HardPoints_Underworld.xml</File>
+	<File>HardPoints_V2.xml</File>
+	<File>HardPoints_Republic_Corvettes.xml</File>
+	<File>Hardpoints_Justice.xml</File>
+	<File>HARDPOINTS_BLOODSTAR.xml</File>
+	<File>HardPoints_Gozanti.xml</File>
+	<File>HardPoints_Republic_StarBase.xml</File>
+	<File>HARDPOINTS_MALEVOLENCE.xml</File>
+	<File>HardPoints_Hyena.xml</File>
+	<File>Vong_Hardpoints.xml</File>
+	<File>HardPoints_Republic_Interdictor.xml</File>
+	<File>HardPoints_Foray_Corvette.xml</File>
+	<File>KOTOR_Hardpoints.xml</File>
+	<File>HardPoints_KOTOR_Derriphan.xml</File>
+	<File>HardPoints_KOTOR_Inexpugnable.xml</File>
+	<File>HardPoints_KOTOR_Kyramud.xml</File>
+	<File>HardPoints_KOTOR_Mandalorian_Cruisers.xml</File>
+	<File>HardPoints_KOTOR_Sith_Frigate.xml</File>
+	<File>HardPoints_Agressor_Opressor.xml</File>
+	<File>HardPoints_Chasemaster.xml</File>
+	<File>HardPoints_Missile_Frigate.xml</File>
+	<File>HardPoints_Kandosii.xml</File>
+	<File>HardPoints_Lictor.xml</File>
+	<File>SpaceDock_Units_Hardpoints.xml</File>
+	<File>HardPoints_Republic_Light_Cruiser.xml</File>
+	<File>HardPoints_Familybase.xml</File>
+	<File>HardPoints_Jovan_Station.xml</File>
+	<File>HardPoints_Venator.xml</File>
+	<File>HardPoints_Spaceport.xml</File>
+	<File>HardPoints_Golan_Platforms.xml</File>
+	<File>HardPoints_Praetorian.xml</File>
+	<File>Hardpoints_Strident.xml</File>
+	<File>HardPoints_Empire_Station.xml</File>
+	<File>HARDPOINTS_ISD.xml</File>
+	<File>HardPoints_Republic_Legacy.xml</File>
+</Hard_Point_Files>

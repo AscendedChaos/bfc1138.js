@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<EV_Harrow_Destroyer_Data>
+	<!-- Harrow Destroyer -->
+	
+	<SpaceUnit Name="EV_Harrow_Destroyer">
+		<Text_ID>TEXT_UNIT_HARROW_DESTROYER</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HARROW</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Nebulon_B_Frigate </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Y-wing B-Wing Calamari_Cruiser </Encyclopedia_Vulnerable_To>
+		<GUI_Row> 1 </GUI_Row>
+		<Space_Model_Name>EV_Harrow.alo</Space_Model_Name>
+		<Icon_Name>I_BUTTON_EV_HARROW_DESTROYER.TGA</Icon_Name>
+		<GUI_Model_Name>EV_Harrow.alo</GUI_Model_Name>
+		<Select_Box_Scale>0.001</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Mass>0.9995</Mass>
+		<Scale_Factor>1.4</Scale_Factor>
+		
+		<Build_Limit_Current_Per_Player>4</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Max_Speed>1.6</Max_Speed>
+		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>8</Bank_Turn_Angle>
+		<OverrideAcceleration> .03 </OverrideAcceleration>
+		<OverrideDeceleration> .03 </OverrideDeceleration>
+		
+		<Max_Thrust>1.5</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+
+		<Armor_Type> Armor_Victory_Class </Armor_Type>
+        <Shield_Armor_Type>Shield_ISD</Shield_Armor_Type>
+		<Damage>45</Damage>
+        <Autoresolve_Health>1500</Autoresolve_Health>
+		<Shield_Points>27000</Shield_Points>
+		<Tactical_Health>3250</Tactical_Health>
+		<Shield_Refresh_Rate>4000</Shield_Refresh_Rate>
+		<Energy_Capacity>40000</Energy_Capacity>
+		<Energy_Refresh_Rate>6000</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>2</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <!--<Required_Special_Structures>Empire_Kuat_Drive_Yards</Required_Special_Structures>-->
+        <Required_Planets>Tatooine</Required_Planets>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Required_Planets/>
+		<Ship_Class>frigate</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Transport_Capacity>0</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Build_Cost_Credits>3500</Build_Cost_Credits>
+		<AI_Combat_Power>6500</AI_Combat_Power>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>8</Size_Value>
+		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT </SpaceBehavior>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+
+		<Death_Clone>Damage_Normal, EV_Harrow_Destroyer_Death_Clone</Death_Clone>
+		
+        
+
+        <HardPoints>
+        	HP_Harrow_Missile_01,
+		HP_Harrow_Missile_02,
+		HP_Harrow_Missile_03,
+		HP_Harrow_Fighter_Defence_01,
+		HP_Harrow_Fighter_Defence_02,
+		HP_Harrow_Fighter_Defence_03,
+		HP_Harrow_Fighter_Defence_04,
+		HP_Harrow_Ioncannon_01,
+		HP_Harrow_Ioncannon_02,
+		HP_Harrow_Ioncannon_03,
+		HP_Harrow_Ioncannon_04,
+		HP_Harrow_Turbolaser_01,
+		HP_Harrow_Turbolaser_02,
+		HP_Harrow_Turbolaser_03,
+		HP_Harrow_Turbolaser_04,
+		HP_Harrow_Turbolaser_05,
+		HP_Harrow_Turbolaser_06,
+      		HP_Harrow_Shields,
+      		HP_Harrow_Engine_Bone,
+		HP_Harrow_Main_Reactor,
+		HP_Harrow_Fighters_Bay,
+		HP_Harrow_Tractor_Beam
+    	</HardPoints>
+
+		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
+		<GUI_Distance>1100</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Victory_Destroyer</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Victory_Destroyer_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Select>Unit_Select_Victory_Destroyer</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Victory_Destroyer</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Victory_Destroyer</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Victory_Destroyer</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Victory_Destroyer</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Victory_Destroyer</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Victory_Destroyer</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Victory_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Victory_Destroyer </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Victory_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Victory_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Victory_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>	
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Frigate | Corvette</Targeting_Priority_Set>
+
+		<Tech_Level>2</Tech_Level>
+		
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		
+		<Starting_Spawned_Units_Tech_0>Assault_Gunboat_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Assault_Gunboat_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		
+        <Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+        
+        <Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+        
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		
+
+			<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-2.0</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.7f</Mod_Multiplier>
+				<!--<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER , 25.0</Mod_Multiplier>-->
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
+                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
+                <Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+			
+
+		
+		<Score_Cost_Credits> 4000</Score_Cost_Credits>
+
+		<Tactical_Build_Cost_Multiplayer>1250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!-- Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player -->
+		<!-- Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player -->
+        
+        <Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+
+        <Build_Limit_Current_For_All_Allies>3</Build_Limit_Current_For_All_Allies>
+        <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+        
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>2</Population_Value>
+	</SpaceUnit>
+
+     <SpaceUnit Name="EV_Harrow_Destroyer_Death_Clone">
+		<Text_ID>TEXT_UNIT_HARROW_DESTROYER</Text_ID>
+		<Space_Model_Name>EV_Harrow_D.ALO</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+		<Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Scale_Factor>1.4</Scale_Factor>
+		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+		<Max_Speed>1.2</Max_Speed>
+		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+		<Max_Thrust>1</Max_Thrust>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>0</Bank_Turn_Angle>
+		<Affiliation>Rebel</Affiliation>
+		<Ship_Class>frigate</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</SpaceUnit>
+	
+</EV_Harrow_Destroyer_Data>
+
+
+
+
+
+
+

@@ -1,0 +1,400 @@
+<?xml version="1.0" ?>
+
+
+
+<!--********************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Underworld Version) *****-->
+<!--********************************************************-->
+
+
+
+<Story>
+	
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Story_Dialog>Dialog_Expansion_GC_Solo</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+	</Event>
+	
+<Event Name="A_Multimedia_Event">
+    <Event_Type>STORY_GENERIC</Event_Type>
+    <Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_START</Reward_Param1>
+    <Reward_Param2>-1</Reward_Param2>
+    <Reward_Param9>Boba_Fett_Loop</Reward_Param9>
+    <Reward_Param10>5</Reward_Param10>
+    <Prereq>Universal_Story_Start</Prereq>
+</Event>
+
+
+<Event Name="Kill_the_screen_text">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>15</Event_Param1>
+    <Reward_Type>SCREEN_TEXT</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_START</Reward_Param1>
+    <Reward_Param4>remove</Reward_Param4>
+    <Prereq>A_Multimedia_Event</Prereq>
+</Event>
+
+<Event Name="Stop_the_commandbar_movie">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+    <Prereq>Kill_the_screen_text</Prereq>
+</Event>
+	
+	<Event Name="Underworld_AI_Unlock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Tyber">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Tyber_Zann_Team</Reward_Param1>
+		<Reward_Param2>Mandalore</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Boba">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Boba_Fett_Team</Reward_Param1>
+		<Reward_Param2>Mandalore</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Bossk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Bossk_Team</Reward_Param1>
+		<Reward_Param2>Mandalore</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Urai">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Urai_Fen_Team</Reward_Param1>
+		<Reward_Param2>Mandalore</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_IG88">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>IG88_Team</Reward_Param1>
+        <Reward_Param2>Mandalore</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Silri">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Silri_Team</Reward_Param1>
+		<Reward_Param2>Mandalore</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+		<!-- Spawn Tech Level 1 Heroes -->
+
+	<Event Name="Underworld_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+	
+	<Event Name="Underworld_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+	
+	
+	
+	<Event Name="Underworld_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+	
+	
+	  <!--<Event Name="Remove_The_Underworld">
+    <Event_Type>STORY_TECH_LEVEL</Event_Type>
+    <Event_Param1>3</Event_Param1>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_BOBA</Reward_Param1>
+    <Reward_Param2>1</Reward_Param2>
+    <Reward_Param9>Boba_Fett_Loop</Reward_Param9>
+    <Reward_Param10>1</Reward_Param10>
+  </Event>
+	
+	
+ <Event Name="Remove_The_Underworld_IG_88">
+    <Event_Type>STORY_GENERIC</Event_Type>
+    <Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_IG88</Reward_Param1>
+    <Reward_Param2>-1</Reward_Param2>
+    <Reward_Param9>IG-88_Loop</Reward_Param9>
+    <Reward_Param10>5</Reward_Param10>
+    <Prereq>Remove_The_Underworld</Prereq>
+</Event>
+
+
+ <Event Name="Remove_The_Underworld_Bossk">
+    <Event_Type>STORY_GENERIC</Event_Type>
+    <Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_BOSSK</Reward_Param1>
+    <Reward_Param2>-1</Reward_Param2>
+    <Reward_Param9>IG-88_Loop</Reward_Param9>
+    <Reward_Param10>5</Reward_Param10>
+    <Prereq>Remove_The_Underworld_IG_88</Prereq>
+</Event> -->
+
+
+  <Event Name="Remove_The_Underworld">
+    <Event_Type>STORY_TECH_LEVEL</Event_Type>
+    <Event_Param1>3</Event_Param1>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_BOBA</Reward_Param1>
+    <Reward_Param2>-1</Reward_Param2>
+    <Reward_Param9>Boba_Fett_Loop</Reward_Param9>
+    <Reward_Param10>7</Reward_Param10>
+	 <Prereq>Underworld_Enters_Tech_03</Prereq>
+  </Event>
+  
+  <Event Name="Kill_Remove_The_Underworld">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>20</Event_Param1>
+    <Reward_Type>SCREEN_TEXT</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_BOBA</Reward_Param1>
+    <Reward_Param4>remove</Reward_Param4>
+    <Prereq>Remove_The_Underworld</Prereq>
+</Event>
+
+<Event Name="Stop_Remove_The_Underworld">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+    <Prereq>Kill_Remove_The_Underworld</Prereq>
+</Event>
+
+
+  <Event Name="Remove_The_Underworld_2">
+    <Event_Type>STORY_TECH_LEVEL</Event_Type>
+    <Event_Param1>3</Event_Param1>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_BOBA2</Reward_Param1>
+    <Reward_Param2>-1</Reward_Param2>
+    <Reward_Param9>Boba_Fett_Loop</Reward_Param9>
+    <Reward_Param10>7</Reward_Param10>
+	 <Prereq>Stop_Remove_The_Underworld</Prereq>
+  </Event>
+  
+  <Event Name="Kill_Remove_The_Underworld_2">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>20</Event_Param1>
+    <Reward_Type>SCREEN_TEXT</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_BOBA2</Reward_Param1>
+    <Reward_Param4>remove</Reward_Param4>
+    <Prereq>Remove_The_Underworld_2</Prereq>
+</Event>
+
+<Event Name="Stop_Remove_The_Underworld_2">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+    <Prereq>Kill_Remove_The_Underworld_2</Prereq>
+</Event>
+  
+  
+  <Event Name="Remove_The_Underworld_IG_88">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>3</Event_Param1>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_IG88</Reward_Param1>
+    <Reward_Param2>-1</Reward_Param2>
+    <Reward_Param9>IG-88_Loop</Reward_Param9>
+    <Reward_Param10>5</Reward_Param10>
+	 <Prereq>Stop_Remove_The_Underworld_2</Prereq>
+  </Event>
+  
+    <Event Name="Kill_Remove_The_Underworld_IG_88">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>20</Event_Param1>
+    <Reward_Type>SCREEN_TEXT</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_IG88</Reward_Param1>
+    <Reward_Param4>remove</Reward_Param4>
+    <Prereq>Remove_The_Underworld_IG_88</Prereq>
+</Event>
+
+<Event Name="Stop_Remove_The_Underworld_IG_88">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+    <Prereq>Kill_Remove_The_Underworld_IG_88</Prereq>
+</Event>
+  
+  <Event Name="Remove_The_Underworld_Bossk">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>3</Event_Param1>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_BOSSK</Reward_Param1>
+    <Reward_Param2>-1</Reward_Param2>
+    <Reward_Param9>Bossk_Loop</Reward_Param9>
+    <Reward_Param10>5</Reward_Param10>
+	<Prereq>Stop_Remove_The_Underworld_IG_88</Prereq>
+  </Event>
+  
+  <Event Name="Kill_Remove_The_Underworld_Bossk">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>15</Event_Param1>
+    <Reward_Type>SCREEN_TEXT</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_BOSSK</Reward_Param1>
+    <Reward_Param4>remove</Reward_Param4>
+    <Prereq>Remove_The_Underworld_Bossk</Prereq>
+</Event>
+
+<Event Name="Stop_Remove_The_Underworld_Bossk">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+    <Prereq>Kill_Remove_The_Underworld_Bossk</Prereq>
+</Event>
+  
+  <Event Name="Remove_The_Underworld_Trandosha_Space">
+    <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+	<Event_Param1>3</Event_Param1>
+    <Reward_Type>SET_TACTICAL_MAP</Reward_Type>
+    <Reward_Param1>Trandosha_Story</Reward_Param1>
+    <Reward_Param2>Space</Reward_Param2>
+    <Reward_Param3>Underworld</Reward_Param3>
+    <Reward_Param5>Hutts</Reward_Param5>
+    <Reward_Param8>0</Reward_Param8>
+	<Reward_Param9>0</Reward_Param9>
+	<Reward_Param10>0</Reward_Param10>
+	<Reward_Param11>0</Reward_Param11>
+    <Reward_Param13>1</Reward_Param13>
+	<Prereq>Stop_Remove_The_Underworld_Bossk</Prereq>
+  </Event>
+
+  <Event Name="Remove_The_Underworld_IG_88_2">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>3</Event_Param1>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_IG_88_2</Reward_Param1>
+    <Reward_Param2>5</Reward_Param2>
+    <Reward_Param9>IG-88_Loop</Reward_Param9>
+    <Reward_Param10>5</Reward_Param10>
+	<Prereq>Remove_The_Underworld_Trandosha_Space</Prereq>
+  </Event>
+  
+   <Event Name="Remove_The_Underworld_Trandosha_Land">
+    <Event_Type>STORY_LAND_TACTICAL</Event_Type>
+    <Reward_Type>SET_TACTICAL_MAP</Reward_Type>
+    <Reward_Param1>Trandosha_Story</Reward_Param1>
+    <Reward_Param2>Land</Reward_Param2>
+    <Reward_Param3>Underworld</Reward_Param3>
+    <Reward_Param5>Hutts</Reward_Param5>
+    <Reward_Param6>IG-88</Reward_Param6>
+    <Reward_Param8>0</Reward_Param8>
+	<Reward_Param9>0</Reward_Param9>
+	<Reward_Param10>0</Reward_Param10>
+	<Reward_Param11>0</Reward_Param11>
+    <Reward_Param13>1</Reward_Param13>
+	<Prereq>Remove_The_Underworld_IG_88_2</Prereq>
+  </Event>
+  
+  
+    <Event Name="Remove_The_Underworld_IG_88_Win">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>3</Event_Param1>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_IG88_WIN</Reward_Param1>
+    <Reward_Param2>-1</Reward_Param2>
+    <Reward_Param9>IG-88_Loop</Reward_Param9>
+    <Reward_Param10>5</Reward_Param10>
+	 <Prereq>Remove_The_Underworld_Trandosha_Land</Prereq>
+  </Event>
+  
+  <Event Name="Kill_Remove_The_Underworld_IG_88_Win">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>20</Event_Param1>
+    <Reward_Type>SCREEN_TEXT</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_END_UNDERWORLD_IG88_WIN</Reward_Param1>
+    <Reward_Param4>remove</Reward_Param4>
+    <Prereq>Remove_The_Underworld_IG_88</Prereq>
+</Event>
+
+<Event Name="Stop_Remove_The_Underworld_IG_88_Win">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+    <Prereq>Kill_Remove_The_Underworld_IG_88_Win</Prereq>
+</Event>
+
+<Event Name="Stop_Remove_The_Underworld_IG_88_Win">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+    <Prereq>Kill_Remove_The_Underworld_IG_88_Win</Prereq>
+</Event>
+
+  
+  	<Event Name="Lock_Tyber">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Tyber_Zann_Team</Reward_Param1>
+		<Prereq>Underworld_Enters_Tech_03</Prereq>
+	</Event>
+	
+	 <Event Name="Lock_Urai">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Urai_Fen_Team</Reward_Param1>
+		<Prereq>Underworld_Enters_Tech_03</Prereq>
+	</Event>
+	
+   <Event Name="Lock_Silri">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Silri_Team</Reward_Param1>
+		<Prereq>Underworld_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="Lock_Sabuteur">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Saboteur_Team</Reward_Param1>
+		<Prereq>Underworld_Enters_Tech_03</Prereq>
+	</Event>
+
+
+	<Event Name="Underworld_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	
+		<Event Name="Underworld_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+	
+	
+	
+<!--<Event Name="Kill_the_screen_text">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>15</Event_Param1>
+    <Reward_Type>SCREEN_TEXT</Reward_Type>
+    <Reward_Param1>TEXT_MANDO_START</Reward_Param1>
+    <Reward_Param4>remove</Reward_Param4>
+    <Prereq>A_Multimedia_Event</Prereq>
+</Event>
+
+<Event Name="Stop_the_commandbar_movie">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+    <Prereq>Kill_the_screen_text</Prereq>
+</Event>-->
+
+</Story>

@@ -1,0 +1,2298 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+<!-- ******************************************************************** -->
+<!-- *****     SANDBOX CAMPAIGN "Clone Wars - CIS vs Republic"      ***** -->
+<!-- ******************************************************************** -->
+
+
+
+<Campaign Name="Sandbox_Clone_Wars_CIS">
+
+		<Campaign_Set> Sandbox_Clone_Wars </Campaign_Set>
+		<Sort_Order>8</Sort_Order>
+
+        <Text_ID>TEXT_CAMPAIGN_SINGLE_CLONE_WARS</Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CLONE_WARS </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+				<Locations> 
+			Galaxy_Core_Art_Model, 
+			Abregado_Rae,
+			AetenII, 
+			Alderaan, 
+			AlzocIII, 
+			Anaxes, 
+			Antar,
+			Atzerri, 
+			Bakura,
+			Bespin, 
+			Bestine, 
+			Bonadan, 
+			Bothawui, 
+			Boz_Pity,
+			Carida, 
+			Cato_Neimoidia,
+			Corellia, 
+			Corulag, 
+			Coruscant, 
+			Dantooine, 
+			Dathomir, 
+			Duro,
+			Endor, 
+			Eriadu, 
+			Felucia, 
+			Foerost,
+			Fondor, 
+			Fresia, 
+			Geonosis, 
+			Hoth,
+			Honoghr, 
+			Hypori, 
+			Ilum, 
+			Ithor,
+			Jabiim, 
+			Kamino, 
+			Kashyyyk, 
+			Kessel,
+			Korriban, 
+			Kuat,
+			Malastare, 
+			Mandalore, 
+			Mechis,
+			Minntooine,
+			MonCalimari, 
+			Mustafar, 
+			Muunilinst, 
+			Mygeeto,
+			Naboo, 
+			NalHutta, 
+			Ord_Mantell,
+			Polis_Massa,
+			Rattatak,
+			Raxus_Prime,
+			Rendili,
+			Rhen_Var,
+			RocheAsteroids,
+			Rodia,
+			Rothana,
+			Ryloth, 
+			Saleucami, 
+			Sluis_Van,
+			Sullust, 
+			Taris, 
+			Tatooine, 
+			The_Maw, 
+			The_Wheel,
+			Thyferra,
+			Tibrin, 
+			Trandosha,
+			Utapau, 
+			VergessoAsteroids,
+			Yavin
+
+
+		</Locations> 
+
+
+		<Trade_Routes> 
+			Ryloth_Geonosis,
+			Geonosis_Tatooine,
+			Tatooine_Corellia,
+			Corellia_Coruscant,
+			Abregado_Rae_Fondor,
+			Fondor_Thyferra,
+			Thyferra_Sullust,
+			Sullust_Eriadu,
+			Eriadu_Sluis_Van,
+			Corellia_Duro,
+			Duro_Atzerri,
+			Atzerri_Bestine,
+			Bestine_Bespin,
+			Bespin_Hoth,
+			Endor_Sullust,
+			Polis_Massa_Malastare,
+			Malastare_Eriadu,
+			Eriadu_Antar,
+			Antar_Cato_Neimoidia,
+			Cato_Neimoidia_Rendili,
+			Rendili_Alderaan,
+			Alderaan_Carida,
+			Carida_Taris,
+			Taris_Dathomir,
+			Dathomir_Bonadan,
+			Anaxes_Coruscant,
+			Anaxes_Corulag,
+			Corulag_Carida,
+			Carida_Roche,
+			Roche_The_Wheel,
+			The_Wheel_Rhen_Var
+
+		</Trade_Routes>
+
+
+		<Home_Location> Republic, Coruscant </Home_Location>
+		<Home_Location> CIS, Geonosis </Home_Location>
+
+		<Starting_Active_Player> CIS </Starting_Active_Player>
+
+
+
+		<AI_Player_Control> Republic, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+		<AI_Player_Control> Hutts, None </AI_Player_Control>
+
+
+
+
+
+		<Markup_Filename>Republic, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hutts, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS, DefaultGalacticHints</Markup_Filename>
+
+
+
+
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+<!-- Special Case Planets for Cantinas and Hutt Palaces -->
+
+		<Special_Case_Production> Republic, Ord_Mantell, Ground_Cantina_Rep</Special_Case_Production>
+		<Special_Case_Production> Republic, Tatooine, Ground_Cantina_Rep</Special_Case_Production>	
+		<Special_Case_Production> Republic, Tatooine, Ground_Hutt_Palace_E</Special_Case_Production>	
+		<Special_Case_Production> Republic, NalHutta, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Republic, Rattatak, Ground_Cantina_Rep</Special_Case_Production>
+		<Special_Case_Production> Republic, Ryloth, Ground_Cantina_Rep</Special_Case_Production>
+		<Special_Case_Production> Republic, Ryloth, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Republic, Abregado_Rae, Ground_Cantina_Rep</Special_Case_Production>
+		<Special_Case_Production> Republic, Atzerri, Ground_Cantina_Rep</Special_Case_Production>	
+		<Special_Case_Production> Republic, Corellia, Ground_Cantina_Rep</Special_Case_Production>						
+
+
+
+		<Special_Case_Production> CIS, Ord_Mantell, Ground_Cantina_R</Special_Case_Production>
+		<Special_Case_Production> CIS, NalHutta, Ground_Hutt_Palace_R</Special_Case_Production>
+		<Special_Case_Production> CIS, Tatooine, Ground_Cantina_R</Special_Case_Production> 
+		<Special_Case_Production> CIS, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production> 
+		<Special_Case_Production> CIS, Rattatak, Ground_Cantina_R</Special_Case_Production>
+		<Special_Case_Production> CIS, Ryloth, Ground_Cantina_R</Special_Case_Production>
+		<Special_Case_Production> CIS, Ryloth, Ground_Hutt_Palace_R</Special_Case_Production>
+		<Special_Case_Production> CIS, Abregado_Rae, Ground_Cantina_R</Special_Case_Production>
+		<Special_Case_Production> CIS, Atzerri, Ground_Cantina_R</Special_Case_Production>	
+		<Special_Case_Production> CIS, Corellia, Ground_Cantina_R</Special_Case_Production>								
+
+		<!-- Republic Starting Forces -->
+
+		<Starting_Credits> Republic,  15000 </Starting_Credits>
+		<Starting_Tech_Level> Republic, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Republic, 5 </Max_Tech_Level>
+
+		<!-- Abregado_Rae Space Forces -->
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Abregado_Rae Land Forces -->
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_ATXT_Squad</Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- AetenII Space Forces -->
+		<Starting_Forces> Republic, AetenII, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- AetenII, Land Forces -->
+		<Starting_Forces> Republic, AetenII, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Republic_ATXT_Squad</Starting_Forces>
+
+		<!-- Antar Space Forces -->
+		<Starting_Forces> Republic, Antar, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Antar, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Antar, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Antar, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Antar, Acclamator_Assault_Ship_Rep </Starting_Forces>
+
+
+
+		<!-- Tatooine Space Forces -->
+		<Starting_Forces> Republic, Tatooine, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+
+		<!-- Tatooine, Land Forces -->
+		<Starting_Forces> Republic, Tatooine, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Clonetrooper_P1_Company</Starting_Forces>
+
+		<Starting_Forces> Republic, The_Maw, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, The_Maw, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, The_Maw, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, The_Maw, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, The_Maw, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, The_Maw, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, The_Maw, Republic_Light_Cruiser </Starting_Forces>
+
+		<!-- AetenII Space Forces -->
+		<Starting_Forces> Republic, Yavin, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Yavin, Land Forces -->
+		<Starting_Forces> Republic, Yavin, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_ATRT_Scout_Squad</Starting_Forces>
+
+
+		<!-- AetenII Space Forces -->
+		<Starting_Forces> Republic, Dathomir, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Dathomir, Land Forces -->
+		<Starting_Forces> Republic, Dathomir, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_ATRT_Scout_Squad</Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_ATRT_Scout_Squad</Starting_Forces>
+
+
+		<!-- AetenII Space Forces -->
+		<Starting_Forces> Republic, Honoghr, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Honoghr, Land Forces -->
+		<Starting_Forces> Republic, Honoghr, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_ATXT_Squad</Starting_Forces>
+
+
+		<!-- Alderaan Space Forces -->
+		<Starting_Forces> Republic, Alderaan, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Alderaan Land Forces -->
+		<Starting_Forces> Republic, Alderaan, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Anaxes Space Forces -->
+		<Starting_Forces> Republic, Anaxes, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Anaxes Land Forces -->
+		<Starting_Forces> Republic, Anaxes, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Republic_ATXT_Squad </Starting_Forces>
+
+
+		<!-- Atzerri Space Forces -->
+		<Starting_Forces> Republic, Atzerri, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Atzerri Land Forces -->
+		<Starting_Forces> Republic, Atzerri, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Republic_ATXT_Squad </Starting_Forces>
+
+
+		<!--Bespin Space Forces-->
+		<Starting_Forces> Republic, Bespin, Republic_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Venator_REP </Starting_Forces>
+		<!-- Bespin Land Forces -->
+		<Starting_Forces> Republic, Bespin, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!--Bothawui Space Forces-->
+		<Starting_Forces> Republic, Bothawui, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Bespin Land Forces -->
+		<Starting_Forces> Republic, Bothawui, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+		<!-- Carida Space Forces -->
+		<Starting_Forces> Republic, Carida, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Carida Land Forces -->
+		<Starting_Forces> Republic, Carida, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Corellia Space Forces -->
+		<Starting_Forces> Republic, Corellia, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, CR90 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, CR90 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, CR90 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, CR90 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Acclamator_Assault_Ship_Rep </Starting_Forces>
+
+		<!-- Corellia Land Forces -->
+		<Starting_Forces> Republic, Corellia, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+
+		<!-- Corulag Space Forces -->
+		<Starting_Forces> Republic, Corulag, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Corulag Land Forces -->
+		<Starting_Forces> Republic, Corulag, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Coruscant Space Forces -->
+		<Starting_Forces> Republic, Coruscant, Republic_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, NTB_630_Squadron </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, NTB_630_Squadron </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Venator_REP </Starting_Forces>
+
+		<!-- Coruscant Land Forces -->
+		<Starting_Forces> Republic, Coruscant, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_ATRT_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Obiwan_Team </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Anakin_Skywalker_Team </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Rep_Yoda_Team </Starting_Forces>
+        <Starting_Forces> Republic, Coruscant, Chancellor_Palpatine_Team </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Mace_Windu_Team </Starting_Forces>
+
+
+
+
+		<!-- Dantooine Space Forces -->
+		<Starting_Forces> Republic, Dantooine, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Dantooine Land Forces -->
+		<Starting_Forces> Republic, Dantooine, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Duro Space Forces -->
+		<Starting_Forces> Republic, Duro, Republic_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Light_Cruiser </Starting_Forces>
+		<!-- Duro Land Forces -->
+		<Starting_Forces> Republic, Duro, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+		<!-- Eriadu Space Forces -->
+		<Starting_Forces> Republic, Eriadu, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Eriadu Land Forces -->
+		<Starting_Forces> Republic, Eriadu, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Ilum Space Forces -->
+		<Starting_Forces> Republic, Ilum, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Ilum, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Ilum, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Ilum, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Ilum, Republic_Corvette_01 </Starting_Forces>
+		<!-- Ilum Land Forces -->
+		<Starting_Forces> Republic, Ilum, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Ilum, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Ilum, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Ithor Space Forces -->
+		<Starting_Forces> Republic, Ithor, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Corvette_05 </Starting_Forces>
+		<!-- Ithor Land Forces -->
+		<Starting_Forces> Republic, Ithor, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Kamino Space Forces -->
+		<Starting_Forces> Republic, Kamino, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Kamino Land Forces -->
+		<Starting_Forces> Republic, Kamino, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_ATXT_Squad </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Omegasquad_Team </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, X2_Team </Starting_Forces>
+
+
+		<!-- Kashyyyk Space Forces -->
+		<Starting_Forces> Republic, Kashyyyk, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Kashyyyk Land Forces -->
+		<Starting_Forces> Republic, Kashyyyk, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+
+
+		<!-- Kuat Space Forces -->
+		<Starting_Forces> Republic, Kuat, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Venator_REP </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Venator_REP </Starting_Forces>
+		<!-- Kuat Land Forces -->
+		<Starting_Forces> Republic, Kuat, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+		<!-- Malastare Space Forces -->
+		<Starting_Forces> Republic, Malastare, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Malastare Land Forces -->
+		<Starting_Forces> Republic, Malastare, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!--MonCalimari Space Forces -->
+		<Starting_Forces> Republic, MonCalimari, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- MonCalimari Land Forces -->
+		<Starting_Forces> Republic, MonCalimari, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+		<!-- Naboo Space Forces -->
+		<Starting_Forces> Republic, Naboo, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Naboo Land Forces -->
+		<Starting_Forces> Republic, Naboo, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+		<!-- Ord_Mantell Space Forces -->
+		<Starting_Forces> Republic, Ord_Mantell, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Ord_Mantell, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Ord_Mantell, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Ord_Mantell, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Ord_Mantell, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Ord_Mantell Land Forces -->
+		<Starting_Forces> Republic, Ord_Mantell, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Ord_Mantell, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Ord_Mantell, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Polis_Massa Space Forces -->
+		<Starting_Forces> Republic, Polis_Massa, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Polis_Massa, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Polis_Massa, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Polis_Massa, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Polis_Massa, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Polis_Massa, Acclamator_Assault_Ship_Rep </Starting_Forces>
+
+
+		<!-- Rendili Space Forces -->
+		<Starting_Forces> Republic, Rendili, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+
+		<!-- Rendili Land Forces -->
+		<Starting_Forces> Republic, Rendili, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Rhen_Var Space Forces -->
+		<Starting_Forces> Republic, Rhen_Var, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Rhen_Var, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Rhen_Var, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rhen_Var, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rhen_Var, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Rhen_Var Land Forces -->
+		<Starting_Forces> Republic, Rhen_Var, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Rhen_Var, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Rhen_Var, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+
+		<!-- Rothana Space Forces -->
+		<Starting_Forces> Republic, Rothana, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Venator_REP </Starting_Forces>
+		<!-- Rothana Land Forces -->
+		<Starting_Forces> Republic, Rothana, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, AT_TE_Company </Starting_Forces>
+
+
+		<!-- Roche Asteroids Space Forces -->
+		<Starting_Forces> Republic, RocheAsteroids, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, RocheAsteroids, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, RocheAsteroids, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, RocheAsteroids, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, RocheAsteroids, Acclamator_Assault_Ship_Rep </Starting_Forces>
+
+
+		<!-- Taris Space Forces -->
+		<Starting_Forces> Republic, Taris, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Taris Land Forces -->
+		<Starting_Forces> Republic, Taris, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+		<!--Tibrin Space Forces-->
+		<Starting_Forces> Republic, Tibrin, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Tibrin Land Forces -->
+		<Starting_Forces> Republic, Tibrin, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+		<!-- The Wheel Space Forces -->
+		<Starting_Forces> Republic, The_Wheel, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, The_Wheel, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, The_Wheel, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, The_Wheel, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, The_Wheel, Acclamator_Assault_Ship_Rep </Starting_Forces>
+
+
+<!-- CIS Starting Forces -->
+
+		<Starting_Credits> CIS,  15000 </Starting_Credits>
+		<Starting_Tech_Level> CIS, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS, 5 </Max_Tech_Level>
+
+		<!-- Bakura Space Forces -->
+		<Starting_Forces> CIS, Bakura, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Bakura, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Bakura, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Bakura, Munificent_Frigate </Starting_Forces>
+		<!-- Bakura Land Forces -->
+		<Starting_Forces> CIS, Bakura, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Bakura, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Bakura, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Bakura, AAT_Tank_Company </Starting_Forces>
+
+		<!-- Bestine Space Forces -->
+		<Starting_Forces> CIS, Bestine, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, Munificent_Frigate </Starting_Forces>
+		<!-- Bestine Land Forces -->
+		<Starting_Forces> CIS, Bestine, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Bestine, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, AAT_Tank_Company </Starting_Forces>
+
+		<!-- Boz_Pity Space Forces -->
+		<Starting_Forces> CIS, Boz_Pity, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Boz_Pity, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Boz_Pity, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Boz_Pity, Munificent_Frigate </Starting_Forces>
+		<!-- Boz_Pity Land Forces -->
+		<Starting_Forces> CIS, Boz_Pity, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Boz_Pity, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Boz_Pity, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Boz_Pity, AAT_Tank_Company </Starting_Forces>
+
+		<!-- Cato_Neimoidia Space Forces -->
+		<Starting_Forces> CIS, Cato_Neimoidia, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Providence_Class_Carrier </Starting_Forces>
+		<!-- Cato_Neimoidia Land Forces -->
+		<Starting_Forces> CIS, Cato_Neimoidia, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, AAT_Tank_Company </Starting_Forces>
+
+		<!-- Endor Space Forces -->
+		<Starting_Forces> CIS, Endor, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Endor, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Endor, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Endor, Munificent_Frigate </Starting_Forces>
+		<!-- Endor Land Forces -->
+		<Starting_Forces> CIS, Endor, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Endor, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Endor, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Endor, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> CIS, Endor, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Felucia Space Forces -->
+		<Starting_Forces> CIS, Felucia, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Felucia, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Felucia, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Felucia, Munificent_Frigate </Starting_Forces>
+		<!-- Felucia Land Forces -->
+		<Starting_Forces> CIS, Felucia, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Felucia, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Felucia, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Felucia, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> CIS, Felucia, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Foerost Space Forces -->
+		<Starting_Forces> CIS, Foerost, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Foerost, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Foerost, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Foerost, Munificent_Frigate </Starting_Forces>
+		<!-- Foerost Land Forces -->
+		<Starting_Forces> CIS, Foerost, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Foerost, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Foerost, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Foerost, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> CIS, Foerost, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Fondor Space Forces -->
+		<Starting_Forces> CIS, Fondor, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Fondor, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Fondor, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Fondor, Munificent_Frigate </Starting_Forces>
+		<!-- Fondor Land Forces -->
+		<Starting_Forces> CIS, Fondor, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Fondor, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Fondor, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Fondor, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> CIS, Fondor, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Geonosis Space Forces -->
+		<Starting_Forces> CIS, Geonosis, CIS_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Lucrehulk_Battleship </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Lucrehulk_Battleship </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Providence_Class_Carrier </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Count_Dooku_Team </Starting_Forces>
+		<!-- Geonosis Land Forces -->
+		<Starting_Forces> CIS, Geonosis, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Cis_Stap_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Nute_Gunray_Team </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, General_Grievous_Team </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Jango_Fett_Team </Starting_Forces>
+
+		<!-- Hypori Space Forces -->
+		<Starting_Forces> CIS, Hypori, CIS_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, Lucrehulk_Battleship </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, Cis_Patrol_Frigate</Starting_Forces>
+		<Starting_Forces> CIS, Hypori, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, Munificent_Frigate </Starting_Forces>
+		<!-- Hypori Land Forces -->
+		<Starting_Forces> CIS, Hypori, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Jabiim Space Forces -->
+		<Starting_Forces> CIS, Jabiim, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, Munificent_Frigate </Starting_Forces>
+		<!-- Jabiim Land Forces -->
+		<Starting_Forces> CIS, Jabiim, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Kessel Space Forces -->
+		<Starting_Forces> CIS, Kessel, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Kessel, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Kessel, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Kessel, Munificent_Frigate </Starting_Forces>
+		<!-- Kessel Land Forces -->
+		<Starting_Forces> CIS, Kessel, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Kessel, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Kessel, BattleDroid_Squad </Starting_Forces>
+
+
+		<!-- Korriban Space Forces -->
+		<Starting_Forces> CIS, Korriban, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, Munificent_Frigate </Starting_Forces>
+		<!-- Korriban Land Forces -->
+		<Starting_Forces> CIS, Korriban, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Mandalore Space Forces -->
+		<Starting_Forces> CIS, Mandalore, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Mandalore, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mandalore, Munificent_Frigate </Starting_Forces>
+		<!-- Mandalore Land Forces -->
+		<Starting_Forces> CIS, Mandalore, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Mandalore, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Mandalore, BattleDroid_Squad </Starting_Forces>
+
+		<!-- Mechis Space Forces -->
+		<Starting_Forces> CIS, Mechis, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Mechis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mechis, Munificent_Frigate </Starting_Forces>
+		<!-- Mechis Land Forces -->
+		<Starting_Forces> CIS, Mechis, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Mechis, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Mechis, BattleDroid_Squad </Starting_Forces>
+
+		<!-- Minntooine Space Forces -->
+		<Starting_Forces> CIS, Minntooine, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Minntooine, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Minntooine, Munificent_Frigate </Starting_Forces>
+		<!-- Minntooine Land Forces -->
+		<Starting_Forces> CIS, Minntooine, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Minntooine, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Minntooine, BattleDroid_Squad </Starting_Forces>
+
+		<!-- Muunilinst Space Forces -->
+		<Starting_Forces> CIS, Muunilinst, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, Providence_Class_Carrier </Starting_Forces>
+		<!-- Muunilinst Land Forces -->
+		<Starting_Forces> CIS, Muunilinst, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Mustafar Space Forces -->
+		<Starting_Forces> CIS, Mustafar, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Mustafar, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mustafar, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mustafar, Munificent_Frigate </Starting_Forces>
+		<!-- Mustafar Land Forces -->
+		<Starting_Forces> CIS, Mustafar, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Mustafar, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Mustafar, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Mustafar, Cis_Stap_Squad </Starting_Forces>	
+
+		<!--Mygeeto Space Forces-->
+		<Starting_Forces> CIS, Mygeeto, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Providence_Class_Carrier </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Lucrehulk_Battleship </Starting_Forces>
+		<!-- Mygeeto Land Forces -->
+		<Starting_Forces> CIS, Mygeeto, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Rattatak Space Forces -->
+		<Starting_Forces> CIS, Rattatak, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Rattatak, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Rattatak, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Rattatak, Munificent_Frigate </Starting_Forces>
+		<!-- Rattatak Land Forces -->
+		<Starting_Forces> CIS, Rattatak, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Rattatak, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Rattatak, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Rattatak, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Raxus_Prime Space Forces -->
+		<Starting_Forces> CIS, Raxus_Prime, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Raxus_Prime, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Raxus_Prime, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Raxus_Prime, Munificent_Frigate </Starting_Forces>
+		<!-- Raxus_Prime Land Forces -->
+		<Starting_Forces> CIS, Raxus_Prime, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Raxus_Prime, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Raxus_Prime, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Raxus_Prime, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Rodia Space Forces -->
+		<Starting_Forces> CIS, Rodia, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Rodia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Rodia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Rodia, Munificent_Frigate </Starting_Forces>
+		<!-- Rodia Land Forces -->
+		<Starting_Forces> CIS, Rodia, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Rodia, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Rodia, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Rodia, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Ryloth Space Forces -->
+		<Starting_Forces> CIS, Ryloth, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Ryloth, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Ryloth, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Ryloth, Munificent_Frigate </Starting_Forces>
+		<!-- Ryloth Land Forces -->
+		<Starting_Forces> CIS, Ryloth, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Ryloth, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Ryloth, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Ryloth, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Saleucami Space Forces -->
+		<Starting_Forces> CIS, Saleucami, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Saleucami, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Saleucami, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Saleucami, Munificent_Frigate </Starting_Forces>
+		<!-- Saleucami Land Forces -->
+		<Starting_Forces> CIS, Saleucami, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Saleucami, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Saleucami, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Saleucami, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Sluis_Van Space Forces -->
+		<Starting_Forces> CIS, Sluis_Van, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Providence_Class_Carrier </Starting_Forces>
+		<!-- Sluis_Van Land Forces -->
+		<Starting_Forces> CIS, Sluis_Van, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Sullust Space Forces -->
+		<Starting_Forces> CIS, Sullust, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, Munificent_Frigate </Starting_Forces>
+		<!-- Sluis_Van Land Forces -->
+		<Starting_Forces> CIS, Sullust, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Thyferra Space Forces -->
+		<Starting_Forces> CIS, Thyferra, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Thyferra, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Thyferra, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Thyferra, Munificent_Frigate </Starting_Forces>
+		<!-- Thyferra Land Forces -->
+		<Starting_Forces> CIS, Thyferra, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Thyferra, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Thyferra, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Thyferra, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Trandosha Space Forces -->
+		<Starting_Forces> CIS, Trandosha, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Trandosha, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Trandosha, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Trandosha, Munificent_Frigate </Starting_Forces>
+		<!-- Thyferra Land Forces -->
+		<Starting_Forces> CIS, Trandosha, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Trandosha, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Trandosha, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Trandosha, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Utapau Space Forces -->
+		<Starting_Forces> CIS, Utapau, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Utapau, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Utapau, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Utapau, Munificent_Frigate </Starting_Forces>
+		<!-- Utapau Land Forces -->
+		<Starting_Forces> CIS, Utapau, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Utapau, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Utapau, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Utapau, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- VergessoAsteroids Space Forces -->
+		<Starting_Forces> CIS, VergessoAsteroids, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, VergessoAsteroids, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, VergessoAsteroids, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, VergessoAsteroids, Munificent_Frigate </Starting_Forces>
+
+		<!--HUTTS STARTING FORCES-->
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Kimogila_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Kimogila_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Kimogila_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Kimogila_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Marauder </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Marauder </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Marauder </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Marauder </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Marauder </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_IPV1_Craft </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_IPV1_Craft </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_IPV1_Craft </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_IPV1_Craft </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_IPV1_Craft </Starting_Forces>
+
+
+		<Starting_Forces> Hutts, NalHutta, Hutt_Command_Center_Palace </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Ground_Base_Shield </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Power_Generator </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Twilek_Commando_Company </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Twilek_Commando_Company </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Swamp_Speeder_Team </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Skiff_Team </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Skiff_Team </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_PLEX_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_PLEX_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Soldier_Squad </Starting_Forces>
+
+
+
+		
+
+	</Campaign>
+
+<Campaign Name="Sandbox_Clone_Wars_Republic">
+
+		<Campaign_Set> Sandbox_Clone_Wars </Campaign_Set>
+		<Sort_Order>8</Sort_Order>
+
+        <Text_ID>TEXT_CAMPAIGN_SINGLE_CLONE_WARS</Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CLONE_WARS </Description_Text>
+
+	<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+		<Locations> 
+			Galaxy_Core_Art_Model, 
+			Abregado_Rae,
+			AetenII, 
+			Alderaan, 
+			AlzocIII, 
+			Anaxes, 
+			Antar,
+			Atzerri, 
+			Bakura,
+			Bespin, 
+			Bestine, 
+			Bonadan, 
+			Bothawui, 
+			Boz_Pity,
+			Carida, 
+			Cato_Neimoidia,
+			Corellia, 
+			Corulag, 
+			Coruscant, 
+			Dantooine, 
+			Dathomir, 
+			Duro,
+			Endor, 
+			Eriadu, 
+			Felucia, 
+			Foerost,
+			Fondor, 
+			Fresia, 
+			Geonosis, 
+			Hoth,
+			Honoghr, 
+			Hypori, 
+			Ilum, 
+			Ithor,
+			Jabiim, 
+			Kamino, 
+			Kashyyyk, 
+			Kessel,
+			Korriban, 
+			Kuat,
+			Malastare, 
+			Mandalore, 
+			Mechis,
+			Minntooine,
+			MonCalimari, 
+			Mustafar, 
+			Muunilinst, 
+			Mygeeto,
+			Naboo, 
+			NalHutta, 
+			Ord_Mantell,
+			Polis_Massa,
+			Rattatak,
+			Raxus_Prime,
+			Rendili,
+			Rhen_Var,
+			RocheAsteroids,
+			Rodia,
+			Rothana,
+			Ryloth, 
+			Saleucami, 
+			Sluis_Van,
+			Sullust, 
+			Taris, 
+			Tatooine, 
+			The_Maw, 
+			The_Wheel,
+			Thyferra,
+			Tibrin, 
+			Trandosha,
+			Utapau, 
+			VergessoAsteroids,
+			Yavin
+
+
+		</Locations> 
+		<Trade_Routes> 
+			Ryloth_Geonosis,
+			Geonosis_Tatooine,
+			Tatooine_Corellia,
+			Corellia_Coruscant,
+			Abregado_Rae_Fondor,
+			Fondor_Thyferra,
+			Thyferra_Sullust,
+			Sullust_Eriadu,
+			Eriadu_Sluis_Van,
+			Corellia_Duro,
+			Duro_Atzerri,
+			Atzerri_Bestine,
+			Bestine_Bespin,
+			Bespin_Hoth,
+			Endor_Sullust,
+			Polis_Massa_Malastare,
+			Malastare_Eriadu,
+			Eriadu_Antar,
+			Antar_Cato_Neimoidia,
+			Cato_Neimoidia_Rendili,
+			Rendili_Alderaan,
+			Alderaan_Carida,
+			Carida_Taris,
+			Taris_Dathomir,
+			Dathomir_Bonadan,
+			Anaxes_Coruscant,
+			Anaxes_Corulag,
+			Corulag_Carida,
+			Carida_Roche,
+			Roche_The_Wheel,
+			The_Wheel_Rhen_Var
+
+		</Trade_Routes>
+
+
+		<Home_Location> Republic, Coruscant </Home_Location>
+		<Home_Location> CIS, Geonosis </Home_Location>
+
+		<Starting_Active_Player> Republic </Starting_Active_Player>
+		
+
+		
+		
+		
+
+
+		<AI_Player_Control> CIS, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+		<AI_Player_Control> Hutts, None </AI_Player_Control>
+
+
+
+
+		<Markup_Filename>Republic, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hutts, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS, DefaultGalacticHints</Markup_Filename>
+
+
+
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Special_Case_Production> Republic, Ord_Mantell, Ground_Cantina_Rep</Special_Case_Production>
+		<Special_Case_Production> Republic, Tatooine, Ground_Cantina_Rep</Special_Case_Production>	
+		<Special_Case_Production> Republic, Tatooine, Ground_Hutt_Palace_E</Special_Case_Production>	
+		<Special_Case_Production> Republic, NalHutta, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Republic, Rattatak, Ground_Cantina_Rep</Special_Case_Production>
+		<Special_Case_Production> Republic, Ryloth, Ground_Cantina_Rep</Special_Case_Production>
+		<Special_Case_Production> Republic, Ryloth, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Republic, Abregado_Rae, Ground_Cantina_Rep</Special_Case_Production>
+		<Special_Case_Production> Republic, Atzerri, Ground_Cantina_Rep</Special_Case_Production>	
+		<Special_Case_Production> Republic, Corellia, Ground_Cantina_Rep</Special_Case_Production>						
+
+
+
+		<Special_Case_Production> CIS, Ord_Mantell, Ground_Cantina_R</Special_Case_Production>
+		<Special_Case_Production> CIS, NalHutta, Ground_Hutt_Palace_R</Special_Case_Production>
+		<Special_Case_Production> CIS, Tatooine, Ground_Cantina_R</Special_Case_Production> 
+		<Special_Case_Production> CIS, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production> 
+		<Special_Case_Production> CIS, Rattatak, Ground_Cantina_R</Special_Case_Production>
+		<Special_Case_Production> CIS, Ryloth, Ground_Cantina_R</Special_Case_Production>
+		<Special_Case_Production> CIS, Ryloth, Ground_Hutt_Palace_R</Special_Case_Production>
+		<Special_Case_Production> CIS, Abregado_Rae, Ground_Cantina_R</Special_Case_Production>
+		<Special_Case_Production> CIS, Atzerri, Ground_Cantina_R</Special_Case_Production>	
+		<Special_Case_Production> CIS, Corellia, Ground_Cantina_R</Special_Case_Production>	
+		<!-- Republic Starting Forces -->
+
+		<Starting_Credits> Republic,  15000 </Starting_Credits>
+		<Starting_Tech_Level> Republic, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> REpublic, 5 </Max_Tech_Level>
+		
+				<!-- Abregado_Rae Space Forces -->
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Abregado_Rae Land Forces -->
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_ATXT_Squad</Starting_Forces>
+		<Starting_Forces> Republic, Abregado_Rae, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- AetenII Space Forces -->
+		<Starting_Forces> Republic, AetenII, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- AetenII, Land Forces -->
+		<Starting_Forces> Republic, AetenII, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, AetenII, Republic_ATXT_Squad</Starting_Forces>
+
+		<!-- Antar Space Forces -->
+		<Starting_Forces> Republic, Antar, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Antar, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Antar, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Antar, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Antar, Acclamator_Assault_Ship_Rep </Starting_Forces>
+
+
+
+		<!-- Tatooine Space Forces -->
+		<Starting_Forces> Republic, Tatooine, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+
+		<!-- Tatooine, Land Forces -->
+		<Starting_Forces> Republic, Tatooine, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Tatooine, Republic_Clonetrooper_P1_Company</Starting_Forces>
+
+		<Starting_Forces> Republic, The_Maw, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, The_Maw, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, The_Maw, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, The_Maw, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, The_Maw, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, The_Maw, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, The_Maw, Republic_Light_Cruiser </Starting_Forces>
+
+		<!-- AetenII Space Forces -->
+		<Starting_Forces> Republic, Yavin, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Yavin, Land Forces -->
+		<Starting_Forces> Republic, Yavin, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Yavin, Republic_ATRT_Scout_Squad</Starting_Forces>
+
+
+		<!-- AetenII Space Forces -->
+		<Starting_Forces> Republic, Dathomir, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Dathomir, Land Forces -->
+		<Starting_Forces> Republic, Dathomir, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_ATRT_Scout_Squad</Starting_Forces>
+		<Starting_Forces> Republic, Dathomir, Republic_ATRT_Scout_Squad</Starting_Forces>
+
+
+		<!-- AetenII Space Forces -->
+		<Starting_Forces> Republic, Honoghr, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Honoghr, Land Forces -->
+		<Starting_Forces> Republic, Honoghr, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_Clonetrooper_P1_Company</Starting_Forces>
+		<Starting_Forces> Republic, Honoghr, Republic_ATXT_Squad</Starting_Forces>
+
+
+		<!-- Alderaan Space Forces -->
+		<Starting_Forces> Republic, Alderaan, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Alderaan Land Forces -->
+		<Starting_Forces> Republic, Alderaan, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Alderaan, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Anaxes Space Forces -->
+		<Starting_Forces> Republic, Anaxes, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Anaxes Land Forces -->
+		<Starting_Forces> Republic, Anaxes, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Anaxes, Republic_ATXT_Squad </Starting_Forces>
+
+
+		<!-- Atzerri Space Forces -->
+		<Starting_Forces> Republic, Atzerri, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Atzerri Land Forces -->
+		<Starting_Forces> Republic, Atzerri, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Atzerri, Republic_ATXT_Squad </Starting_Forces>
+
+
+		<!--Bespin Space Forces-->
+		<Starting_Forces> Republic, Bespin, Republic_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Venator_REP </Starting_Forces>
+		<!-- Bespin Land Forces -->
+		<Starting_Forces> Republic, Bespin, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Bespin, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!--Bothawui Space Forces-->
+		<Starting_Forces> Republic, Bothawui, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Bespin Land Forces -->
+		<Starting_Forces> Republic, Bothawui, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Bothawui, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+		<!-- Carida Space Forces -->
+		<Starting_Forces> Republic, Carida, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Carida Land Forces -->
+		<Starting_Forces> Republic, Carida, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Carida, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Corellia Space Forces -->
+		<Starting_Forces> Republic, Corellia, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, CR90 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, CR90 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, CR90 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, CR90 </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Acclamator_Assault_Ship_Rep </Starting_Forces>
+
+		<!-- Corellia Land Forces -->
+		<Starting_Forces> Republic, Corellia, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Corellia, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+
+		<!-- Corulag Space Forces -->
+		<Starting_Forces> Republic, Corulag, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Corulag Land Forces -->
+		<Starting_Forces> Republic, Corulag, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Corulag, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Coruscant Space Forces -->
+		<Starting_Forces> Republic, Coruscant, Republic_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, NTB_630_Squadron </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, NTB_630_Squadron </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Venator_REP </Starting_Forces>
+
+		<!-- Coruscant Land Forces -->
+		<Starting_Forces> Republic, Coruscant, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Republic_ATRT_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Obiwan_Team </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Anakin_Skywalker_Team </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Rep_Yoda_Team </Starting_Forces>
+        <Starting_Forces> Republic, Coruscant, Chancellor_Palpatine_Team </Starting_Forces>
+		<Starting_Forces> Republic, Coruscant, Mace_Windu_Team </Starting_Forces>
+
+
+		<!-- Dantooine Space Forces -->
+		<Starting_Forces> Republic, Dantooine, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Dantooine Land Forces -->
+		<Starting_Forces> Republic, Dantooine, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Dantooine, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Duro Space Forces -->
+		<Starting_Forces> Republic, Duro, Republic_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Light_Cruiser </Starting_Forces>
+		<!-- Duro Land Forces -->
+		<Starting_Forces> Republic, Duro, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Duro, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+		<!-- Eriadu Space Forces -->
+		<Starting_Forces> Republic, Eriadu, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Eriadu Land Forces -->
+		<Starting_Forces> Republic, Eriadu, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Eriadu, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Ilum Space Forces -->
+		<Starting_Forces> Republic, Ilum, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Ilum, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Ilum, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Ilum, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Ilum, Republic_Corvette_01 </Starting_Forces>
+		<!-- Ilum Land Forces -->
+		<Starting_Forces> Republic, Ilum, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Ilum, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Ilum, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Ithor Space Forces -->
+		<Starting_Forces> Republic, Ithor, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Corvette_05 </Starting_Forces>
+		<!-- Ithor Land Forces -->
+		<Starting_Forces> Republic, Ithor, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Ithor, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Kamino Space Forces -->
+		<Starting_Forces> Republic, Kamino, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Kamino Land Forces -->
+		<Starting_Forces> Republic, Kamino, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Republic_ATXT_Squad </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, Omegasquad_Team </Starting_Forces>
+		<Starting_Forces> Republic, Kamino, X2_Team </Starting_Forces>
+
+
+		<!-- Kashyyyk Space Forces -->
+		<Starting_Forces> Republic, Kashyyyk, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Kashyyyk Land Forces -->
+		<Starting_Forces> Republic, Kashyyyk, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kashyyyk, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+
+
+		<!-- Kuat Space Forces -->
+		<Starting_Forces> Republic, Kuat, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Venator_REP </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Venator_REP </Starting_Forces>
+		<!-- Kuat Land Forces -->
+		<Starting_Forces> Republic, Kuat, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Kuat, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+		<!-- Malastare Space Forces -->
+		<Starting_Forces> Republic, Malastare, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Malastare Land Forces -->
+		<Starting_Forces> Republic, Malastare, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Malastare, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!--MonCalimari Space Forces -->
+		<Starting_Forces> Republic, MonCalimari, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- MonCalimari Land Forces -->
+		<Starting_Forces> Republic, MonCalimari, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, MonCalimari, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+		<!-- Naboo Space Forces -->
+		<Starting_Forces> Republic, Naboo, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Naboo Land Forces -->
+		<Starting_Forces> Republic, Naboo, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Naboo, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+		<!-- Ord_Mantell Space Forces -->
+		<Starting_Forces> Republic, Ord_Mantell, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Ord_Mantell, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Ord_Mantell, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Ord_Mantell, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Ord_Mantell, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Ord_Mantell Land Forces -->
+		<Starting_Forces> Republic, Ord_Mantell, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Ord_Mantell, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Ord_Mantell, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Polis_Massa Space Forces -->
+		<Starting_Forces> Republic, Polis_Massa, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Polis_Massa, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Polis_Massa, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Polis_Massa, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Polis_Massa, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Polis_Massa, Acclamator_Assault_Ship_Rep </Starting_Forces>
+
+
+		<!-- Rendili Space Forces -->
+		<Starting_Forces> Republic, Rendili, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Light_Cruiser </Starting_Forces>
+
+		<!-- Rendili Land Forces -->
+		<Starting_Forces> Republic, Rendili, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Rendili, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+		<!-- Rhen_Var Space Forces -->
+		<Starting_Forces> Republic, Rhen_Var, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Rhen_Var, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Rhen_Var, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rhen_Var, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rhen_Var, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Rhen_Var Land Forces -->
+		<Starting_Forces> Republic, Rhen_Var, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Rhen_Var, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Rhen_Var, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+
+
+		<!-- Rothana Space Forces -->
+		<Starting_Forces> Republic, Rothana, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Venator_REP </Starting_Forces>
+		<!-- Rothana Land Forces -->
+		<Starting_Forces> Republic, Rothana, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Rothana, AT_TE_Company </Starting_Forces>
+
+
+		<!-- Roche Asteroids Space Forces -->
+		<Starting_Forces> Republic, RocheAsteroids, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, RocheAsteroids, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, RocheAsteroids, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, RocheAsteroids, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, RocheAsteroids, Acclamator_Assault_Ship_Rep </Starting_Forces>
+
+
+		<!-- Taris Space Forces -->
+		<Starting_Forces> Republic, Taris, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Taris Land Forces -->
+		<Starting_Forces> Republic, Taris, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Taris, Republic_Clonetrooper_P1_Company </Starting_Forces>
+
+		<!--Tibrin Space Forces-->
+		<Starting_Forces> Republic, Tibrin, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Republic_Corvette_01 </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<!-- Tibrin Land Forces -->
+		<Starting_Forces> Republic, Tibrin, Republic_Cloning_Facilities </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Republic_Clonetrooper_P1_Company </Starting_Forces>
+		<Starting_Forces> Republic, Tibrin, Republic_ATRT_Scout_Squad </Starting_Forces>
+
+
+		<!-- The Wheel Space Forces -->
+		<Starting_Forces> Republic, The_Wheel, Republic_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Republic, The_Wheel, Republic_Corvette_05 </Starting_Forces>
+		<Starting_Forces> Republic, The_Wheel, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, The_Wheel, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		<Starting_Forces> Republic, The_Wheel, Acclamator_Assault_Ship_Rep </Starting_Forces>
+		
+		
+		<!-- CIS Starting Forces -->
+
+		<Starting_Credits> CIS,  15000 </Starting_Credits>
+		<Starting_Tech_Level> CIS, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS, 5 </Max_Tech_Level>
+
+		<!-- Bakura Space Forces -->
+		<Starting_Forces> CIS, Bakura, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Bakura, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Bakura, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Bakura, Munificent_Frigate </Starting_Forces>
+		<!-- Bakura Land Forces -->
+		<Starting_Forces> CIS, Bakura, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Bakura, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Bakura, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Bakura, AAT_Tank_Company </Starting_Forces>
+
+		<!-- Bestine Space Forces -->
+		<Starting_Forces> CIS, Bestine, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, Munificent_Frigate </Starting_Forces>
+		<!-- Bestine Land Forces -->
+		<Starting_Forces> CIS, Bestine, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Bestine, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> CIS, Bestine, AAT_Tank_Company </Starting_Forces>
+
+		<!-- Boz_Pity Space Forces -->
+		<Starting_Forces> CIS, Boz_Pity, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Boz_Pity, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Boz_Pity, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Boz_Pity, Munificent_Frigate </Starting_Forces>
+		<!-- Boz_Pity Land Forces -->
+		<Starting_Forces> CIS, Boz_Pity, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Boz_Pity, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Boz_Pity, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Boz_Pity, AAT_Tank_Company </Starting_Forces>
+
+		<!-- Cato_Neimoidia Space Forces -->
+		<Starting_Forces> CIS, Cato_Neimoidia, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Providence_Class_Carrier </Starting_Forces>
+		<!-- Cato_Neimoidia Land Forces -->
+		<Starting_Forces> CIS, Cato_Neimoidia, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, Cis_Stap_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Cato_Neimoidia, AAT_Tank_Company </Starting_Forces>
+
+		<!-- Endor Space Forces -->
+		<Starting_Forces> CIS, Endor, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Endor, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Endor, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Endor, Munificent_Frigate </Starting_Forces>
+		<!-- Endor Land Forces -->
+		<Starting_Forces> CIS, Endor, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Endor, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Endor, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Endor, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> CIS, Endor, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Felucia Space Forces -->
+		<Starting_Forces> CIS, Felucia, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Felucia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Felucia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Felucia, Munificent_Frigate </Starting_Forces>
+		<!-- Felucia Land Forces -->
+		<Starting_Forces> CIS, Felucia, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Felucia, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Felucia, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Felucia, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> CIS, Felucia, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Foerost Space Forces -->
+		<Starting_Forces> CIS, Foerost, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Foerost, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Foerost, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Foerost, Munificent_Frigate </Starting_Forces>
+		<!-- Foerost Land Forces -->
+		<Starting_Forces> CIS, Foerost, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Foerost, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Foerost, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Foerost, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> CIS, Foerost, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Fondor Space Forces -->
+		<Starting_Forces> CIS, Fondor, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Fondor, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Fondor, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Fondor, Munificent_Frigate </Starting_Forces>
+		<!-- Fondor Land Forces -->
+		<Starting_Forces> CIS, Fondor, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Fondor, BattleDroid_Squad</Starting_Forces>
+		<Starting_Forces> CIS, Fondor, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Fondor, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> CIS, Fondor, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Geonosis Space Forces -->
+		<Starting_Forces> CIS, Geonosis, CIS_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Lucrehulk_Battleship </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Providence_Class_Carrier </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Count_Dooku_Team </Starting_Forces>
+		<!-- Geonosis Land Forces -->
+		<Starting_Forces> CIS, Geonosis, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Cis_Stap_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Nute_Gunray_Team </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, General_Grievous_Team </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Jango_Fett_Team </Starting_Forces>
+
+		<!-- Hypori Space Forces -->
+		<Starting_Forces> CIS, Hypori, CIS_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, Lucrehulk_Battleship </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, Munificent_Frigate</Starting_Forces>
+		<Starting_Forces> CIS, Hypori, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, Munificent_Frigate </Starting_Forces>
+		<!-- Hypori Land Forces -->
+		<Starting_Forces> CIS, Hypori, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Hypori, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Jabiim Space Forces -->
+		<Starting_Forces> CIS, Jabiim, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, Munificent_Frigate </Starting_Forces>
+		<!-- Jabiim Land Forces -->
+		<Starting_Forces> CIS, Jabiim, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Jabiim, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Kessel Space Forces -->
+		<Starting_Forces> CIS, Kessel, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Kessel, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Kessel, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Kessel, Munificent_Frigate </Starting_Forces>
+		<!-- Kessel Land Forces -->
+		<Starting_Forces> CIS, Kessel, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Kessel, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Kessel, BattleDroid_Squad </Starting_Forces>
+
+
+		<!-- Korriban Space Forces -->
+		<Starting_Forces> CIS, Korriban, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, Munificent_Frigate </Starting_Forces>
+		<!-- Korriban Land Forces -->
+		<Starting_Forces> CIS, Korriban, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Korriban, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Mandalore Space Forces -->
+		<Starting_Forces> CIS, Mandalore, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Mandalore, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mandalore, Munificent_Frigate </Starting_Forces>
+		<!-- Mandalore Land Forces -->
+		<Starting_Forces> CIS, Mandalore, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Mandalore, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Mandalore, BattleDroid_Squad </Starting_Forces>
+
+		<!-- Mechis Space Forces -->
+		<Starting_Forces> CIS, Mechis, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Mechis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mechis, Munificent_Frigate </Starting_Forces>
+		<!-- Mechis Land Forces -->
+		<Starting_Forces> CIS, Mechis, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Mechis, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Mechis, BattleDroid_Squad </Starting_Forces>
+
+		<!-- Minntooine Space Forces -->
+		<Starting_Forces> CIS, Minntooine, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Minntooine, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Minntooine, Munificent_Frigate </Starting_Forces>
+		<!-- Minntooine Land Forces -->
+		<Starting_Forces> CIS, Minntooine, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Minntooine, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Minntooine, BattleDroid_Squad </Starting_Forces>
+
+		<!-- Muunilinst Space Forces -->
+		<Starting_Forces> CIS, Muunilinst, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, Providence_Class_Carrier </Starting_Forces>
+		<!-- Muunilinst Land Forces -->
+		<Starting_Forces> CIS, Muunilinst, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Muunilinst, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Mustafar Space Forces -->
+		<Starting_Forces> CIS, Mustafar, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Mustafar, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mustafar, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mustafar, Munificent_Frigate </Starting_Forces>
+		<!-- Mustafar Land Forces -->
+		<Starting_Forces> CIS, Mustafar, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Mustafar, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Mustafar, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Mustafar, Cis_Stap_Squad </Starting_Forces>	
+
+		<!--Mygeeto Space Forces-->
+		<Starting_Forces> CIS, Mygeeto, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Providence_Class_Carrier </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Lucrehulk_Battleship </Starting_Forces>
+		<!-- Mygeeto Land Forces -->
+		<Starting_Forces> CIS, Mygeeto, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Mygeeto, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Rattatak Space Forces -->
+		<Starting_Forces> CIS, Rattatak, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Rattatak, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Rattatak, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Rattatak, Munificent_Frigate </Starting_Forces>
+		<!-- Rattatak Land Forces -->
+		<Starting_Forces> CIS, Rattatak, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Rattatak, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Rattatak, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Rattatak, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Raxus_Prime Space Forces -->
+		<Starting_Forces> CIS, Raxus_Prime, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Raxus_Prime, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Raxus_Prime, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Raxus_Prime, Munificent_Frigate </Starting_Forces>
+		<!-- Raxus_Prime Land Forces -->
+		<Starting_Forces> CIS, Raxus_Prime, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Raxus_Prime, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Raxus_Prime, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Raxus_Prime, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Rodia Space Forces -->
+		<Starting_Forces> CIS, Rodia, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Rodia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Rodia, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Rodia, Munificent_Frigate </Starting_Forces>
+		<!-- Rodia Land Forces -->
+		<Starting_Forces> CIS, Rodia, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Rodia, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Rodia, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Rodia, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Ryloth Space Forces -->
+		<Starting_Forces> CIS, Ryloth, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Ryloth, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Ryloth, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Ryloth, Munificent_Frigate </Starting_Forces>
+		<!-- Ryloth Land Forces -->
+		<Starting_Forces> CIS, Ryloth, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Ryloth, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Ryloth, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Ryloth, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Saleucami Space Forces -->
+		<Starting_Forces> CIS, Saleucami, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Saleucami, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Saleucami, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Saleucami, Munificent_Frigate </Starting_Forces>
+		<!-- Saleucami Land Forces -->
+		<Starting_Forces> CIS, Saleucami, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Saleucami, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Saleucami, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Saleucami, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Sluis_Van Space Forces -->
+		<Starting_Forces> CIS, Sluis_Van, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Providence_Class_Carrier </Starting_Forces>
+		<!-- Sluis_Van Land Forces -->
+		<Starting_Forces> CIS, Sluis_Van, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Sluis_Van, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Sullust Space Forces -->
+		<Starting_Forces> CIS, Sullust, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, Munificent_Frigate </Starting_Forces>
+		<!-- Sluis_Van Land Forces -->
+		<Starting_Forces> CIS, Sullust, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Sullust, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Thyferra Space Forces -->
+		<Starting_Forces> CIS, Thyferra, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Thyferra, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Thyferra, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Thyferra, Munificent_Frigate </Starting_Forces>
+		<!-- Thyferra Land Forces -->
+		<Starting_Forces> CIS, Thyferra, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Thyferra, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Thyferra, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Thyferra, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Trandosha Space Forces -->
+		<Starting_Forces> CIS, Trandosha, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Trandosha, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Trandosha, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Trandosha, Munificent_Frigate </Starting_Forces>
+		<!-- Thyferra Land Forces -->
+		<Starting_Forces> CIS, Trandosha, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Trandosha, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Trandosha, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Trandosha, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- Utapau Space Forces -->
+		<Starting_Forces> CIS, Utapau, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, Utapau, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Utapau, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Utapau, Munificent_Frigate </Starting_Forces>
+		<!-- Utapau Land Forces -->
+		<Starting_Forces> CIS, Utapau, Cis_Ground_Droid_Works </Starting_Forces>
+		<Starting_Forces> CIS, Utapau, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Utapau, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> CIS, Utapau, Cis_Stap_Squad </Starting_Forces>
+
+		<!-- VergessoAsteroids Space Forces -->
+		<Starting_Forces> CIS, VergessoAsteroids, CIS_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> CIS, VergessoAsteroids, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, VergessoAsteroids, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, VergessoAsteroids, Munificent_Frigate </Starting_Forces>
+
+
+				<!--HUTTS STARTING FORCES-->
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Scyk_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Kimogila_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Kimogila_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Kimogila_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Kimogila_Squadron </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Marauder </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Marauder </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Marauder </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Marauder </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Marauder </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_IPV1_Craft </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_IPV1_Craft </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_IPV1_Craft </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_IPV1_Craft </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_IPV1_Craft </Starting_Forces>
+
+
+		<Starting_Forces> Hutts, NalHutta, Hutt_Command_Center_Palace </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Ground_Base_Shield </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Power_Generator </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Twilek_Commando_Company </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Twilek_Commando_Company </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Swamp_Speeder_Team </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Skiff_Team </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Skiff_Team </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_PLEX_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_PLEX_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Hutts, NalHutta, Hutt_Soldier_Squad </Starting_Forces>
+
+
+
+		
+	
+
+
+    </Campaign>
+
+
+ </Campaigns>
