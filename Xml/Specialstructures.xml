@@ -2,11 +2,7 @@
 <SpecialStructures>
 
 
-
-
-
-
-<SpecialStructure Name="Ground_Ion_Cannon">
+    <SpecialStructure Name="Ground_Ion_Cannon">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_ION_CANNON</Text_ID>
 		<Land_Model_Name>RB_IONCANNON.ALO</Land_Model_Name>
@@ -221,7 +217,6 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpecialStructure>
 
-
 	<SpecialStructure Name="E_Orbital_Jamming_Station">
 		<Text_ID>TEXT_ORBITAL_JAMMING_STATION</Text_ID>
 		<Space_Model_Name>NB_CommJamStation.alo</Space_Model_Name>
@@ -363,7 +358,6 @@
 		<Death_Clone>Damage_Normal, E_Gravity_Well_Station_Death_Clone</Death_Clone>
 		
 	</SpecialStructure>
-	
 
 	<SpecialStructure Name="Empire_Ground_Shutter_Shield">
 		<Select_Box_Scale>175</Select_Box_Scale>
@@ -666,7 +660,6 @@
 
 	</SpecialStructure>
 
-
 	<SpecialStructure Name="Orbital_Sensor_Pod_00">
 		<Text_ID>TEXT_ORBITAL_SENSOR</Text_ID>
         <Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_00  </Encyclopedia_Text>
@@ -738,7 +731,6 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Affiliation>Pirates</Affiliation>
 	</SpecialStructure>
-
 
 
 	<SpecialStructure Name="Rebel_Orbital_Long_Range_Scanner">
@@ -3141,8 +3133,6 @@
 		</Abilities>
 	</SpecialStructure>
 
-	
-
 	<SpecialStructure Name="E_Ground_Light_Vehicle_Factory">
 		<GUI_Bounds_Scale>0.45</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_LIGHT_VEHICLE_FACTORY</Text_ID>
@@ -3315,8 +3305,6 @@
 		</Abilities>
 	</SpecialStructure>
 
-
-
 	<SpecialStructure Name="R_Ground_Light_Vehicle_Factory">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
@@ -3486,7 +3474,6 @@
 			
 		</Abilities>
 	</SpecialStructure>
-
 
 	<SpecialStructure Name="E_Ground_Heavy_Vehicle_Factory">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
@@ -3666,7 +3653,6 @@
 			
 		</Abilities>
 	</SpecialStructure>
-
 
 	<SpecialStructure Name="R_Ground_Heavy_Vehicle_Factory">
 		<GUI_Bounds_Scale>0.2</GUI_Bounds_Scale>
@@ -3854,8 +3840,6 @@
 		</Abilities>
 	</SpecialStructure>
 
-
-
 	<SpecialStructure Name="E_Ground_Advanced_Vehicle_Factory">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_ADVANCED_VEHICLE_FACTORY</Text_ID>
@@ -3981,7 +3965,6 @@
 		</Abilities>
 	</SpecialStructure>
 	
-
 	<SpecialStructure Name="E_Ground_Officer_Academy">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_OFFICER_ACADEMY</Text_ID>
@@ -4097,7 +4080,6 @@
 		</Abilities>
 	</SpecialStructure>
 	
-	
 	<SpecialStructure Name="R_Ground_Officer_Academy">
 		<GUI_Bounds_Scale>0.45</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_OFFICER_ACADEMY</Text_ID>
@@ -4153,7 +4135,7 @@
 		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -4926,7 +4908,6 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 	</SpecialStructure>
 
-
 	<SpecialStructure Name="Power_Generator_R">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_STRUCTURE_POWER_GENERATOR</Text_ID>
@@ -5380,10 +5361,6 @@
 		</Abilities>
    </SpecialStructure>
 
-
-
-
-
 	<SpecialStructure Name="Imperial_Prison_Facility">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_STRUCTURE_PRISON_FACILITY</Text_ID>
@@ -5493,14 +5470,12 @@
 		<Death_Clone_Is_Obstacle> false </Death_Clone_Is_Obstacle>
 	</SpecialStructure>
 	
-	
 	<SpecialStructure Name="Imperial_Prison_Kashyyyk">
 		<Variant_Of_Existing_Type>Imperial_Prison_Facility</Variant_Of_Existing_Type>
 <!--		<Destruction_Survivors> Kashyyyk_Wookie_War_Party, 1.0 </Destruction_Survivors> Spawned by script for mission EM05-->
 		<Land_FOW_Reveal_Range>0.0</Land_FOW_Reveal_Range>
 		<Tactical_Health>9000</Tactical_Health>
 	</SpecialStructure>
-
 
 	<SpecialStructure Name="Pirate_Command_Center">
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
@@ -5599,7 +5574,6 @@
 		<Property_Flags>InBase</Property_Flags>
 		<Base_Position>In_Base</Base_Position>
    </SpecialStructure>
-
 
 	<SpecialStructure Name="Rebel_Command_Center">
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
@@ -5908,8 +5882,6 @@
 		</Abilities>
     </SpecialStructure>
 
-	
-    
     <SpecialStructure Name="Civilian_Command_Center">
 		<Variant_Of_Existing_Type>Imperial_Command_Center</Variant_Of_Existing_Type>
 		<Tactical_Health>100</Tactical_Health>
