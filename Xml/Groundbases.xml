@@ -510,7 +510,7 @@
 		<Next_Level_Base></Next_Level_Base>
 	</GroundBase>
 
-    <GroundBase Name="Republic_Ground_Base_1">
+<GroundBase Name="Republic_Ground_Base_1">
 		<Text_ID>TEXT_EMPIRE_GROUND_BASE_1</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
