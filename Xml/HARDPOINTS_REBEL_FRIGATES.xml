@@ -281,7 +281,7 @@
         <Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Super, 35.0</Fire_Inaccuracy_Distance>-->
-        
+
         <Fire_Inaccuracy_Distance>Fighter, 5.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Bomber, 5.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Transport, 5.0</Fire_Inaccuracy_Distance>
@@ -289,7 +289,7 @@
         <Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Super, 15.0</Fire_Inaccuracy_Distance>
-        
+
 
     </HardPoint>
 
@@ -329,7 +329,7 @@
         <Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Super, 35.0</Fire_Inaccuracy_Distance>-->
-        
+
         <Fire_Inaccuracy_Distance>Fighter, 5.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Bomber, 5.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Transport, 5.0</Fire_Inaccuracy_Distance>
@@ -337,7 +337,7 @@
         <Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Super, 15.0</Fire_Inaccuracy_Distance>
-        
+
     </HardPoint>
 
     <HardPoint Name="HP_Assaultfrigate_wingLaser_oben">
@@ -377,8 +377,8 @@
         <Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Super, 35.0</Fire_Inaccuracy_Distance>-->
-        
-        
+
+
         <Fire_Inaccuracy_Distance>Fighter, 5.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Bomber, 5.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Transport, 5.0</Fire_Inaccuracy_Distance>
@@ -426,7 +426,7 @@
         <Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Super, 35.0</Fire_Inaccuracy_Distance>-->
-        
+
         <Fire_Inaccuracy_Distance>Fighter, 5.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Bomber, 5.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Transport, 5.0</Fire_Inaccuracy_Distance>
@@ -434,7 +434,7 @@
         <Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Super, 15.0</Fire_Inaccuracy_Distance>
-        
+
 
     </HardPoint>
 
@@ -489,30 +489,26 @@
 
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
-        <Fire_Cone_Width>10.0</Fire_Cone_Width>
-        <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red_Large</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-        <!--<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Transport, 8.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Corvette, 5.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>-->
+        <Damage_Type>Damage_Victory_SD</Damage_Type>
+
+        <Fire_Cone_Width>290.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+        <Fire_Min_Recharge_Seconds>0.85</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>9</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2400.0</Fire_Range_Distance>
+
         <Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Transport, 8.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Corvette, 5.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Capital, 20.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Corvette, 1.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 1.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 
     </HardPoint>
 
@@ -532,25 +528,25 @@
         <Damage_Decal>HP_M-L_BLAST</Damage_Decal>
         <Damage_Particles>MuzzleB_02_DAMAGE</Damage_Particles>
 
-        <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-        <Fire_Cone_Width>10.0</Fire_Cone_Width>
-        <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red_Large</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Damage_Type>Damage_Victory_SD</Damage_Type>
+
+        <Fire_Cone_Width>290.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+        <Fire_Min_Recharge_Seconds>0.85</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>9</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2400.0</Fire_Range_Distance>
 
         <Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Transport, 8.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Corvette, 5.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Capital, 20.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Corvette, 1.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 1.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 
     </HardPoint>
 
@@ -608,15 +604,18 @@
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
-        <Fire_Cone_Width>160</Fire_Cone_Width>
-        <Fire_Cone_Height>160.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+        <Damage_Type>Damage_Victory_SD</Damage_Type>
+
+        <Fire_Cone_Width>290.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+        <Fire_Min_Recharge_Seconds>0.85</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>9</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2400.0</Fire_Range_Distance>
 
         <Fire_Inaccuracy_Distance>Fighter, 5.8</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Bomber, 5.3</Fire_Inaccuracy_Distance>
@@ -645,15 +644,17 @@
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
-        <Fire_Cone_Width>160</Fire_Cone_Width>
-        <Fire_Cone_Height>160.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+        <Damage_Type>Damage_Victory_SD</Damage_Type>
+
+        <Fire_Cone_Width>290.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+        <Fire_Min_Recharge_Seconds>0.85</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>9</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2400.0</Fire_Range_Distance>
 
         <Fire_Inaccuracy_Distance>Fighter, 5.8</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Bomber, 5.3</Fire_Inaccuracy_Distance>
@@ -682,15 +683,17 @@
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
-        <Fire_Cone_Width>160</Fire_Cone_Width>
-        <Fire_Cone_Height>160.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+        <Damage_Type>Damage_Victory_SD</Damage_Type>
+
+        <Fire_Cone_Width>290.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+        <Fire_Min_Recharge_Seconds>0.85</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2400.0</Fire_Range_Distance>
 
         <Fire_Inaccuracy_Distance>Fighter, 5.8</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Bomber, 5.3</Fire_Inaccuracy_Distance>
