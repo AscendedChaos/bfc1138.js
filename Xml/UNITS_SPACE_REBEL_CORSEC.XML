@@ -67,6 +67,8 @@
         <!--<Required_Planets>Bakura, Corellia, Duro</Required_Planets>
         <Required_Special_Structures>Corellian_Engineering_Shipwrite_Rebel</Required_Special_Structures>-->
 
+        <Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore, Coruscant</Required_Planets>
+        
         <Build_Cost_Credits>3800</Build_Cost_Credits>
         <Build_Time_Seconds>26</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
