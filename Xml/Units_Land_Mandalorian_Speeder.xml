@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Mandalorian_Speeder>
 
-
+	<!--Test comment-->
 	<GroundInfantry Name="Mandalorian_Speeder">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_MANDALORIAN_SPEEDER</Text_ID>
