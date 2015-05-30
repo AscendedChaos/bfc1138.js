@@ -589,12 +589,16 @@
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-        <Fire_Min_Recharge_Seconds>0.85</Fire_Min_Recharge_Seconds>
+        <!--<Fire_Min_Recharge_Seconds>0.85</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>9</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>-->
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2400.0</Fire_Range_Distance>
-
+        
         <Fire_Inaccuracy_Distance>Fighter, 40.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Bomber, 40.0</Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
@@ -625,10 +629,10 @@
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-        <Fire_Min_Recharge_Seconds>0.85</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>9</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2400.0</Fire_Range_Distance>
 
         <Fire_Inaccuracy_Distance>Fighter, 40.0</Fire_Inaccuracy_Distance>
@@ -694,10 +698,10 @@
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-        <Fire_Min_Recharge_Seconds>0.85</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>9</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2400.0</Fire_Range_Distance>
 
         <Fire_Inaccuracy_Distance>Fighter, 40.0</Fire_Inaccuracy_Distance>
