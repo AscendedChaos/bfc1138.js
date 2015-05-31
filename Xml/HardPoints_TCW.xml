@@ -668,12 +668,12 @@
         <Turret_Bone_Name> TURRET_01 </Turret_Bone_Name>
         <Barrel_Bone_Name> BARREL_01 </Barrel_Bone_Name>
 
-        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Dual_Med</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_Ship_Twin_Turbolaser_Blue_Venator</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 75.0 </Fire_Inaccuracy_Distance>
@@ -716,12 +716,12 @@
         <Turret_Bone_Name> TURRET_02 </Turret_Bone_Name>
         <Barrel_Bone_Name> BARREL_02 </Barrel_Bone_Name>
 
-        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Dual_Med</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_Ship_Twin_Turbolaser_Blue_Venator</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 75.0 </Fire_Inaccuracy_Distance>
@@ -764,12 +764,12 @@
         <Turret_Bone_Name> TURRET_03 </Turret_Bone_Name>
         <Barrel_Bone_Name> BARREL_03 </Barrel_Bone_Name>
 
-        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Dual_Med</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_Ship_Twin_Turbolaser_Blue_Venator</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 75.0 </Fire_Inaccuracy_Distance>
@@ -812,12 +812,12 @@
         <Turret_Bone_Name> TURRET_04 </Turret_Bone_Name>
         <Barrel_Bone_Name> BARREL_04 </Barrel_Bone_Name>
 
-        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Dual_Med</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_Ship_Twin_Turbolaser_Blue_Venator</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 75.0 </Fire_Inaccuracy_Distance>
