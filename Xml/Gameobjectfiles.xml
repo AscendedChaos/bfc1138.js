@@ -43,7 +43,7 @@
 	
 	<!-- Expansion StarBases -->
 	<File>StarBases_Republic.xml</File>
-	<File>StarBases_CIS.xml</File>
+	<File>StarBase_CIS.xml</File>
 	
 	<!-- Expansion Structures -->
 	<File>Specialstructures_republic.xml</File>

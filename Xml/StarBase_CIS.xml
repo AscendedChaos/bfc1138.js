@@ -56,7 +56,7 @@
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign> 
-			Empire,
+			CIS,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
@@ -201,7 +201,7 @@
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign>
-			Empire,
+			CIS,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
@@ -354,7 +354,7 @@
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign>
-			Empire,
+			CIS,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Enhanced_Reactors_L2_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
@@ -517,7 +517,7 @@
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 		
 		<Tactical_Buildable_Objects_Campaign>
-			Empire,
+			CIS,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Enhanced_Reactors_L2_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
@@ -678,7 +678,7 @@
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 		
 		<Tactical_Buildable_Objects_Campaign>
-			Empire,
+			CIS,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Enhanced_Reactors_L2_Upgrade,
 				ES_Enhanced_Reactors_L3_Upgrade,
@@ -798,7 +798,7 @@
 
 
 
-	<!-- Empire Skirmish Starbases -->
+	<!-- CIS Skirmish Starbases -->
 	<StarBase Name="Skirmish_CIS_Star_Base_1">
 		<Variant_Of_Existing_Type>CIS_Star_Base_1</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
@@ -860,7 +860,7 @@
 				<Income_Additive_Value>20</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Empire_Star_Base_1</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_CIS_Star_Base_1</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -944,7 +944,7 @@
 				<Income_Additive_Value>25</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Empire_Star_Base_2</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_CIS_Star_Base_2</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -1032,7 +1032,7 @@
 				<Income_Additive_Value>30</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Empire_Star_Base_3</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_CIS_Star_Base_3</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -1125,7 +1125,7 @@
 				<Income_Additive_Value>35</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Empire_Star_Base_4</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_CIS_Star_Base_4</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -1225,7 +1225,7 @@
 				<Income_Additive_Value>45</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Empire_Star_Base_5</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_CIS_Star_Base_5</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
