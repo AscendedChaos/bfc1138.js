@@ -273,6 +273,9 @@
 	<File>Units_space_cis_providence.xml</File>
 	<File>Units_Space_CIS_Sheathipede.xml</File>
 	<File>Units_Space_CIS_Shuttle.XML</File>
+	<File>Units_space_cis_technounion_frigate.xml</File>
+	<File>Units_Space_cis_carrier.xml</File>
+	<File>Units_space_cis_malevolence.xml</File>
 	
 	
 	<!-- Expansion Units: CIS Land -->
