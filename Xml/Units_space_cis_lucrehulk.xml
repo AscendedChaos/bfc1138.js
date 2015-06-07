@@ -189,7 +189,7 @@
 
 	</SpaceUnit>
 
-		<SpaceUnit Name="Lucrehulk_Battleship_M">
+    <SpaceUnit Name="Lucrehulk_Battleship_M">
 		<Variant_Of_Existing_Type>Lucrehulk_Battleship</Variant_Of_Existing_Type>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Affiliation>UnderWorld</Affiliation> 
@@ -206,6 +206,12 @@
 		<Reserve_Spawned_Units_Tech_0>StarViper_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Skipray_Squadron, 5</Reserve_Spawned_Units_Tech_0>  
 	
+        <Build_Limit_Current_Per_Player>6</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+
+        <Build_Limit_Current_For_All_Allies>6</Build_Limit_Current_For_All_Allies>
+        <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+        
 	</SpaceUnit>
 	
 	
