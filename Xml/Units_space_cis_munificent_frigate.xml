@@ -240,6 +240,8 @@
 		<!-- <Required_Special_Structures>Hoersch_Kessel</Required_Special_Structures>-->
 		<Required_Planets>Hypori</Required_Planets>
 	
+        <Death_Clone>Damage_Normal, M_Munificent_Frigate_Death_Clone</Death_Clone>
+        
 	</SpaceUnit>
 	
 	<SpaceUnit Name="Munificent_Frigate_Death_Clone">
@@ -261,6 +263,27 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</SpaceUnit>
+    
+    
+    <SpaceUnit Name="M_Munificent_Frigate_Death_Clone">
+        <Text_ID>TEXT_UNIT_MUNIFICENT</Text_ID>
+        <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+        <Space_Model_Name>M_Munificent_D.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Scale_Factor>3.0</Scale_Factor>
+        <Layer_Z_Adjust>-160.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+
+    </SpaceUnit>
 
 
 

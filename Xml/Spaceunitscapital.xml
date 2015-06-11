@@ -85,9 +85,11 @@
 
         <!-- Early Fighter complement -->
         <Starting_Spawned_Units_Tech_0>Corporate_R41_Squadron, 2</Starting_Spawned_Units_Tech_0>
+<Starting_Spawned_Units_Tech_0>R22_Sparhead_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>Z95_Headhunter_Rebel_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>Corporate_R41_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+<Reserve_Spawned_Units_Tech_0>R22_Sparhead_Squadron, 1</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Rebel_Squadron, 1</Reserve_Spawned_Units_Tech_0>
         
 
@@ -891,9 +893,11 @@
 
         <!-- Early Fighter complement -->
         <Starting_Spawned_Units_Tech_0>Corporate_R41_Squadron, 2</Starting_Spawned_Units_Tech_0>
+<Starting_Spawned_Units_Tech_0>R22_Sparhead_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>Z95_Headhunter_Rebel_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>Corporate_R41_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+<Reserve_Spawned_Units_Tech_0>R22_Sparhead_Squadron, 1</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Rebel_Squadron, 1</Reserve_Spawned_Units_Tech_0>
         
 
@@ -938,9 +942,11 @@
         
         <!-- Early Fighter complement -->
         <Starting_Spawned_Units_Tech_0>Corporate_R41_Squadron, 2</Starting_Spawned_Units_Tech_0>
+<Starting_Spawned_Units_Tech_0>R22_Sparhead_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>Z95_Headhunter_Rebel_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>Corporate_R41_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+<Reserve_Spawned_Units_Tech_0>R22_Sparhead_Squadron, 1</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Rebel_Squadron, 1</Reserve_Spawned_Units_Tech_0>
         
 		<Armor_Type> Armor_Frigate </Armor_Type>
