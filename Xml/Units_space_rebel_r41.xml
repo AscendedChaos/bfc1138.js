@@ -127,6 +127,46 @@
         <Population_Value>0</Population_Value>
     </SpaceUnit>
 
+    
+    <SpaceUnit Name="Krayt_R41_Fighter">
+        <Variant_Of_Existing_Type>Rebel_R41_Fighter</Variant_Of_Existing_Type>
+        <Space_Model_Name>Rv_R41_Var1.alo</Space_Model_Name>
+        <Icon_Name>I_BUTTON_R41_KRAYT.tga</Icon_Name>
+        <Shield_Points>30</Shield_Points>
+        <Tactical_Health>40</Tactical_Health>
+        <Shield_Refresh_Rate>5</Shield_Refresh_Rate>
+        <Energy_Capacity>700</Energy_Capacity>
+        <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+        <Damage>9</Damage>
+        <Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
+        <Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+        <Projectile_Fire_Recharge_Seconds>0.6</Projectile_Fire_Recharge_Seconds>
+        <Fire_Range_Distance>1000.0</Fire_Range_Distance>
+        
+        <!-- Non-Hero unit abilities description -->
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <!-- Primary ability -->
+            <Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+            
+            <Unit_Ability>
+                <Type>power_to_weapons</Type>
+                <Expiration_Seconds>20</Expiration_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, -3f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
+                <Recharge_Seconds>60</Recharge_Seconds>
+
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Acclamator</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
+            
+        </Unit_Abilities_Data>
+
+        
+    </SpaceUnit>
+    
 
     <Squadron Name="Corporate_R41_Squadron">
         <Text_ID>TEXT_UNIT_R41</Text_ID>
@@ -209,7 +249,46 @@
         <Population_Value>1</Population_Value>
     </Squadron>
 
+    
+    <Squadron Name="Krayt_R41_Squadron">
+        <Variant_Of_Existing_Type>Corporate_R41_Squadron</Variant_Of_Existing_Type>
+        <Icon_Name>I_BUTTON_R41_KRAYT.tga</Icon_Name>
+        <Build_Cost_Credits>700</Build_Cost_Credits>
+        <Build_Time_Seconds>35</Build_Time_Seconds>
+        
+        <Squadron_Units>Krayt_R41_Fighter, Krayt_R41_Fighter, Krayt_R41_Fighter, Krayt_R41_Fighter, Krayt_R41_Fighter</Squadron_Units>
+        
+        <GUI_Model_Name>Rv_R41_Var1.ALO</GUI_Model_Name>
+        
+        <!-- Non-Hero unit abilities description -->
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <!-- Primary ability -->
+            <Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
 
+            <Unit_Ability>
+                <Type>power_to_weapons</Type>
+                <Expiration_Seconds>20</Expiration_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, -3f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
+                <Recharge_Seconds>60</Recharge_Seconds>
+
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Acclamator</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
+
+            <Build_Limit_Current_Per_Player>10</Build_Limit_Current_Per_Player>
+            <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+
+            <Build_Limit_Current_For_All_Allies>10</Build_Limit_Current_For_All_Allies>
+            <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+            
+        </Unit_Abilities_Data>
+        
+    </Squadron>
+    
 
 
 </R41_Starchaser_Data>
