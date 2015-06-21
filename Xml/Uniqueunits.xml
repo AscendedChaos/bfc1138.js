@@ -2351,6 +2351,28 @@ HP_NEWISD_Engines,
         <LandBehavior>REVEAL,IDLE</LandBehavior>
     </UniqueUnit>
 
+    <UniqueUnit Name="Slave_I_Jango">
+        <Variant_Of_Existing_Type>Slave_I</Variant_Of_Existing_Type>
+        <Land_Model_Name>Ev_slave0.ALO</Land_Model_Name>
+        <Space_Model_Name>Ev_slave0_space.ALO</Space_Model_Name>
+        <Icon_Name>i_button_slave1.tga</Icon_Name>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Landing_Transport_Variant>Slave_I_Jango_Landing</Landing_Transport_Variant>
+        <No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+    </UniqueUnit>
+    
+    <UniqueUnit Name="Slave_I_Jango_Landing">
+        <Variant_Of_Existing_Type>Slave_I</Variant_Of_Existing_Type>
+        <Land_Model_Name>Ev_slave0.ALO</Land_Model_Name>
+        <Space_Model_Name>Ev_slave0_space.ALO</Space_Model_Name>
+        <Scale_Factor>2.0</Scale_Factor>
+        <Is_Valid_Target>No</Is_Valid_Target>
+        <User_Bound_Min>-700, -700, 0</User_Bound_Min>
+        <User_Bound_Max>700, 700, 1500</User_Bound_Max>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+    </UniqueUnit>
+    
     <UniqueUnit Name="V_Wing_Ground_Prop">
         <Variant_Of_Existing_Type>Slave_I</Variant_Of_Existing_Type>
         <Text_ID>TEXT_UNIT_VWING_FIGHTER</Text_ID>

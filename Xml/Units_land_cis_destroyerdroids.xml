@@ -2,8 +2,6 @@
 <Destroyer_Droids_Data>
 
 
-
-
 	<GroundVehicle Name="Destroyer_Droid_Mk1">
 		<LOD_Bias>4</LOD_Bias>
 		<Text_ID>TEXT_UNIT_DESTROYER_DROID</Text_ID>
@@ -19,6 +17,7 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 
+        <No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,POWERED,SHIELDED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, GARRISON_UNIT, AFFECTED_BY_SHIELD</LandBehavior>
@@ -232,9 +231,6 @@
 		<!-- Non-Hero unit abilities description -->
 		
 	</GroundCompany>
-
-
-
 
 
 </Destroyer_Droids_Data>
