@@ -79,41 +79,35 @@
         <Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 160</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 60</Reserve_Spawned_Units_Tech_0>-->
 
-        <Starting_Spawned_Units_Tech_0>Corporate_R41_Squadron, 10</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>Corporate_R41_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Corporate_R41_Squadron, 5</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Corporate_R41_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>R22_Sparhead_Squadron, 8</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>R22_Sparhead_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>R22_Sparhead_Squadron, 5</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>R22_Sparhead_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 7</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 5</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 6</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 3</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 5</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>A_Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 3</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>A_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>E_Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>E_Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>E_Wing_Squadron, 3</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>E_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_0>
         
-        <Starting_Spawned_Units_Tech_0>T_Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>T_Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>T_Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>T_Wing_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>Belbullab_Squadron_Rebel, 6</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>Belbullab_Squadron_Rebel, 5</Reserve_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Belbullab_Squadron_Rebel, 5</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Belbullab_Squadron_Rebel, 3</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>Belbullab_Squadron_Rebel, 6</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>Belbullab_Squadron_Rebel, 5</Reserve_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>K_Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>K_Wing_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>K_Wing_Squadron, 6</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>K_Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
-
-        <Starting_Spawned_Units_Tech_0>K_Wing_Squadron, 6</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>K_Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
-
-        <Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 8</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>B-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>B-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 
 
         <!--<Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>-->

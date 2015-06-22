@@ -291,6 +291,7 @@
 	<File>Units_land_cis_Homing_Spider.xml</File>
 	<File>Units_Land_cis_stap.xml</File>
 	<File>Units_land_cis_super_battledroid.xml</File>
+    <File>Units_Land_CIS_Artillery.xml</File>
     
 	
 	<!-- Expansion Units: Republic -->
