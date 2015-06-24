@@ -411,7 +411,7 @@
 
 
         <Destruction_Survivors>
-            Imperial_Landing_Craft, 1.0 Imperial_Landing_Craft, 1.0 Imperial_Landing_Craft, 1.0 Imperial_ATAT_Barge, 1.0 Imperial_ATAT_Barge, 1.0 Shuttle_Tyderium, 1.0 TIE_Interceptor_Squadron, 1.0 TIE_Interceptor_Squadron, 1.0 TIE_Fighter_Squadron, 1.0 TIE_Fighter_Squadron, 1.0
+            Imperial_Gunboat, 1.0 Imperial_Gunboat, 1.0 Imperial_Gunboat, Imperial_Landing_Craft, 1.0 Imperial_Landing_Craft, 1.0 Imperial_Landing_Craft, 1.0 Imperial_ATAT_Barge, 1.0 Imperial_ATAT_Barge, 1.0 Shuttle_Tyderium, 1.0 TIE_Interceptor_Squadron, 1.0 TIE_Interceptor_Squadron, 1.0 TIE_Fighter_Squadron, 1.0 TIE_Fighter_Squadron, 1.0
         </Destruction_Survivors>
 
         <Minimum_Destruction_Survivor_Count>4</Minimum_Destruction_Survivor_Count>
@@ -635,9 +635,9 @@
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>TIE_Hvy_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 
-        <Destruction_Survivors>
+        <!--<Destruction_Survivors>
             TIE_Interceptor_Squadron, 1.0 TIE_Interceptor_Squadron, 1.0 TIE_Fighter_Squadron, 1.0 TIE_Fighter_Squadron, 1.0
-        </Destruction_Survivors>
+        </Destruction_Survivors>-->
 
         <!--added limit-->
         <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->

@@ -796,6 +796,14 @@ SOUND	ev_lambdashuttle_land_00	32	Unit_Shuttle_Landing
 
 SOUND	ev_lambdashuttle_takeoff_00	32	Unit_Shuttle_Takeoff
 
+SOUND	REP_Nu_Shuttle_Land_Land_00	32	Unit_Shuttle_Landing
+
+SOUND	REP_Nu_Shuttle_Land_TakeOff_00	32	Unit_Shuttle_Takeoff
+
+SOUND	Rep_Mu_Shuttle_Land_Land_00	32	Unit_Shuttle_Landing
+
+SOUND	Rep_Mu_Shuttle_Land_TakeOff_00	32	Unit_Shuttle_Takeoff
+
 SOUND	ev_stardestroyer_d_die_00	5069	Unit_Star_Destroyer_Death_SFX
 SOUND	ev_stardestroyer_d_die_00	30149	Unit_Star_Destroyer_Death_SFX
 SOUND	ev_stardestroyer_d_die_00	48449	Unit_Star_Destroyer_Death_SFX
