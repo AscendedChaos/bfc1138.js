@@ -47,7 +47,7 @@
 
 		<Armor_Type> Armor_SPMAT </Armor_Type>
 		<Size_Value>150</Size_Value>
-		<Damage>20</Damage>
+		<Damage>40</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>150</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -78,7 +78,7 @@
 		<Turret_Targets_Anything_Else> 1 </Turret_Targets_Anything_Else>
 		
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance> 220 </Targeting_Min_Attack_Distance>
 
 		<Projectile_Types>Proj_Ground_SPMAT_Grenade</Projectile_Types>
@@ -138,8 +138,8 @@
 
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
-		<Select_Box_Scale>80</Select_Box_Scale>
-		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+        <Select_Box_Scale>50</Select_Box_Scale>
+        <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Weather_Category>Walker</Weather_Category>	
 
