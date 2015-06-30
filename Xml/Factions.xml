@@ -1730,7 +1730,7 @@
         <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 
         <Allies>Neutral</Allies>
-        <Enemies>Empire, Rebel, Pirates, Sarlacc, Underworld</Enemies>
+        <Enemies>Empire, Rebel, Pirates, Sarlacc, Underworld, Republic, CIS</Enemies>
 
     </Faction>
 
@@ -1768,7 +1768,7 @@
         <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 
         <Allies />
-        <Enemies>Empire, Rebel, Pirates, Hostile, Underworld, Hutts</Enemies>
+        <Enemies>Empire, Rebel, Pirates, Sarlacc, Underworld, Republic, CIS</Enemies>
 
     </Faction>
 
