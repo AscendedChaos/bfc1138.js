@@ -23,6 +23,17 @@
             Forest, 			Rep_AT_RT_Walker_Forest.ALO,
             Swamp, 				Rep_AT_RT_Walker_Forest.ALO
         </Land_Terrain_Model_Mapping>-->
+        
+        <Land_Terrain_Model_Mapping>
+            Temperate, 			Rv_ATRT_Forest.ALO,
+            Urban, 				Rv_ATRT.ALO,
+            Arctic, 			Rv_ATRT.ALO,
+            Volcanic, 			Rv_ATRT.ALO,
+            Desert, 			Rv_ATRT.ALO,
+            Forest, 			Rv_ATRT_Forest.ALO,
+            Swamp, 				Rv_ATRT_Forest.ALO
+        </Land_Terrain_Model_Mapping>
+        
         <Land_Model_Anim_Override_Name>Rv_ATRT.ALO</Land_Model_Anim_Override_Name>
         <No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
         
@@ -109,6 +120,11 @@
         <Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy> Structure, 2.0 </Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy> Corvette, 45.0 </Targeting_Fire_Inaccuracy> <!-- LEAVE THIS FOR BARRAGE ABILITY -->
+        
+        <Remove_Upon_Death>false</Remove_Upon_Death>
+        <Death_Fade_Time>0.25</Death_Fade_Time>
+        <Death_Persistence_Duration>20.0</Death_Persistence_Duration>
+        
         <Death_Explosions>Small_Explosion_Land</Death_Explosions>
         <Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
 
@@ -157,10 +173,6 @@
         <GUI_Bracket_Size>1</GUI_Bracket_Size>
 
         <Weather_Category>Walker</Weather_Category>
-
-        <!--<Death_Clone>Damage_Normal, AT_RT_Walker_Death_Clone_00</Death_Clone>-->
-        
-        <Death_Clone>Damage_Normal, Rebel_AT_RT_Walker</Death_Clone>
         
         <Vehicle_Thief_Inside_Clone>AT_RT_Walker_Captured</Vehicle_Thief_Inside_Clone>
 
@@ -211,7 +223,7 @@
     </GroundVehicle>
 
 
-    <GroundVehicle Name="Rebel_AT_RT_Walker_Death_Clone">
+    <!--<GroundVehicle Name="Rebel_AT_RT_Walker_Death_Clone">
         <Variant_Of_Existing_Type>Ha_AT_RT_Walker</Variant_Of_Existing_Type>
         <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
         <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
@@ -223,26 +235,7 @@
         <Death_SFXEvent_End_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_End_Die>
         <Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
         <IsDeathClone> true </IsDeathClone>
-    </GroundVehicle>
-    
-    
-    <GroundVehicle Name="Rebel_AT_RT_Walker_Captured">
-        <Variant_Of_Existing_Type>Rebel_AT_RT_Walker</Variant_Of_Existing_Type>
-        <Icon_Name>i_button_chewbacca_atst.tga</Icon_Name>
-
-        <!-- MUST have same abilities PLUS EJECT_THIEF -->
-        <!-- Non-Hero unit abilities description -->
-        <Unit_Abilities_Data SubObjectList="Yes">
-
-            <!-- Primary ability -->
-
-            <Unit_Ability>
-                <Type>EJECT_VEHICLE_THIEF</Type>
-                <Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
-            </Unit_Ability>
-
-        </Unit_Abilities_Data>
-    </GroundVehicle>
+    </GroundVehicle>-->
     
     
     <GroundCompany Name="Rebel_AT_RT_Scout_Squad">
