@@ -293,6 +293,8 @@
 	<File>Units_land_cis_super_battledroid.xml</File>
     <File>Units_Land_CIS_Artillery.xml</File>
     <File>Units_land_cis_Octuparra.xml</File>
+    <File>Units_land_cis_B1_droid_commander.xml</File>
+    <File>Units_land_cis_plex_droid.xml</File>
     
 	
 	<!-- Expansion Units: Republic -->
