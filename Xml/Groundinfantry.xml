@@ -1379,7 +1379,7 @@
 		<Max_Lift> .6 </Max_Lift>
 		
 		
-		<!--<Barrel_Bone_Name> MuzzleA_00 </Barrel_Bone_Name>
+		<Barrel_Bone_Name> MuzzleA_00 </Barrel_Bone_Name>
 		<Turret_Bone_Name> Turret_00 </Turret_Bone_Name>
 		<Turret_Rotate_Speed> 20.0 </Turret_Rotate_Speed>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
@@ -1387,7 +1387,7 @@
 		<Turret_Rotate_Extent_Degrees> 45.0 </Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees> 10.0 </Turret_Elevate_Extent_Degrees>
 		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
-		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>-->
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		
 		
 		<Scale_Factor>0.7</Scale_Factor>
