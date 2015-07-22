@@ -1178,6 +1178,52 @@ SURFACE	Rv_ATRT_turnr_quarter_00	1119	AT-ST_FOOTPRINT	B_Foot_L
 SURFACE	Rv_ATRT_turnr_quarter_00	2866	AT-ST_FOOTPRINT	B_Foot_R
 
 
+SOUND	Rv_ATRT_Forest_idle_01	69	Vehicle_Anim_Motor
+SOUND	Rv_ATRT_Forest_idle_01	6519	Vehicle_Anim_Motor
+
+SURFACE	Rv_ATRT_Forest_move_00	1220	AT-ST_FOOTPRINT	B_Foot_L
+SURFACE	Rv_ATRT_Forest_move_00	2749	AT-ST_FOOTPRINT	B_Foot_R
+
+SURFACE	Rv_ATRT_Forest_turnl_00	1338	AT-ST_FOOTPRINT	B_Foot_L
+SURFACE	Rv_ATRT_Forest_turnl_00	2840	AT-ST_FOOTPRINT	B_Foot_R
+
+SURFACE	Rv_ATRT_Forest_turnr_00	1231	AT-ST_FOOTPRINT	B_Foot_R
+SURFACE	Rv_ATRT_Forest_turnr_00	2740	AT-ST_FOOTPRINT	B_Foot_L
+
+SOUND	Rv_ATRT_Forest_die_00	45	Unit_Anim_AT_ST_Death_Fall
+SOUND	Rv_ATRT_Forest_die_00	2663	Unit_Anim_AT_ST_Ground_Slam
+
+SOUND	Rv_ATRT_Forest_die_01	12	Unit_Anim_AT_ST_Death_Fall
+SOUND	Rv_ATRT_Forest_die_01	1300	Unit_Anim_AT_ST_Ground_Slam
+
+SOUND	Rv_ATRT_Forest_die_02	2802	Unit_Anim_AT_ST_Ground_Slam
+SOUND	Rv_ATRT_Forest_die_02	12	Unit_Anim_AT_ST_Death_Fall
+
+SURFACE	Rv_ATRT_Forest_movestart_00	1209	AT-ST_FOOTPRINT	B_Foot_L
+SURFACE	Rv_ATRT_Forest_movestart_00	2808	AT-ST_FOOTPRINT	B_Foot_R
+
+SURFACE	Rv_ATRT_Forest_move_endone_00	1444	AT-ST_FOOTPRINT	B_Foot_L
+SURFACE	Rv_ATRT_Forest_move_endone_00	2850	AT-ST_FOOTPRINT	B_Foot_R
+
+SURFACE	Rv_ATRT_Forest_move_endtwo_00	777	AT-ST_FOOTPRINT	B_Foot_L
+SURFACE	Rv_ATRT_Forest_move_endtwo_00	2840	AT-ST_FOOTPRINT	B_Foot_R
+
+SURFACE	Rv_ATRT_Forest_move_endthree_00	1049	AT-ST_FOOTPRINT	B_Foot_R
+SURFACE	Rv_ATRT_Forest_move_endthree_00	2749	AT-ST_FOOTPRINT	B_Foot_L
+
+SURFACE	Rv_ATRT_Forest_turnl_half_00	1214	AT-ST_FOOTPRINT	B_Foot_L
+SURFACE	Rv_ATRT_Forest_turnl_half_00	2829	AT-ST_FOOTPRINT	B_Foot_R
+
+SURFACE	Rv_ATRT_Forest_turnl_quarter_00	1103	AT-ST_FOOTPRINT	B_Foot_L
+SURFACE	Rv_ATRT_Forest_turnl_quarter_00	2888	AT-ST_FOOTPRINT	B_Foot_R
+
+SURFACE	Rv_ATRT_Forest_turnr_half_00	1321	AT-ST_FOOTPRINT	B_Foot_L
+SURFACE	Rv_ATRT_Forest_turnr_half_00	2818	AT-ST_FOOTPRINT	B_Foot_R
+
+SURFACE	Rv_ATRT_Forest_turnr_quarter_00	1119	AT-ST_FOOTPRINT	B_Foot_L
+SURFACE	Rv_ATRT_Forest_turnr_quarter_00	2866	AT-ST_FOOTPRINT	B_Foot_R
+
+
 SURFACE	ReV_atrt_MOVE_00	1300	AT_RT_Footprint	B_Foot_L
 SURFACE	ReV_atrt_MOVE_00	2900	AT_RT_Footprint	B_Foot_R
 
