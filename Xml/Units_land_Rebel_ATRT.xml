@@ -14,16 +14,6 @@
 
         <!--<Land_Model_Name>Ha_AT_RT.ALO</Land_Model_Name>-->
         <Land_Model_Name>Rv_ATRT.ALO</Land_Model_Name>
-        <!--<Land_Terrain_Model_Mapping>
-            Temperate, 			Rep_AT_RT_Walker.ALO,
-            Urban, 				Rep_AT_RT_Walker.ALO,
-            Arctic, 			Rep_AT_RT_Walker.ALO,
-            Volcanic, 			Rep_AT_RT_Walker.ALO,
-            Desert, 			Rep_AT_RT_Walker_Forest.ALO,
-            Forest, 			Rep_AT_RT_Walker_Forest.ALO,
-            Swamp, 				Rep_AT_RT_Walker_Forest.ALO
-        </Land_Terrain_Model_Mapping>-->
-        
         <Land_Terrain_Model_Mapping>
             Temperate, 			Rv_ATRT_Forest.ALO,
             Urban, 				Rv_ATRT.ALO,
@@ -34,7 +24,6 @@
             Swamp, 				Rv_ATRT_Forest.ALO
         </Land_Terrain_Model_Mapping>
         
-        <Land_Model_Anim_Override_Name>Rv_ATRT.ALO</Land_Model_Anim_Override_Name>
         <No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
         
         <Behavior>SELECTABLE</Behavior>
@@ -256,12 +245,12 @@
         <Build_Time_Seconds>10</Build_Time_Seconds><!--was30-->
         <Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
         <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-        <Tech_Level>1</Tech_Level>
+        <Tech_Level>0</Tech_Level>
         <Required_Timeline>0</Required_Timeline>
         <!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
         <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-        <Required_Special_Structures>R_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+        <Required_Special_Structures></Required_Special_Structures>
         <Required_Planets />
         <Behavior>DUMMY_GROUND_COMPANY</Behavior>
         <Formation_Priority>1</Formation_Priority>

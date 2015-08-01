@@ -1519,22 +1519,23 @@
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
 		<Garrison_Category> Infantry </Garrison_Category>
 
-		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed>1.3</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Max_Speed> 1.9 </Max_Speed>
+		<!-- inc from 0.8 -->
+		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .3 </FormationSpacing>
+		<FormationSpacing> .5 </FormationSpacing>
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
-		<OverrideAcceleration> 0.05 </OverrideAcceleration>
-		<OverrideDeceleration> 0.05 </OverrideDeceleration>
+		<OverrideAcceleration> .07 </OverrideAcceleration>
+		<OverrideDeceleration> .07 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
 
 		<Scale_Factor>1.5</Scale_Factor><!-- Was 1.5 resize for test 1.2 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
