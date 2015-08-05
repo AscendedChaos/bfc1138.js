@@ -971,7 +971,7 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<Company_Units> Rebel_Infiltrator, Rebel_Infiltrator</Company_Units>
+		<Company_Units>Rebel_Infiltrator, Rebel_Infiltrator</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 
 		<Formation_Priority>1</Formation_Priority>

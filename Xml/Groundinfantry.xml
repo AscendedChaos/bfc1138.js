@@ -3645,7 +3645,17 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 
 		<Stealth_Capable>Yes</Stealth_Capable>
-		<Land_Model_Name>RI_Infiltrator.alo</Land_Model_Name>
+	    <Land_Model_Name>RI_INFANTRY2.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+            		Temperate, 			RI_Rebel_Sniper_Urban.ALO,
+            		Urban, 				RI_Rebel_Sniper_Urban.ALO,
+			        Arctic, 			RI_Rebel_Sniper_Snow.ALO,
+            		Volcanic, 			RI_Rebel_Sniper_Urban.ALO,
+            		Desert, 			RI_Rebel_Sniper_Urban.ALO,
+            		Forest, 			RI_Rebel_Sniper_Forest.ALO,
+            		Swamp, 				RI_Rebel_Sniper_Forest.ALO
+
+		</Land_Terrain_Model_Mapping>
 		<Behavior>SELECTABLE</Behavior>
 		
 		<LandBehavior>ABILITY_COUNTDOWN, SURFACE_FX,WALK_LOCOMOTOR,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE, GARRISON_UNIT</LandBehavior>
@@ -3655,10 +3665,13 @@
 		<Mass>1.0</Mass>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Garrison_Category> Infantry </Garrison_Category>
-		<Movement_Animation_Speed> 0.7 </Movement_Animation_Speed>
-		<Rotation_Animation_Speed> 8.0 </Rotation_Animation_Speed>
-		<Max_Speed>1.4</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+        <Target_Bones> b_head, b_chest </Target_Bones>
+		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Max_Speed> 1.9 </Max_Speed>
+		<!-- inc from 0.8 -->
+		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
@@ -3666,9 +3679,10 @@
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
 		<FormationSpacing> .5 </FormationSpacing>
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
-		<OverrideAcceleration> .1 </OverrideAcceleration>
-		<OverrideDeceleration> .1 </OverrideDeceleration>
-		<FormationOrder> 3 </FormationOrder>
+		<OverrideAcceleration> .07 </OverrideAcceleration>
+		<OverrideDeceleration> .07 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
