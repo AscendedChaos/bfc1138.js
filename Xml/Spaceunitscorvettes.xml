@@ -453,7 +453,7 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 
 		<HardPoints> 
-				HP_Corellian_Gunship_01, HP_Corellian_Gunship_02, HP_Corellian_Gunship_03, HP_Corellian_Gunship_04, HP_Corellian_Gunship_05, HP_Corellian_Gunship_06, HP_Corellian_Gunship_07, HP_Corellian_Gunship_08
+				HP_Corellian_Gunship_01, HP_Corellian_Gunship_02, HP_Corellian_Gunship_03, HP_Corellian_Gunship_04, HP_Corellian_Gunship_05, HP_Corellian_Gunship_06, HP_Corellian_Gunship_07, HP_Corellian_Gunship_08,HP_Corellian_Gunship_09,HP_Corellian_Gunship_10,HP_Corellian_Gunship_11,HP_Corellian_Gunship_12
 		</HardPoints>
 
 		<Icon_Name>i_button_corellian_gunship.tga</Icon_Name>
