@@ -13,7 +13,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> NTB630 V19_Fighter Arc_170</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Republic_light_frigate CR90 Republic_light_assault_cruiser </Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>CIS_vulture.ALO</Space_Model_Name>
+        <Space_Model_Name>CIS_VultureDroid.ALO</Space_Model_Name>
 		<!--<Scale_Factor>0.1</Scale_Factor>--> <!-- From 0.2 -->
 		<Scale_Factor>0.05</Scale_Factor>
 		<Select_Box_Scale>160</Select_Box_Scale>
@@ -231,7 +231,7 @@
 		
 		<Create_Team_Type> Vulture_Team </Create_Team_Type>
 		
-		<GUI_Model_Name>CIS_vulture.ALO</GUI_Model_Name>
+    <GUI_Model_Name>CIS_VultureDroid.ALO</GUI_Model_Name>
 		<GUI_Distance>95</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
