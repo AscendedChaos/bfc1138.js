@@ -14,8 +14,8 @@
 		<Encyclopedia_Good_Against> NTB630 V19_Fighter Arc_170</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Republic_light_frigate CR90 Republic_light_assault_cruiser </Encyclopedia_Vulnerable_To>
         <Space_Model_Name>CIS_VultureDroid.ALO</Space_Model_Name>
-		<!--<Scale_Factor>0.1</Scale_Factor>--> <!-- From 0.2 -->
-		<Scale_Factor>0.05</Scale_Factor>
+		<Scale_Factor>0.1</Scale_Factor> <!-- From 0.2 -->
+		<!--<Scale_Factor>0.05</Scale_Factor>-->
 		<Select_Box_Scale>160</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 
