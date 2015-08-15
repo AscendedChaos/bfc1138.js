@@ -18,7 +18,7 @@
         <CanCellStack>yes</CanCellStack>
         <Mass>1.0</Mass>
         <Icon_Name>I_BUTTON_HEAVY_SHOCKTROOPER.tga</Icon_Name>
-        <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+        <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
         <Garrison_Category>Infantry</Garrison_Category>
         <Movement_Animation_Speed>0.0</Movement_Animation_Speed>
         <Rotation_Animation_Speed>20.0</Rotation_Animation_Speed>
@@ -48,7 +48,7 @@
         <Damage>90</Damage>
         <Sensor_Range>20</Sensor_Range>
         <Shield_Points>0</Shield_Points>
-        <Tactical_Health>355</Tactical_Health>
+        <Tactical_Health>500</Tactical_Health>
         <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
         <Energy_Capacity>0</Energy_Capacity>
         <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -71,10 +71,11 @@
         <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
         <Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
 
-        <Targeting_Fire_Inaccuracy>Infantry, 1.0</Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy>Vehicle, 3.0</Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy>Air, 20.0</Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy>Structure, 5.0</Targeting_Fire_Inaccuracy>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 20.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
 
         <SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
         <SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
@@ -149,7 +150,7 @@
             <Unit_Ability>
                 <Type>PLACE_REMOTE_BOMB</Type>
                 <Recharge_Seconds>18.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name>Shocktrooper_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+                <GUI_Activated_Ability_Name>Shock_Trooper_Heavy_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
                 <SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
                 <Supports_Autofire>False</Supports_Autofire>
             </Unit_Ability>
@@ -162,7 +163,7 @@
 
         <Abilities SubObjectList="Yes">
 
-            <Remote_Bomb_Ability Name="Shocktrooper_Remote_Bomb_Attack"> 
+            <Remote_Bomb_Ability Name="Shock_Trooper_Heavy_Remote_Bomb_Attack"> 
                 <Activation_Style> User_Input </Activation_Style> 
                 <Activation_Min_Range>5.0</Activation_Min_Range>
                 <Activation_Max_Range>130.0</Activation_Max_Range>
@@ -213,7 +214,7 @@
             <Unit_Ability>
                 <Type>PLACE_REMOTE_BOMB</Type>
                 <Recharge_Seconds>18.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name>Shocktrooper_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+                <GUI_Activated_Ability_Name>Shock_Trooper_Heavy_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
                 <SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
                 <Supports_Autofire>False</Supports_Autofire>
             </Unit_Ability>
@@ -226,7 +227,7 @@
 
         <Abilities SubObjectList="Yes">
 
-            <Remote_Bomb_Ability Name="Shocktrooper_Remote_Bomb_Attack"> 
+            <Remote_Bomb_Ability Name="Shock_Trooper_Heavy_Remote_Bomb_Attack"> 
                 <Activation_Style> User_Input </Activation_Style> 
                 <Activation_Min_Range>5.0</Activation_Min_Range>
                 <Activation_Max_Range>130.0</Activation_Max_Range>
@@ -310,7 +311,7 @@
             <Unit_Ability>
                 <Type>PLACE_REMOTE_BOMB</Type>
                 <Recharge_Seconds>18.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name>Shocktrooper_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+                <GUI_Activated_Ability_Name>Shock_Trooper_Heavy_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
                 <SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
                 <Supports_Autofire>False</Supports_Autofire>
             </Unit_Ability>
@@ -323,7 +324,7 @@
 
         <Abilities SubObjectList="Yes">
 
-            <Remote_Bomb_Ability Name="Shocktrooper_Remote_Bomb_Attack"> 
+            <Remote_Bomb_Ability Name="Shock_Trooper_Heavy_Remote_Bomb_Attack"> 
                 <Activation_Style> User_Input </Activation_Style> 
                 <Activation_Min_Range>5.0</Activation_Min_Range>
                 <Activation_Max_Range>130.0</Activation_Max_Range>
@@ -387,7 +388,7 @@
             <Unit_Ability>
                 <Type>PLACE_REMOTE_BOMB</Type>
                 <Recharge_Seconds>18.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name>Shocktrooper_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+                <GUI_Activated_Ability_Name>Shock_Trooper_Heavy_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
                 <SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
                 <Supports_Autofire>False</Supports_Autofire>
             </Unit_Ability>

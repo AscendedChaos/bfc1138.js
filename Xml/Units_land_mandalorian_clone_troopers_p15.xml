@@ -147,7 +147,7 @@
 			<Unit_Ability>
 				<Type>PLACE_REMOTE_BOMB</Type>
 				<Recharge_Seconds>18.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Mandoclone_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+				<GUI_Activated_Ability_Name>Clone_Trooper_P15_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
@@ -312,7 +312,7 @@
 			<Unit_Ability>
 				<Type>PLACE_REMOTE_BOMB</Type>
 				<Recharge_Seconds>18.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Mandoclone_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+				<GUI_Activated_Ability_Name>Clone_Trooper_P15_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
@@ -396,7 +396,7 @@
 			<Unit_Ability>
 				<Type>PLACE_REMOTE_BOMB</Type>
 				<Recharge_Seconds>18.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Mandoclone_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+				<GUI_Activated_Ability_Name>Clone_Trooper_P15_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
 				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
