@@ -149,31 +149,36 @@
 
         <Unit_Abilities_Data SubObjectList="Yes">
 
-            <Unit_Ability>
-                <Type>PLACE_REMOTE_BOMB</Type>
-                <Recharge_Seconds>18.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name>Saboteur_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
-                <SFXEvent_Target_Ability>Unit_Thermal_Sabateur</SFXEvent_Target_Ability>
-                <Supports_Autofire>True</Supports_Autofire>
-            </Unit_Ability>
-
-            <Unit_Ability>
-                <Type>DETONATE_REMOTE_BOMB</Type>
-            </Unit_Ability>
-
-        </Unit_Abilities_Data>
-
-        <Abilities SubObjectList="Yes">
-
-            <Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack">
-                <Activation_Style>User_Input</Activation_Style>
-                <Activation_Min_Range>5.0</Activation_Min_Range>
-                <Activation_Max_Range>130.0</Activation_Max_Range>
-                <Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
-                <Toss_Anim>BOMBTOSS</Toss_Anim>
-                <Spawn_Frame>12.0</Spawn_Frame>
-                <Spawn_Bone>MuzzleB_00</Spawn_Bone>
-            </Remote_Bomb_Ability>
+<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>STICKY_BOMB</Type>
+				<Recharge_Seconds>30.0f </Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Infiltrator_Grenade_Attack</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Attack_Storm_Trooper </SFXEvent_Target_Ability>
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+			<Grenade_Attack_Ability Name="Infiltrator_Grenade_Attack"> 
+				<Activation_Style> User_Input </Activation_Style> <!-- Was Special_Attack -->
+				<!-- We need to be within this distance of the clicked target to consider throwing the grenade -->
+				<Activation_Min_Range>5.0</Activation_Min_Range>
+				<Activation_Max_Range>75.0</Activation_Max_Range>
+				<Requires_Direct_Player_Command> No </Requires_Direct_Player_Command> <!-- Was NO -->
+				<Grenade_Type>Proj_Sticky_Bomb</Grenade_Type>
+				<Grenade_Toss_Anim>BOMBTOSS</Grenade_Toss_Anim>
+				<Grenade_Spawn_Frame>12.0</Grenade_Spawn_Frame>
+				<Grenade_Spawn_Bone>MuzzleB_00</Grenade_Spawn_Bone>
+				<Grenade_Explode_Timer_In_Secs>8.0</Grenade_Explode_Timer_In_Secs>
+				<!-- Percentage chance to activate given a certain number of valid targets in range. -->
+				<!-- First number in the pair is the number of valid targets, second is the chance to activate. -->
+				<Activation_Chance>0,0.0, 1,1.0, 5,1.0, 500,1.0</Activation_Chance>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Infantry | Vehicle | Structure</Applicable_Unit_Categories>
+				<!-- <Applicable_Unit_Types /> -->
+			</Grenade_Attack_Ability>
 
         </Abilities>
 

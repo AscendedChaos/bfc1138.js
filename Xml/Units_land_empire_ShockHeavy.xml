@@ -18,7 +18,7 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Icon_Name>I_BUTTON_HEAVY_SHOCKTROOPER.tga</Icon_Name>
-		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier,High_Ground</SurfaceFX_Name>
 		<Garrison_Category> Infantry </Garrison_Category>
         <Movement_Animation_Speed>0.0</Movement_Animation_Speed>
         <Rotation_Animation_Speed>20.0</Rotation_Animation_Speed>
@@ -47,7 +47,7 @@
 		<Damage>90</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>355</Tactical_Health>
+		<Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -71,7 +71,7 @@
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 20.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
 
@@ -152,7 +152,7 @@
 				<Recharge_Seconds>30.0f </Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Infiltrator_Grenade_Attack</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Attack_Storm_Trooper </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
+				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
@@ -202,7 +202,6 @@
         <Variant_Of_Existing_Type>Shock_Trooper_Heavy</Variant_Of_Existing_Type>
         <Text_ID>TEXT_UNIT_SHOCK_HEAVY</Text_ID>
 		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
-        <Garrison_Category>Infantry</Garrison_Category>
         <Is_Squashable>Yes</Is_Squashable>
         <Max_Speed>0.8</Max_Speed>
         <Space_Layer>None</Space_Layer>
@@ -316,7 +315,7 @@
 				<Recharge_Seconds>30.0f </Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Infiltrator_Grenade_Attack</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Attack_Storm_Trooper </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
+				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
