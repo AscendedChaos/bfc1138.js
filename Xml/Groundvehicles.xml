@@ -1429,7 +1429,8 @@
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
         <GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 
-        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <!--<Idle_Chase_Range>0.0</Idle_Chase_Range>-->
+        <Idle_Chase_Range>0.1</Idle_Chase_Range>
         <Guard_Chase_Range>200.0</Guard_Chase_Range>
         <Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
         <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>

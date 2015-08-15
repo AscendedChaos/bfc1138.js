@@ -177,6 +177,7 @@
                 <Mod_Multiplier>SPEED_MULTIPLIER, 0.01</Mod_Multiplier>
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tartan</SFXEvent_GUI_Unit_Ability_Activated>
                 <SFXEvent_GUI_Unit_Ability_Deactivated></SFXEvent_GUI_Unit_Ability_Deactivated>
+                <Alternate_Icon_Name>I_SA_FULL_SALVO.TGA</Alternate_Icon_Name>
             </Unit_Ability>
 
         </Unit_Abilities_Data>
