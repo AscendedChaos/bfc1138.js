@@ -9,4 +9,4 @@ The repository will keep track and let us know what and when each file in our co
 
 MTFBWY.
 
-[Test comment commit]
+[Branches now merged!]
