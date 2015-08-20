@@ -401,7 +401,7 @@
 
         <Abilities SubObjectList="Yes">
 
-            <Remote_Bomb_Ability Name="Shocktrooper_Remote_Bomb_Attack"> 
+            <Remote_Bomb_Ability Name="Shock_Trooper_Heavy_Remote_Bomb_Attack"> 
                 <Activation_Style> User_Input </Activation_Style> 
                 <Activation_Min_Range>5.0</Activation_Min_Range>
                 <Activation_Max_Range>130.0</Activation_Max_Range>

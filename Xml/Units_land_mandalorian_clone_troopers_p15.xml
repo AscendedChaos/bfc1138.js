@@ -161,7 +161,7 @@
 		
 		<Abilities SubObjectList="Yes">
 
-			<Remote_Bomb_Ability Name="Mandoclone_Remote_Bomb_Attack"> 
+			<Remote_Bomb_Ability Name="Clone_Trooper_P15_Remote_Bomb_Attack"> 
 				<Activation_Style> User_Input </Activation_Style> 
 				<Activation_Min_Range>5.0</Activation_Min_Range>
 				<Activation_Max_Range>130.0</Activation_Max_Range>
@@ -325,7 +325,7 @@
 
 		<Abilities SubObjectList="Yes">
 
-			<Remote_Bomb_Ability Name="Mandoclone_Remote_Bomb_Attack"> 
+			<Remote_Bomb_Ability Name="Clone_Trooper_P15_Remote_Bomb_Attack"> 
 				<Activation_Style> User_Input </Activation_Style> 
 				<Activation_Min_Range>5.0</Activation_Min_Range>
 				<Activation_Max_Range>130.0</Activation_Max_Range>
@@ -410,7 +410,7 @@
 		
 		<Abilities SubObjectList="Yes">
 
-			<Remote_Bomb_Ability Name="Mandoclone_Remote_Bomb_Attack"> 
+			<Remote_Bomb_Ability Name="Clone_Trooper_P15_Remote_Bomb_Attack"> 
 				<Activation_Style> User_Input </Activation_Style> 
 				<Activation_Min_Range>5.0</Activation_Min_Range>
 				<Activation_Max_Range>130.0</Activation_Max_Range>
