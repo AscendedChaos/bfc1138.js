@@ -540,14 +540,14 @@
         <GUI_Row>0</GUI_Row>
         <Build_Tab_Space_Station>0</Build_Tab_Space_Station>
 
-        <Tech_Level>5</Tech_Level>
+        <Tech_Level>99</Tech_Level>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>5</Required_Star_Base_Level>
         <Required_Special_Structures />
         <Required_Planets />
         <Build_Time_Seconds>180</Build_Time_Seconds>
         <Build_Cost_Credits>15000</Build_Cost_Credits>
-        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
 
         <Is_Dummy>Yes</Is_Dummy>
         <Behavior>DUMMY_GROUND_COMPANY</Behavior>
