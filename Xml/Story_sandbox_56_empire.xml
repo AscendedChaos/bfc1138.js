@@ -87,7 +87,7 @@
     <Event Name="Empire_AI_Heroes_04">
         <Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>SPAWN_HERO</Reward_Type>
-        <Reward_Param1>THE_Inquisitor_Squadron</Reward_Param1>
+        <Reward_Param1>The_Inquisitor_Team</Reward_Param1>
         <Reward_Param2>Coruscant</Reward_Param2>
         <Prereq>Universal_Story_Start</Prereq>
     </Event>
