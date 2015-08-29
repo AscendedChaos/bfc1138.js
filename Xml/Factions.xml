@@ -937,7 +937,10 @@
             Admonitor_Star_Destroyer,
             IMP_Victory_Destroyer,
             Imperial_I_Star_Destroyer,
+            EV_Harrow_Destroyer,
             Bellator_Star_Destroyer,
+            Executor_Super_Star_Destroyer,
+            Procursator,
             Venator_IMP
         </Bombardment_Required_Orbital_Ships>
 
