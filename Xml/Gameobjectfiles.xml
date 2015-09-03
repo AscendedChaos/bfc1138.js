@@ -187,7 +187,8 @@
 	<File>Units_land_rebel_t3b_tank.xml</File>
 	<File>Units_land_rebel_v_wing_speeder.xml</File>
 	<File>Units_land_Rebel_Grenadier.xml</File>
-
+    <File>Units_Land_Rebel_Commando.xml</File>
+	
 	<!-- Expansion Units: Rebel Space -->
 	<File>Units_Space_Rebel_BWing.xml</File>	
 	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
@@ -202,7 +203,7 @@
 	<File>Units_space_rebel_t_wing_fighter.xml</File>
 	<File>Units_space_rebel_YT2000.xml</File>
     <File>Unit_Space_Rebel_Blue_Diver.xml</File>
-	<File></File>
+	
 	<File></File>
 	<File></File>
 	<File></File>
