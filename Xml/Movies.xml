@@ -2,12 +2,12 @@
 <Movies>
 
 	<Movie Name="Logo1">
-		<Movie_File>Data\Art\Movies\Binked\LucasArtsLogo_HD.bik</Movie_File>
+		<Movie_File>Data\Art\Movies\Binked\LucasArtsLogo.bik</Movie_File>
         <Cannot_Skip>false</Cannot_Skip>
 	</Movie>
 	
 	<Movie Name="Logo2">
-		<Movie_File>Data\Art\Movies\Binked\battlefront.bik</Movie_File>
+		<Movie_File>Data\Art\Movies\Binked\intro.bik</Movie_File>
         <Cannot_Skip>false</Cannot_Skip>
 	</Movie>
 
@@ -18,6 +18,11 @@
 		<Cannot_Skip>false</Cannot_Skip>
 	</Movie>
 	
+	
+	<Movie Name="Rebel_Alliance_Intro">
+		<Movie_File>Data\Art\Movies\Binked\GameIntro.bik</Movie_File>
+ 	     <Alpha>false</Alpha>
+	</Movie>	
 
 	
 	<Movie Name="Default_Incoming_Transmission">
