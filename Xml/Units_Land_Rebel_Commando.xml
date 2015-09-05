@@ -103,7 +103,7 @@
 		<Cinematic_Anim_Speed>1.0</Cinematic_Anim_Speed>
 		<Cinematic_Anim_Blend_Seconds>1.0</Cinematic_Anim_Blend_Seconds>
 		<Cinematic_Anim_Index>00</Cinematic_Anim_Index>
-		<Icon_Name>i_button_rebel_commando.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_REBEL_COMMANDO.tga</Icon_Name>
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
@@ -345,7 +345,7 @@
 		Squad_Rebel_Commando
 		</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Icon_Name>i_button_rebel_commando.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_REBEL_COMMANDO.tga</Icon_Name>
 		<GUI_Model_Name>Ri_Commando.ALO</GUI_Model_Name>
 		<Land_Model_Name>Ri_Commando.ALO</Land_Model_Name>
 		<Scale_Factor>5.0</Scale_Factor>

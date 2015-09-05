@@ -1911,7 +1911,7 @@ HP_NEWISD_Engines,
 
         <Land_Model_Name>RV_MFalcon_Land.ALO</Land_Model_Name>
         <Space_Model_Name>RV_MFalcon.ALO</Space_Model_Name>
-        <Scale_Factor>0.5</Scale_Factor>
+        <Scale_Factor>0.3</Scale_Factor>
         <Select_Box_Scale>150</Select_Box_Scale>
         <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
         <Mass>0.68</Mass>
