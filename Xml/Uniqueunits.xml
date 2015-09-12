@@ -2353,8 +2353,8 @@ HP_NEWISD_Engines,
 
     <UniqueUnit Name="Slave_I_Jango">
         <Variant_Of_Existing_Type>Slave_I</Variant_Of_Existing_Type>
-        <Land_Model_Name>Ev_slave0.ALO</Land_Model_Name>
-        <Space_Model_Name>Ev_slave0_space.ALO</Space_Model_Name>
+        <Land_Model_Name>CIS_slave1.ALO</Land_Model_Name>
+        <Space_Model_Name>CIS_Slave1_space.ALO</Space_Model_Name>
         <Icon_Name>i_button_slave1.tga</Icon_Name>
         <Scale_Factor>1.0</Scale_Factor>
         <Landing_Transport_Variant>Slave_I_Jango_Landing</Landing_Transport_Variant>
@@ -2363,8 +2363,8 @@ HP_NEWISD_Engines,
     
     <UniqueUnit Name="Slave_I_Jango_Landing">
         <Variant_Of_Existing_Type>Slave_I</Variant_Of_Existing_Type>
-        <Land_Model_Name>Ev_slave0.ALO</Land_Model_Name>
-        <Space_Model_Name>Ev_slave0_space.ALO</Space_Model_Name>
+        <Land_Model_Name>CIS_slave1.ALO</Land_Model_Name>
+        <Space_Model_Name>CIS_Slave1_space.ALO</Space_Model_Name>
         <Scale_Factor>2.0</Scale_Factor>
         <Is_Valid_Target>No</Is_Valid_Target>
         <User_Bound_Min>-700, -700, 0</User_Bound_Min>
