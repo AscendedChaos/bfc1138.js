@@ -12,10 +12,10 @@
 		<Fire_Cone_Width>25.0</Fire_Cone_Width>
 		<Fire_Cone_Height>25.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>1</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>16</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 
@@ -39,10 +39,10 @@
         <Fire_Cone_Width>25.0</Fire_Cone_Width>
         <Fire_Cone_Height>25.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>1</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>16</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 

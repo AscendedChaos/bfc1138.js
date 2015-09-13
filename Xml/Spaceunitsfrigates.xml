@@ -1102,7 +1102,7 @@
         <Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 
-           <Starting_Spawned_Units_Tech_3>Raider_Corvette, 1</Starting_Spawned_Units_Tech_3>
+           <Starting_Spawned_Units_Tech_0>Raider_Corvette, 1</Starting_Spawned_Units_Tech_0>
            
         <HardPoints>
             HP_IMP_Interdictor_Weapon_01, HP_IMP_Interdictor_Weapon_02, HP_IMP_Interdictor_Weapon_03, HP_IMP_Interdictor_Weapon_04,HP_IMP_Interdictor_GravWell_01, HP_IMP_Interdictor_Shields_01, HP_IMP_Interdictor_Engines_01,HP_IMP_Interdictor_Fighter_Bay
