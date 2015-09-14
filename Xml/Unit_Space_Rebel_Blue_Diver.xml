@@ -46,7 +46,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		 <Required_Planets>MonCalimari_1, Kuat_1, Fondor_1, Sullust_1, Hypori_1, Mandalore1, Coruscant_1</Required_Planets>
+		 <Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore, Coruscant</Required_Planets>
         <!--<Required_Planets></Required_Planets>-->
 		<Autoresolve_Health>3000</Autoresolve_Health>
 		<Tactical_Health>10000</Tactical_Health>

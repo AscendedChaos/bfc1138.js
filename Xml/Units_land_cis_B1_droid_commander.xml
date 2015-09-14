@@ -4,7 +4,7 @@
     
     <GenericHeroUnit Name="Generic_Field_Commander_CIS">
         <No_Colorization_Color>33, 33, 33, 255</No_Colorization_Color>
-        <Text_ID>TEXT_HERO_UNIT_FIELD_EMPIRE</Text_ID>
+        <Text_ID>TEXT_HERO_UNIT_FIELD_CIS</Text_ID>
         <!-- AJA 11/28/2005 - These are NOT named heroes. If you need some functionality that this flag provides, add a new flag. <Is_Named_Hero>Yes</Is_Named_Hero>-->
         <Show_Hero_Head>Yes</Show_Hero_Head>
         <GUI_Row> 1 </GUI_Row>
@@ -12,7 +12,7 @@
         <!--<Land_Model_Anim_Override_Name>CIS_B1_Commander.ALO</Land_Model_Anim_Override_Name>-->
 
         <!--<Icon_Name>i_button_ei_field_commander_bust.tga</Icon_Name>-->
-        <Icon_Name>I_BUTTON_B1_BATTLEDROID_ENGINEER.TGA.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_B1_BATTLEDROID_ENGINEER.tga</Icon_Name>
 
         <Mass>1.0</Mass>
         <!--<Scale_Factor>1.0</Scale_Factor>-->

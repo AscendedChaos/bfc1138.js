@@ -5,7 +5,7 @@
         <LOD_Bias>5</LOD_Bias>
         <Is_Named_Hero>Yes</Is_Named_Hero>
         <Is_Force_Sensitive>Yes</Is_Force_Sensitive>
-        <Text_ID>TEXT_HERO_DARTH_VADER</Text_ID>
+        <Text_ID>TEXT_HERO_INQUISITOR</Text_ID>
         <Land_Model_Name> Ei_Inquisitor.alo </Land_Model_Name>
         <Icon_Name>I_Button_The_Inquisitor.tga</Icon_Name>
 
@@ -133,7 +133,7 @@
         <Hyperspace_Fleet_Reveal_Range>75.0</Hyperspace_Fleet_Reveal_Range>
         <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
-        <Encyclopedia_Text> TEXT_TOOLTIP_DARTH_VADER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+        <Encyclopedia_Text> TEXT_TOOLTIP_INQUISITOR TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
         <Score_Cost_Credits> 10000 </Score_Cost_Credits>
 
@@ -570,6 +570,13 @@
         <SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
         <SFXEvent_Build_Complete>Unit_Select_Thrawn</SFXEvent_Build_Complete>
         <SFXEvent_Hero_Respawned>Unit_Select_Thrawn</SFXEvent_Hero_Respawned>
+		
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+        <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <!-- Primary ability -->

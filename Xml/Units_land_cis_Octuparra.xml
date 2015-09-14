@@ -6,12 +6,12 @@
         <Blob_Shadow_Below_Detail_Level>99</Blob_Shadow_Below_Detail_Level>
         <Blob_Shadow_Scale>180.0, 100.0</Blob_Shadow_Scale>
         <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-        <Text_ID>TEXT_UNIT_Octuparra_DROID</Text_ID>
+        <Text_ID>TEXT_UNIT_OCTUPARRA_DROID</Text_ID>
         <Encyclopedia_Good_Against>Rep_TX_130T Rep_AT_XT_Walker AT_RT_Walker</Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To>AT-TE_Walker LAAT</Encyclopedia_Vulnerable_To>
         <!--<Encyclopedia_Good_Against> Barc_Speeder Clone_Trooper_P1 Arc_Trooper   </Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To>Saber_Tank AT_AP AT-TE_Walker</Encyclopedia_Vulnerable_To>-->
-        <Encyclopedia_Text>TEXT_TOOLTIP_Octuparra_DROID</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_OCTUPARRA_DROID</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
         <No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 

@@ -4,7 +4,7 @@
     
     <GroundInfantry Name="CIS_Plex_Soldier">
         <LOD_Bias>5</LOD_Bias>
-        <Text_ID>TEXT_UNIT_PLEX_SOLDIER</Text_ID>
+        <Text_ID>TEXT_UNIT_CIS_PLEX_SOLDIER</Text_ID>
         <Encyclopedia_Good_Against>Barc_Speeder Clone_Trooper_P1 Arc_Trooper</Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To>Saber_Tank AT_AP AT-TE_Walker</Encyclopedia_Vulnerable_To>
         <Stealth_Capable>No</Stealth_Capable>
@@ -118,7 +118,7 @@
         <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
         <Weather_Category>Infantry</Weather_Category>
 
-        <Encyclopedia_Text>TEXT_TOOLTIP_PLEX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_CIS_PLEX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
         <Death_Fade_Time>0.25</Death_Fade_Time>

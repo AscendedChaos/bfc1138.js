@@ -296,8 +296,8 @@
 
 
 	<GroundCompany Name="Rebel_Commando_Squad">
-		<Text_ID>TEXT_UNIT_REBEL_RIFLEMAN</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_REBEL_RIFLEMAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_REBEL_COMMANDO_SQUAD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REBEL_COMMANDO TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>

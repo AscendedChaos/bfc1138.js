@@ -845,7 +845,7 @@
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
 
-  		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+  		<Encyclopedia_Text>TEXT_TOOLTIP_REBEL_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
@@ -887,14 +887,14 @@
 				 <!-- <Spawned_Object_Type>Empire_Turret_Pad</Spawned_Object_Type> -->
 				 
 				 <Spawned_Object_Type>Skirmish_Rebel_Tactical_Pad</Spawned_Object_Type>
-				 <Effective_Radius> 50.0 </Effective_Radius>
+				 <Effective_Radius> 150.0 </Effective_Radius>
 		         <Spawned_Object_Type>Skirmish_Rebel_Tactical_Pad</Spawned_Object_Type>  
                <SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability> 
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 
                 <!-- Area effect decal size depends on "Antills_Weaken_Enemy_Effect" -->
-                <Area_Effect_Decal_Distance> 50 </Area_Effect_Decal_Distance>
+                <Area_Effect_Decal_Distance> 150 </Area_Effect_Decal_Distance>
 
 			</Unit_Ability>
 		</Unit_Abilities_Data>
@@ -1068,7 +1068,7 @@
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
 		<Death_Clone>Damage_Force_Whirlwind, Stormtrooper_Commander_Force_Whirlwind_Death_Clone</Death_Clone>
@@ -1623,7 +1623,7 @@
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_SNIPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SCOUT_SNIPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 
         <Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
@@ -1682,7 +1682,7 @@
 	
 	<GroundInfantry Name="Imperial_Engineer">
 		<LOD_Bias>5</LOD_Bias>
-		<Text_ID>TEXT_UNIT_ENGINEER</Text_ID>
+		<Text_ID>TEXT_UNIT_IMP_ENGINEER</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier Underworld_Merc</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator Destroyer_Droid </Encyclopedia_Vulnerable_To>
 		<Land_Model_Name>Ei_Gunner.ALO</Land_Model_Name>

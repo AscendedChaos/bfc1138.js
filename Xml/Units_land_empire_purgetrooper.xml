@@ -6,10 +6,10 @@
 
     <GroundVehicle Name="Imperial_Purgetrooper">
         <LOD_Bias>5</LOD_Bias>
-        <Text_ID>TEXT_UNIT_DARKTROOPER_P1</Text_ID>
+        <Text_ID>TEXT_UNIT_PURGETROOPER</Text_ID>
         <Encyclopedia_Good_Against>Rebel_Trooper Underworld_Merc Vornskr_Wolf</Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To>Plex_Soldier Underworld_Disruptor_Merc</Encyclopedia_Vulnerable_To>
-        <Encyclopedia_Text>TEXT_TOOLTIP_DARKTROOPER_P1</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_PURGETROOPER</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
         <Land_Model_Name>Ei_Purge_Trooper.ALO</Land_Model_Name>
         <Icon_Name>I_BUTTON_PURGETROOPER.tga</Icon_Name>

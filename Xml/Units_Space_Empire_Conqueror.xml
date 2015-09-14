@@ -5,7 +5,7 @@
 
 
     <SpaceUnit Name="Star_Destroyer_Conqueror">
-        <Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
+        <Text_ID>TEXT_UNIT_STAR_DESTROYER_CONQUEROR</Text_ID>
         <Encyclopedia_Good_Against>Corellian_Corvette Interceptor4_Frigate Nebulon_B_Frigate</Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To>Y-wing Skipray_Blastboat MC30_Frigate</Encyclopedia_Vulnerable_To>
         <!--<GUI_Row> 1 </GUI_Row>-->
@@ -228,7 +228,7 @@
 
         </Abilities>
 
-        <Encyclopedia_Text>TEXT_TOOLTIP_STAR_DESTROYER TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_STAR_DESTROYER_CONQUEROR TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPITAL</Encyclopedia_Unit_Class>
         <Score_Cost_Credits>45000</Score_Cost_Credits>
 

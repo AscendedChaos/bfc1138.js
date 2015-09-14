@@ -242,7 +242,7 @@
 	 <Text_ID>TEXT_UNIT_CLONETROOPER_P15_PLATOON</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret UC_Empire_Buildable_Anti_Infantry_Turret</Encyclopedia_Vulnerable_To>
-	 <Encyclopedia_Text>TEXT_TOOLTIP_CLONETROOPER_P1_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	 <Encyclopedia_Text>TEXT_TOOLTIP_CLONETROOPER_P15 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 	 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>

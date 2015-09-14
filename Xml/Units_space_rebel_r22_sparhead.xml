@@ -4,9 +4,9 @@
 <Sparhead_Data>
 
     <SpaceUnit Name="R22_Sparhead">
-        <Text_ID>TEXT_UNIT_A_WING</Text_ID>
+        <Text_ID>TEXT_UNIT_R22_SPARHEAD</Text_ID>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-        <Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_R22_SPARHEAD</Encyclopedia_Text>
         <Encyclopedia_Good_Against> TIE_Fighter Hyena_DroidBomber TIE_Bomber </Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Hutt_IPV1_Craft</Encyclopedia_Vulnerable_To>
         <Space_Model_Name>Rv_R-22.ALO</Space_Model_Name>
@@ -183,7 +183,7 @@
 
 <!-- **** SQUADRON INFORMATION **** -->
     <Squadron Name="R22_Sparhead_Squadron">
-        <Text_ID>TEXT_A_WING_SQUADRON</Text_ID>
+        <Text_ID>TEXT_R22_SPARHEAD_SQUADRON</Text_ID>
         <Encyclopedia_Good_Against> TIE_Fighter TIE_Scout TIE_Bomber </Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
         <GUI_Row> 0 </GUI_Row>
@@ -242,7 +242,7 @@
         </Unit_Abilities_Data>
 
 
-        <Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_R22_SPARHEAD</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 
         <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->

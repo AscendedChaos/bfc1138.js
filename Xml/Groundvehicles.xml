@@ -1021,6 +1021,8 @@
         <Variant_Of_Existing_Type>MAAT</Variant_Of_Existing_Type>
         <Affiliation>Empire</Affiliation>
         <Icon_Name>I_BUTTON_IMP_DROPSHIP.tga</Icon_Name>
+		<Text_ID>TEXT_UNIT_IMP_DROPSHIP</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_IMP_DROPSHIP</Encyclopedia_Text>
         
         <Max_Speed>4.0</Max_Speed>
         

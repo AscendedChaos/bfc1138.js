@@ -8,10 +8,10 @@
 
 	<GroundVehicle Name="Flame_Tank">
 	
-		<Text_ID>FLAMETANK_TXT</Text_ID>
+		<Text_ID>TEXT_UNIT_FLAMETANK</Text_ID>
 		<Encyclopedia_Good_Against> AT_AT_Walker M1_Repulsor_Tank  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> T4B_Tank MPTL SPMAT_Walker </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>FLAMETANK_DISC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_FLAMETANK</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 		<Icon_Name> I_BUTTON_FLAMETANK.TGA </Icon_Name>
 
@@ -241,10 +241,10 @@
 
 
 	<GroundCompany Name="Flame_Tank_Company">
-		<Text_ID>FLAMETANK_COMP</Text_ID>
+		<Text_ID>TEXT_UNIT_FLAMETANK</Text_ID>
 		<Encyclopedia_Good_Against> Snowspeeder AT_AT_Walker M1_Repulsor_Tank  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> T4B_Tank MPTL SPMAT_Walker </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>FlAMETANK_DISC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_FLAMETANK</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_FLAMETANK.TGA</Icon_Name>
 

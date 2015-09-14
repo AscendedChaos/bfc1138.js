@@ -11,7 +11,7 @@
         <Encyclopedia_Good_Against>Victory_Destroyer Alliance_Assault_Frigate</Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To>TIE_Defender B-Wing</Encyclopedia_Vulnerable_To>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPITAL</Encyclopedia_Unit_Class>
-        <Encyclopedia_Text>TEXT_TOOLTIP_LUCREHULK</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_LUCREHULK_REBEL</Encyclopedia_Text>
         <!--<Icon_Name>I_BUTTON_LUCREHULK.TGA</Icon_Name>-->
         <Icon_Name>I_BUTTON_RLUCRE.TGA</Icon_Name>
         <GUI_Row>1</GUI_Row>
