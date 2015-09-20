@@ -84,8 +84,8 @@
             HP_IEC_Engines, HP_IEC_Hanger, HP_IEC_01, HP_IEC_02, HP_IEC_03, HP_IEC_04, HP_IEC_05, HP_IEC_06, HP_IEC_07, HP_IEC_08
         </HardPoints>
 
-        <Starting_Spawned_Units_Tech_0>TIE_Hunter_Squadron, 3</Starting_Spawned_Units_Tech_0>
-        <Starting_Spawned_Units_Tech_0>TIE_Assasin_Squadron, 1</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>TIE_Hunter_Squadron, 4</Starting_Spawned_Units_Tech_0>
+        <!--<Starting_Spawned_Units_Tech_0>TIE_Assasin_Squadron, 1</Starting_Spawned_Units_Tech_0>-->
         <!--<Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>-->
         <!--<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>-->
         <!--<Reserve_Spawned_Units_Tech_0>TIE_Hunter_Squadron, 3</Reserve_Spawned_Units_Tech_0>-->

@@ -823,7 +823,11 @@
         <Reserve_Spawned_Units_Tech_5>VWing_Squadron_Rep, 5</Reserve_Spawned_Units_Tech_5>
 
         <Death_Clone>Damage_Normal, Rep_Venator_Death_Clone</Death_Clone>
-        
+        <Build_Limit_Current_Per_Player>10</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+
+        <Build_Limit_Current_For_All_Allies>10</Build_Limit_Current_For_All_Allies>
+        <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
     </SpaceUnit>
 
     <SpaceUnit Name="Venator_IMP">
@@ -970,6 +974,7 @@
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures></Required_Special_Structures>
 			<Autoresolve_Health>10130</Autoresolve_Health>
+        <Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore, Coruscant</Required_Planets>
 		<Tactical_Health>6000</Tactical_Health>
 		<Shield_Points>5625</Shield_Points>
 		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>

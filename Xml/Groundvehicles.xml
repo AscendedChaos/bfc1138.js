@@ -1292,7 +1292,7 @@
 		<Land_Terrain_Model_Mapping>
 			Temperate, 			Ev_at-at_Var2.ALO,
 			Urban, 				Ev_at-at_Var2.ALO,
-			Arctic, 			EV_AT-AT.ALO,
+            Arctic, 			Ev_at-at_Var2.ALO,
 			Volcanic, 			Ev_at-at_Var2.ALO,
 			Desert, 			Ev_at-at_Var2.ALO,
 			Forest, 			Ev_at-at_Var2.ALO,

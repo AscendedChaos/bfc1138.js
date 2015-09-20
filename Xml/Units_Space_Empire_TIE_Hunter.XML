@@ -296,6 +296,8 @@
         <Build_Cost_Credits>700</Build_Cost_Credits>
         <Build_Time_Seconds>35</Build_Time_Seconds>
 
+        <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+        
         <Squadron_Units>TIE_Assasin, TIE_Assasin, TIE_Assasin, TIE_Assasin, TIE_Assasin</Squadron_Units>
 
         <GUI_Model_Name>Empire_TIE_Hunter_V2.ALO</GUI_Model_Name>
