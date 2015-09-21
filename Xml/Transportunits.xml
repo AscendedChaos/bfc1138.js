@@ -351,7 +351,7 @@
         <Select_Box_Scale>150</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
-        <Scale_Factor>0.15</Scale_Factor>
+        <Scale_Factor>0.25</Scale_Factor>
 
         <GUI_Bracket_Size>0</GUI_Bracket_Size>
 

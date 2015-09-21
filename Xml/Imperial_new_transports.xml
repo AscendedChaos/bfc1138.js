@@ -168,11 +168,15 @@
     
     <TransportUnit Name="Imperial_Landing_Craft_Loader">
         <Variant_Of_Existing_Type>Imperial_Landing_Craft_II</Variant_Of_Existing_Type>
-        <Land_Model_Name>EV_IMPERIALCRAFT_Loader.ALO</Land_Model_Name>
-        <Space_Model_Name>EV_IMPERIALCRAFT_Loader_SPACE.ALO</Space_Model_Name>
+        <!--<Land_Model_Name>EV_IMPERIALCRAFT_Loader.ALO</Land_Model_Name>
+        <Space_Model_Name>EV_IMPERIALCRAFT_Loader_SPACE.ALO</Space_Model_Name>-->
+        <Land_Model_Name>Ev_imperialcraft_ATST.ALO</Land_Model_Name>
+        <Space_Model_Name>Ev_imperialcraft_ATST_space.ALO</Space_Model_Name>
+        <Scale_Factor>0.25</Scale_Factor>
         <!--<Galactic_Fleet_Override_Model_Name> W_Empire_Transports.ALO </Galactic_Fleet_Override_Model_Name>--> 
         <Galactic_Fleet_Override_Icon_Index> 4 </Galactic_Fleet_Override_Icon_Index>
         <Landing_Transport_Variant>Imperial_Landing_Craft_Loader_Landing</Landing_Transport_Variant>
+        <Use_Transported_Object_Bounds_For_Landing_Z>false</Use_Transported_Object_Bounds_For_Landing_Z>
     </TransportUnit>
 
     <TransportUnit Name="Imperial_Landing_Craft_Loader_Landing">

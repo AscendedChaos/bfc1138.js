@@ -221,7 +221,7 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<!--<Company_Transport_Unit>StormAttack_IMP</Company_Transport_Unit>-->
-        <Company_Transport_Unit>Imperial_Landing_Craft_II</Company_Transport_Unit>
+        <Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Icon_Name>i_button_stormcommando.tga</Icon_Name>
 		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
