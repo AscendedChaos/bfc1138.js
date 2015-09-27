@@ -10,8 +10,8 @@
         <Encyclopedia_Vulnerable_To>Y-wing Skipray_Blastboat MC30_Frigate</Encyclopedia_Vulnerable_To>
         <!--<GUI_Row> 1 </GUI_Row>-->
 
-        <Show_Hero_Head>Yes</Show_Hero_Head>
-        <Is_Named_Hero>Yes</Is_Named_Hero>
+        <Show_Hero_Head>No</Show_Hero_Head>
+        <Is_Named_Hero>No</Is_Named_Hero>
 
         <GUI_Row>0</GUI_Row>
         <Build_Tab_Space_Station>0</Build_Tab_Space_Station>
@@ -100,7 +100,7 @@
         <Piracy_Value_Credits>250</Piracy_Value_Credits>
         <AI_Combat_Power>12500</AI_Combat_Power>
         <Build_Time_Seconds>90</Build_Time_Seconds>
-        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
 
         <Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>

@@ -1351,7 +1351,9 @@
         <Tactical_Health>1000</Tactical_Health>
         <Energy_Capacity>999</Energy_Capacity>
         <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-        <Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+        <!--<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>-->
+        <Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
         <Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
         <Targeting_Min_Attack_Distance>90.0</Targeting_Min_Attack_Distance>
 
@@ -1432,12 +1434,19 @@
         <GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 
         <!--<Idle_Chase_Range>0.0</Idle_Chase_Range>-->
-        <Idle_Chase_Range>0.1</Idle_Chase_Range>
+        <!--<Idle_Chase_Range>0.1</Idle_Chase_Range>
         <Guard_Chase_Range>200.0</Guard_Chase_Range>
         <Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
         <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
         <Targeting_Priority_Set>ATATAntiEverything</Targeting_Priority_Set>
-        <Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>-->
+        
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Guard_Chase_Range>200.0</Guard_Chase_Range>
+        <Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
+        <Autonomous_Move_Extension_Vs_Attacker>150.0</Autonomous_Move_Extension_Vs_Attacker>
 
         <Weather_Category>LargeWalker</Weather_Category>
         <Death_Clone>Damage_Cable_Attack, AT_AT_Walker_Cable_Attack_Death_Clone</Death_Clone>

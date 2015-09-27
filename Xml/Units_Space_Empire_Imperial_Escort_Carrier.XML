@@ -23,7 +23,7 @@
         <Size_Value>500</Size_Value>
         <No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 
-        <Max_Speed>2.5</Max_Speed>
+        <Max_Speed>5.5</Max_Speed>
         <Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
         <Max_Rate_Of_Roll>0.5</Max_Rate_Of_Roll>
         <Bank_Turn_Angle>25</Bank_Turn_Angle>

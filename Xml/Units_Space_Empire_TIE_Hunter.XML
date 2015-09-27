@@ -9,7 +9,7 @@
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship  </Encyclopedia_Vulnerable_To>
         <Space_Model_Name>ev_tiehunter.ALO</Space_Model_Name>
 		<!--<Scale_Factor>0.05</Scale_Factor>-->
-		<Scale_Factor>0.06</Scale_Factor>
+		<Scale_Factor>0.07</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
