@@ -771,6 +771,11 @@
 		<Variant_Of_Existing_Type> Rebel_Trooper_Team </Variant_Of_Existing_Type>
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
 	</Container>
+    
+    <Container Name="Rebel_Commando_Team">
+        <Variant_Of_Existing_Type> Rebel_Trooper_Team </Variant_Of_Existing_Type>
+        <Icon_Name>I_BUTTON_REBEL_COMMANDO.tga</Icon_Name>
+    </Container>
 
 	<Container Name="Mando_Sniper_Team">
 		<Variant_Of_Existing_Type> Rebel_Trooper_Team </Variant_Of_Existing_Type>

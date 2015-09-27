@@ -51,10 +51,10 @@
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
-		<Damage>7</Damage>
+        <Damage>90</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>50</Tactical_Health>
+        <Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -63,17 +63,22 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<!--<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>0.0001</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.0001</Projectile_Fire_Recharge_Seconds>-->
 		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
-		<Projectile_Damage>1.2</Projectile_Damage>
+		<!--<Projectile_Damage>1.2</Projectile_Damage>-->
 		
+        <Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+        <Projectile_Fire_Pulse_Delay_Seconds>0.12</Projectile_Fire_Pulse_Delay_Seconds>
+        <Projectile_Fire_Recharge_Seconds>0.0001</Projectile_Fire_Recharge_Seconds>
+        <Projectile_Damage>3.2</Projectile_Damage>
+        
 		<Turret_Rotate_Extent_Degrees>30.0</Turret_Rotate_Extent_Degrees> 
 		<Turret_Elevate_Extent_Degrees>30.0</Turret_Elevate_Extent_Degrees> 
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust> 
 		
-		<Projectile_Damage>0.5</Projectile_Damage>
+		<!--<Projectile_Damage>0.5</Projectile_Damage>-->
 		<Land_FOW_Reveal_Range>155.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
@@ -325,7 +330,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Create_Team_Type> Rebel_Rifle_Team </Create_Team_Type>
+        <Create_Team_Type> Rebel_Commando_Team </Create_Team_Type>
 		<!-- AI  Changed to 15 soldiers with 5 per troop -->
 		<Company_Units>
         Squad_Rebel_Commando,
