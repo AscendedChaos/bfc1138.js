@@ -204,7 +204,7 @@
 		<Required_Timeline />
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>The_Maw</Required_Planets>
+		<Required_Planets>The_Maw, Fondor, Corulag, Kuat</Required_Planets>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 
 		<Squadron_Units>TIE_Phantom, TIE_Phantom, TIE_Phantom</Squadron_Units>

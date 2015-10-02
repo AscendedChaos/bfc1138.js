@@ -537,7 +537,7 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
-		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_SABATOUR.tga</Icon_Name>
 
 		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
@@ -546,42 +546,41 @@
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>		
 
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-						<Unit_Ability>
-				<Type>PLACE_REMOTE_BOMB</Type>
-				<Recharge_Seconds>18.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Saboteur_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <!-- Primary ability -->
+            <!--<Unit_Ability>
+                <Type>PLACE_REMOTE_BOMB</Type>
+                <Recharge_Seconds>18.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name>Shock_Trooper_Heavy_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+                <SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
+                <Supports_Autofire>False</Supports_Autofire>
+            </Unit_Ability>
 
-			<Unit_Ability>
-				<Type>DETONATE_REMOTE_BOMB</Type>
-			</Unit_Ability>
-			
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-			</Unit_Ability>
+            <Unit_Ability>
+                <Type>DETONATE_REMOTE_BOMB</Type>
+            </Unit_Ability>-->
 
-		</Unit_Abilities_Data>
-		
-	    <Abilities SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>SPREAD_OUT</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+        
+        <!--<Abilities SubObjectList="Yes">
 
-			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack"> 
-				<Activation_Style> User_Input </Activation_Style> 
-				<Activation_Min_Range>5.0</Activation_Min_Range>
-				<Activation_Max_Range>130.0</Activation_Max_Range>
-				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
-				<Toss_Anim>BOMBTOSS</Toss_Anim>
-				<Spawn_Frame>12.0</Spawn_Frame>
-				<Spawn_Bone>MuzzleB_00</Spawn_Bone>
-			</Remote_Bomb_Ability>
+            <Remote_Bomb_Ability Name="Shock_Trooper_Heavy_Remote_Bomb_Attack"> 
+                <Activation_Style> User_Input </Activation_Style> 
+                <Activation_Min_Range>5.0</Activation_Min_Range>
+                <Activation_Max_Range>130.0</Activation_Max_Range>
+                <Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
+                <Toss_Anim>BOMBTOSS</Toss_Anim>
+                <Spawn_Frame>12.0</Spawn_Frame>
+                <Spawn_Bone>MuzzleB_00</Spawn_Bone>
+            </Remote_Bomb_Ability>
 
-		</Abilities>
-
+        </Abilities>-->
 
 	</Container>
 

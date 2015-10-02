@@ -56,7 +56,7 @@
         <Damage>20</Damage>
         <Sensor_Range>20</Sensor_Range>
         <Shield_Points>0</Shield_Points>
-        <Tactical_Health>600</Tactical_Health>
+        <Tactical_Health>200</Tactical_Health>
         <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
         <Energy_Capacity>0</Energy_Capacity>
         <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -86,14 +86,14 @@
         <Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
         <Victory_Relevant>yes</Victory_Relevant>
         <Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
-        <Projectile_Damage>2.2</Projectile_Damage>
+        <Projectile_Damage>3.3</Projectile_Damage>
         <Projectile_Fire_Recharge_Seconds>0.8</Projectile_Fire_Recharge_Seconds>
         <Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 
         <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
         <Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
 
-        <Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+        <Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
 
         <Targeting_Fire_Inaccuracy>Infantry, 3.0</Targeting_Fire_Inaccuracy>
         <!-- from 1.0 to make them more innacurate -->

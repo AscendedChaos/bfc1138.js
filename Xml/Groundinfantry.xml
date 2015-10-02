@@ -633,7 +633,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>200</Tactical_Health>
+		<Tactical_Health>600</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -649,12 +649,17 @@
 		<Projectile_Fire_Pulse_Count>25</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 
+        <Projectile_Fire_Pulse_Count>5</Projectile_Fire_Pulse_Count>
+        <Projectile_Fire_Pulse_Delay_Seconds>0.10</Projectile_Fire_Pulse_Delay_Seconds>
+        <Projectile_Fire_Recharge_Seconds>0.0001</Projectile_Fire_Recharge_Seconds>
+        <Projectile_Damage>4.0</Projectile_Damage>
+        
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<!--<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>-->
 
 		<Targeting_Fire_Inaccuracy> Infantry, 35.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 10. </Targeting_Fire_Inaccuracy>
@@ -3282,7 +3287,8 @@
 		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator Destroyer_Droid </Encyclopedia_Vulnerable_To>
 		<Land_Model_Name>RI_Saboteur.ALO</Land_Model_Name>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
+		<!--<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>-->
+        <LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING ,GARRISON_UNIT,ABILITY_COUNTDOWN</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -3320,7 +3326,7 @@
 		<Damage>3</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>70</Tactical_Health>
+		<Tactical_Health>160</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -3339,7 +3345,12 @@
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<!--<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>-->
+    
+    <Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+    <Projectile_Fire_Pulse_Delay_Seconds>0.12</Projectile_Fire_Pulse_Delay_Seconds>
+    <Projectile_Fire_Recharge_Seconds>0.0001</Projectile_Fire_Recharge_Seconds>
+    <Projectile_Damage>2.5</Projectile_Damage>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 3.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
@@ -3414,38 +3425,40 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<Unit_Ability>
-						<Unit_Ability>
-				<Type>PLACE_REMOTE_BOMB</Type>
-				<Recharge_Seconds>18.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Saboteur_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
+           <!-- <Unit_Ability>
+                <Type>PLACE_REMOTE_BOMB</Type>
+                <Recharge_Seconds>18.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name>Shock_Trooper_Heavy_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+                <SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
+                <Supports_Autofire>False</Supports_Autofire>
+            </Unit_Ability>
 
 			<Unit_Ability>
 				<Type>DETONATE_REMOTE_BOMB</Type>
-			</Unit_Ability>
+			</Unit_Ability>-->
 			
+            <Unit_Ability>
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			</Unit_Ability>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			
+            </Unit_Ability>
 		</Unit_Abilities_Data>
 		
-				<Abilities SubObjectList="Yes">
+				
+        <!--<Abilities SubObjectList="Yes">
 
-			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack"> 
-				<Activation_Style> User_Input </Activation_Style> 
-				<Activation_Min_Range>5.0</Activation_Min_Range>
-				<Activation_Max_Range>130.0</Activation_Max_Range>
-				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
-				<Toss_Anim>BOMBTOSS</Toss_Anim>
-				<Spawn_Frame>12.0</Spawn_Frame>
-				<Spawn_Bone>MuzzleB_00</Spawn_Bone>
-			</Remote_Bomb_Ability>
+            <Remote_Bomb_Ability Name="Shock_Trooper_Heavy_Remote_Bomb_Attack"> 
+                <Activation_Style> User_Input </Activation_Style> 
+                <Activation_Min_Range>5.0</Activation_Min_Range>
+                <Activation_Max_Range>130.0</Activation_Max_Range>
+                <Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
+                <Toss_Anim>BOMBTOSS</Toss_Anim>
+                <Spawn_Frame>12.0</Spawn_Frame>
+                <Spawn_Bone>MuzzleB_00</Spawn_Bone>
+            </Remote_Bomb_Ability>
 
-		</Abilities>
+		</Abilities>-->
 		
 	</GroundInfantry>
 	

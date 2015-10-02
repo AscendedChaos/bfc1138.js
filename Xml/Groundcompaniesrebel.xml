@@ -115,19 +115,19 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<Unit_Ability>
-						<Unit_Ability>
-				<Type>PLACE_REMOTE_BOMB</Type>
-				<Recharge_Seconds>18.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Saboteur_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
+            <!--<Unit_Ability>
+                <Type>PLACE_REMOTE_BOMB</Type>
+                <Recharge_Seconds>18.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name>Shock_Trooper_Heavy_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+                <SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
+                <Supports_Autofire>False</Supports_Autofire>
+            </Unit_Ability>
 
 			<Unit_Ability>
 				<Type>DETONATE_REMOTE_BOMB</Type>
-			</Unit_Ability>
+			</Unit_Ability>-->
 			
+            <Unit_Ability>
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
@@ -135,19 +135,19 @@
 
 		</Unit_Abilities_Data>
 		
-	    <Abilities SubObjectList="Yes">
+	    <!--<Abilities SubObjectList="Yes">
 
-			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack"> 
-				<Activation_Style> User_Input </Activation_Style> 
-				<Activation_Min_Range>5.0</Activation_Min_Range>
-				<Activation_Max_Range>130.0</Activation_Max_Range>
-				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
-				<Toss_Anim>BOMBTOSS</Toss_Anim>
-				<Spawn_Frame>12.0</Spawn_Frame>
-				<Spawn_Bone>MuzzleB_00</Spawn_Bone>
-			</Remote_Bomb_Ability>
+            <Remote_Bomb_Ability Name="Shock_Trooper_Heavy_Remote_Bomb_Attack"> 
+                <Activation_Style> User_Input </Activation_Style> 
+                <Activation_Min_Range>5.0</Activation_Min_Range>
+                <Activation_Max_Range>130.0</Activation_Max_Range>
+                <Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
+                <Toss_Anim>BOMBTOSS</Toss_Anim>
+                <Spawn_Frame>12.0</Spawn_Frame>
+                <Spawn_Bone>Muzzle_00</Spawn_Bone>
+            </Remote_Bomb_Ability>
 
-		</Abilities>
+		</Abilities>-->
 		
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
