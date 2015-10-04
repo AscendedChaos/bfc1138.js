@@ -83,6 +83,9 @@
 
         <!-- Fighter complement -->
         <!-- Set to spawn all units once and then not continue - no reserves -->
+        <Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+        
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
         

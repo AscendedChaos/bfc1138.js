@@ -226,6 +226,9 @@
         <Starting_Spawned_Units_Tech_5>Scimitar_Squadron, 2</Starting_Spawned_Units_Tech_5>
         <Reserve_Spawned_Units_Tech_5>Scimitar_Squadron, 2</Reserve_Spawned_Units_Tech_5>
         
+        <Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 3</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+        
         <Starting_Spawned_Units_Tech_3>Raider_Corvette, 2</Starting_Spawned_Units_Tech_3>
 
 		<!--<HardPoints> 

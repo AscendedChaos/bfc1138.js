@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
 <Executor_Files>
+    
 
     <UniqueUnit Name="Executor_Super_Star_Destroyer_No_Tractor_Beam">
 
@@ -135,7 +136,7 @@
         <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 16</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 1</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 3</Starting_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 5</Reserve_Spawned_Units_Tech_0>
 
         <Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 3</Starting_Spawned_Units_Tech_0>
@@ -749,10 +750,6 @@
         </Abilities>
 
     </UniqueUnit>
-
-
-
-
-
+    
 
 </Executor_Files>
