@@ -1317,6 +1317,10 @@
         <!--<Scale_Factor>1.75</Scale_Factor>-->
         <Scale_Factor>1.82</Scale_Factor>
 
+        <HardPoints>
+            HP_AT_AT_Small
+        </HardPoints>
+        
         <Movement_Animation_Speed>0.1366</Movement_Animation_Speed>
         <Rotation_Animation_Speed>0.5</Rotation_Animation_Speed>
         <Max_Speed>0.50</Max_Speed>

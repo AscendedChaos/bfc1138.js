@@ -497,6 +497,7 @@
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
 
+        <SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
 
    </GroundStructure>
 

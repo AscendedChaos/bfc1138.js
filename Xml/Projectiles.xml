@@ -346,7 +346,7 @@
     </Projectile>
 
 
-    <Projectile Name="Proj_HRB_Cannon_Red">
+    <Projectile Name="Proj_HRB_Cannon_Red_B">
         <!-- used by rebel & pirate anti-inf turret -->
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>p_red_blaster_sml_hand.ALO</Land_Model_Name>
@@ -2987,7 +2987,7 @@
         <Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
         <AI_Combat_Power>120</AI_Combat_Power>
         <Projectile_SFXEvent_Detonate>SFX_Land_Blaster_Detonation</Projectile_SFXEvent_Detonate>
-        <Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>&gt;
+        <Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
     </Projectile>
     
     
