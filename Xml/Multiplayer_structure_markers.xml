@@ -20,7 +20,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> Rep_Ground_Barracks_Build_Pad ,E_Ground_Barracks_Build_Pad, R_Ground_Barracks_Build_Pad, U_Ground_Merc_Outpost_Build_Pad, Corporate_Cloning_Facilities, CIS_Ground_Droid_Works_Build_Pad </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> Rep_Ground_Barracks_Build_Pad ,E_Ground_Barracks_Build_Pad, R_Ground_Barracks_Build_Pad, U_Ground_Merc_Outpost_Build_Pad, Corporate_Cloning_Facilities, CIS_Ground_Droid_Works_Build_Pad,E_Ground_Advanced_Barracks_Build_Pad,R_Ground_Advanced_Barracks_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
