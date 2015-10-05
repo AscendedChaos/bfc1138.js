@@ -32,7 +32,7 @@
         <Formation_Priority>4</Formation_Priority>
         <Is_Escort>no</Is_Escort>
         <Ship_Class>walker</Ship_Class>
-        <Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+        <Company_Transport_Unit>Imperial_Transport</Company_Transport_Unit>
         <Company_Units>IMP_MAAT</Company_Units>
         <Max_Squad_Size> 1 </Max_Squad_Size>
         <Icon_Name>i_button_ev_maat.tga</Icon_Name>

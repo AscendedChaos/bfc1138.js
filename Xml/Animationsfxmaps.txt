@@ -2220,6 +2220,10 @@ SOUND	ev_at-barge_land_land_00	74	Unit_Barge_Landing
 
 SOUND	ev_at-barge_land_takeoff_00	74	Unit_Barge_Takeoff
 
+SOUND	Ev_Cargo_Transport_landing_land_00	74	Unit_Barge_Landing
+
+SOUND	Ev_Cargo_Transport_landing_takeoff_00	74	Unit_Barge_Takeoff
+
 SOUND	uv_rz-52boardingship_landing_land_00	74	Unit_Barge_Landing
 
 SOUND	uv_rz-52boardingship_landing_takeoff_00	134	Unit_Barge_Takeoff

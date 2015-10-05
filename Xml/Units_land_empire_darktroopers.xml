@@ -208,7 +208,7 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>artillery</Ship_Class>
 		
-		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+        <Company_Transport_Unit>Imperial_Transport</Company_Transport_Unit>
 		<Company_Units>Dark_Trooper_PhaseI, Dark_Trooper_PhaseI, Dark_Trooper_PhaseI</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 
@@ -499,7 +499,7 @@
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		
-		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+        <Company_Transport_Unit>Imperial_Transport</Company_Transport_Unit>
 		<Company_Units>Dark_Trooper_PhaseII Dark_Trooper_PhaseII</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 
@@ -823,7 +823,7 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>artillery</Ship_Class>
 		
-		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+        <Company_Transport_Unit>Imperial_Transport</Company_Transport_Unit>
 		<Company_Units>Dark_Trooper_PhaseIII</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 
