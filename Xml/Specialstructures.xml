@@ -1966,7 +1966,7 @@
 
 		<Scale_Factor>0.75</Scale_Factor>
 
-		<Affiliation>Rebel</Affiliation>
+	    <Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -1989,6 +1989,7 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
+
 
 		<Destruction_Survivors> 
 			Rebel_Survivors_Small, 1.0
@@ -2891,6 +2892,7 @@
 				Imperial_Navy_Squad,
 				Imperial_Shadowtrooper_Squad,
 				Imperial_EvoTrooper_Squad,
+				Imperial_Shock_Trooper_Heavy_Squad,
 		</Tactical_Buildable_Objects_Multiplayer>
 			
 		<!--<Tactical_Buildable_Objects_Multiplayer> 
@@ -3071,6 +3073,7 @@
 				Rebel_Saboteur_Squad,
 				Rebel_Elite_Team,
 				Rebel_Elite_Light_Squad,
+				Alliance_Grenadier_Squad,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		
@@ -3433,6 +3436,7 @@
 				Rebel_Speeder_Wing,
 				Rebel_MDU_Company,
 				Rebel_X-wing_Land,
+				Rebel_AT_RT_Scout_Squad,
 				RL_Light_Armor_L1_Upgrade,
 				RL_Light_Armor_L2_Upgrade,
 				RL_Enhanced_Repulsors_L1_Upgrade,
@@ -4135,7 +4139,7 @@
 		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Build_Initially_Locked>yes</Build_Initially_Locked>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -4222,7 +4226,7 @@
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
 		<Is_Dummy>No</Is_Dummy>
@@ -4277,6 +4281,9 @@
 
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
+			Imperial_Shock_Trooper_Heavy_Squad,
+			Imperial_Purgetrooper_Company,
+			Imperial_StormCommando_Squad,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
@@ -5788,6 +5795,7 @@
 				General_Veers_Team,
 				Emperor_Palpatine_Team,
 				Mara_Jade_Team,
+				The_Inquisitor_Team,
 				EC_Level_Two_Tech_Upgrade,
 				EC_Level_Three_Tech_Upgrade,
 				

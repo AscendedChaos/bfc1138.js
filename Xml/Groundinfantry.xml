@@ -1591,7 +1591,7 @@
 		<SFXEvent_Move>Unit_Move_Scout_Trooper</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Scout_Trooper</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Scout_Trooper</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_Rebel_Sniper_Fire</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_2_Death</Death_SFXEvent_Start_Die>
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Scout_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Scout_Trooper </SFXEvent_Assist_Attack>
@@ -3685,10 +3685,10 @@
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Garrison_Category> Infantry </Garrison_Category>
         <Target_Bones> b_head, b_chest </Target_Bones>
-		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Movement_Animation_Speed> 0.60 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .360 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 1.9 </Max_Speed>
+		<Max_Speed> 1.5 </Max_Speed>
 		<!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
@@ -3755,7 +3755,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Infiltrator</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Rebel_Infiltrator</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Rebel_Infiltrator</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_Rebel_Sniper_Fire</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_3_Death</Death_SFXEvent_Start_Die>
 		
 		<!-- Placeholder events for Frank -->
@@ -3808,7 +3808,7 @@
 				<Type>STICKY_BOMB</Type>
 				<Recharge_Seconds>30.0f </Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Infiltrator_Grenade_Attack</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> Unit_Attack_02_Rebel_Infiltrator </SFXEvent_Target_Ability>
+				<SFXEvent_Target_Ability> Unit_Grenade_Rebel_Infiltrator </SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>

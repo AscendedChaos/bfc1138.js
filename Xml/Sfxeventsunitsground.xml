@@ -905,35 +905,75 @@
 
 	  <SFXEvent Name="Unit_Select_Rebel_Infiltrator">
 				<Use_Preset>Preset_UR</Use_Preset>
-				<Samples>U000_INF0101_ENG.wav U000_INF0102_ENG.wav U000_INF0103_ENG.wav U000_INF0104_ENG.wav U000_INF0105_ENG.wav U000_INF0106_ENG.wav U000_INF0107_ENG.wav U000_INF0108_ENG.wav U000_INF0109_ENG.wav U000_INF0110_ENG.wav U000_INF0111_ENG.wav U000_INF0112_ENG.wav U000_INF0113_ENG.wav U000_INF0114_ENG.wav U000_INF0115_ENG.wav</Samples>
+				<Samples>
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE1.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE2.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE3.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE4.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SAYWHAT.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SHRUG.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SHRUG2.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SHRUG3.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SHRUG4.wav
+				</Samples>
+			<Min_Volume>80</Min_Volume>
+			<Max_Volume>80</Max_Volume>
 					<Localize> Yes </Localize>
 					<Play_Sequentially> Yes </Play_Sequentially>
-					<Text_ID>TEXT_SFX_INF_SELECT_1, TEXT_SFX_INF_SELECT_2, TEXT_SFX_INF_SELECT_3, TEXT_SFX_INF_SELECT_4, TEXT_SFX_INF_SELECT_5, TEXT_SFX_INF_SELECT_6, TEXT_SFX_INF_SELECT_7, TEXT_SFX_INF_SELECT_8, TEXT_SFX_INF_SELECT_9, TEXT_SFX_INF_SELECT_10, TEXT_SFX_INF_SELECT_11, TEXT_SFX_INF_SELECT_12, TEXT_SFX_INF_SELECT_13, TEXT_SFX_INF_SELECT_14, TEXT_SFX_INF_SELECT_15</Text_ID>
+					<Text_ID></Text_ID>
 				<Overlap_Test> Unit_Rebel_Infiltrator </Overlap_Test>
 		 </SFXEvent>
 
 	  <SFXEvent Name="Unit_Complete_Rebel_Infiltrator">
 				<Use_Preset>Preset_UR</Use_Preset>
-				<Samples>U000_INF0103_ENG.wav</Samples>
+				<Samples>Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE4.wav</Samples>
 					<Localize> Yes </Localize>
+					<Min_Volume>80</Min_Volume>
+					<Max_Volume>80</Max_Volume>	
 					<Play_Sequentially> Yes </Play_Sequentially>
-					<Text_ID> TEXT_SFX_INF_SELECT_3</Text_ID>
+					<Text_ID></Text_ID>
 				<Overlap_Test> Unit_Rebel_Infiltrator </Overlap_Test>
 		 </SFXEvent>
 
 
 		<SFXEvent Name="Unit_Move_Rebel_Infiltrator">
 				<Use_Preset>Preset_UR</Use_Preset>
-				<Samples>U000_INF0201_ENG.wav U000_INF0202_ENG.wav U000_INF0203_ENG.wav U000_INF0204_ENG.wav U000_INF0205_ENG.wav U000_INF0206_ENG.wav U000_INF0207_ENG.wav U000_INF0208_ENG.wav U000_INF0209_ENG.wav U000_INF0210_ENG.wav U000_INF0211_ENG.wav U000_INF0212_ENG.wav U000_INF0213_ENG.wav U000_INF0214_ENG.wav U000_INF0215_ENG.wav</Samples>
+				<Samples>
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BADFEELING.wav 
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BADFEELING1.wav 
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BADFEELING2.wav 
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SAYWHAT.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BLAME.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BADFEELING3.wav 
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BLAME2.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BADFEELING4.wav 
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BADFEELING5.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE1.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE2.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE3.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE4.wav
+				</Samples>
+			<Min_Volume>80</Min_Volume>
+			<Max_Volume>80</Max_Volume>				
 					<Localize> Yes </Localize>
 					<Play_Sequentially> Yes </Play_Sequentially>
-					<Text_ID>TEXT_SFX_INF_MOVE_1, TEXT_SFX_INF_MOVE_2, TEXT_SFX_INF_MOVE_3, TEXT_SFX_INF_MOVE_4, TEXT_SFX_INF_MOVE_5, TEXT_SFX_INF_MOVE_6, TEXT_SFX_INF_MOVE_7, TEXT_SFX_INF_MOVE_8, TEXT_SFX_INF_MOVE_9, TEXT_SFX_INF_MOVE_10, TEXT_SFX_INF_MOVE_11, TEXT_SFX_INF_MOVE_12, TEXT_SFX_INF_MOVE_13, TEXT_SFX_INF_MOVE_14, TEXT_SFX_INF_MOVE_15</Text_ID>			
+					<Text_ID></Text_ID>			
 					<Overlap_Test> Unit_Rebel_Infiltrator </Overlap_Test>
 		 </SFXEvent>
 
 		<SFXEvent Name="Unit_Fleet_Move_Rebel_Infiltrator">
 				<Use_Preset>Preset_UR</Use_Preset>
-				<Samples> U000_INF0205_ENG.wav U000_INF0206_ENG.wav </Samples>
+				<Samples>
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE1.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE2.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE3.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE4.wav
+				</Samples>
+			<Min_Volume>80</Min_Volume>
+			<Max_Volume>80</Max_Volume>	
 					<Localize> Yes </Localize>
 					<Play_Sequentially> Yes </Play_Sequentially>
 					<Text_ID>TEXT_SFX_INF_MOVE_5, TEXT_SFX_INF_MOVE_6</Text_ID>			
@@ -943,30 +983,77 @@
 
 		<SFXEvent Name="Unit_Attack_Rebel_Infiltrator">
 				<Use_Preset>Preset_UR</Use_Preset>
-				<Samples>U000_INF0301_ENG.wav U000_INF0302_ENG.wav U000_INF0303_ENG.wav U000_INF0304_ENG.wav U000_INF0305_ENG.wav U000_INF0306_ENG.wav U000_INF0307_ENG.wav U000_INF0308_ENG.wav U000_INF0309_ENG.wav U000_INF0310_ENG.wav U000_INF0311_ENG.wav U000_INF0312_ENG.wav U000_INF0313_ENG.wav U000_INF0314_ENG.wav U000_INF0315_ENG.wav</Samples>
+				<Samples>
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE1.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE2.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE3.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE4.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING31.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING32.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING33.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING34.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING35.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING38.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING312.wav
+				</Samples>
+			<Min_Volume>80</Min_Volume>
+			<Max_Volume>80</Max_Volume>				
 					<Localize> Yes </Localize>
 					<Play_Sequentially> Yes </Play_Sequentially>
-					<Text_ID>TEXT_SFX_INF_ATTACK_1, TEXT_SFX_INF_ATTACK_2, TEXT_SFX_INF_ATTACK_3, TEXT_SFX_INF_ATTACK_4, TEXT_SFX_INF_ATTACK_5, TEXT_SFX_INF_ATTACK_6, TEXT_SFX_INF_ATTACK_7, TEXT_SFX_INF_ATTACK_8, TEXT_SFX_INF_ATTACK_9, TEXT_SFX_INF_ATTACK_10, TEXT_SFX_INF_ATTACK_11, TEXT_SFX_INF_ATTACK_12, TEXT_SFX_INF_ATTACK_13, TEXT_SFX_INF_ATTACK_14, TEXT_SFX_INF_ATTACK_15</Text_ID>			
+					<Text_ID></Text_ID>			
 				<Overlap_Test> Unit_Rebel_Infiltrator </Overlap_Test>
 		 </SFXEvent>
 
 		<SFXEvent Name="Unit_Assist_Move_Rebel_Infiltrator">
 				<Use_Preset>Preset_UR</Use_Preset>
-				<Samples>U000_INF0601_ENG.wav U000_INF0602_ENG.wav U000_INF0603_ENG.wav U000_INF0201_ENG.wav U000_INF0202_ENG.wav U000_INF0203_ENG.wav U000_INF0204_ENG.wav U000_INF0205_ENG.wav U000_INF0206_ENG.wav U000_INF0207_ENG.wav U000_INF0208_ENG.wav U000_INF0209_ENG.wav U000_INF0210_ENG.wav U000_INF0211_ENG.wav U000_INF0212_ENG.wav U000_INF0213_ENG.wav U000_INF0214_ENG.wav U000_INF0215_ENG.wav</Samples>
+				<Samples>
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BADFEELING.wav 
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BADFEELING1.wav 
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BADFEELING2.wav 
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SAYWHAT.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BLAME.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BADFEELING3.wav 
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BLAME2.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BADFEELING4.wav 
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_BADFEELING5.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE1.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE2.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE3.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE4.wav
+				</Samples>
+			<Min_Volume>80</Min_Volume>
+			<Max_Volume>80</Max_Volume>
 					<Localize> Yes </Localize>
 					<Play_Sequentially> Yes </Play_Sequentially>
 					<Probability>60</Probability>
-					<Text_ID>TEXT_SFX_INF_ASSIST_1, TEXT_SFX_INF_ASSIST_2,  TEXT_SFX_INF_ASSIST_3, TEXT_SFX_INF_MOVE_1, TEXT_SFX_INF_MOVE_2, TEXT_SFX_INF_MOVE_3, TEXT_SFX_INF_MOVE_4, TEXT_SFX_INF_MOVE_5, TEXT_SFX_INF_MOVE_6, TEXT_SFX_INF_MOVE_7, TEXT_SFX_INF_MOVE_8, TEXT_SFX_INF_MOVE_9, TEXT_SFX_INF_MOVE_10, TEXT_SFX_INF_MOVE_11, TEXT_SFX_INF_MOVE_12, TEXT_SFX_INF_MOVE_13, TEXT_SFX_INF_MOVE_14, TEXT_SFX_INF_MOVE_15</Text_ID>			
+					<Text_ID></Text_ID>			
 					<Overlap_Test> Unit_Rebel_Infiltrator </Overlap_Test>
 		 </SFXEvent>
 
 		<SFXEvent Name="Unit_Assist_Attack_Rebel_Infiltrator">
 				<Use_Preset>Preset_UR</Use_Preset>
-				<Samples>U000_INF0601_ENG.wav U000_INF0602_ENG.wav U000_INF0603_ENG.wav U000_INF0301_ENG.wav U000_INF0302_ENG.wav U000_INF0303_ENG.wav U000_INF0304_ENG.wav U000_INF0305_ENG.wav U000_INF0306_ENG.wav U000_INF0307_ENG.wav U000_INF0308_ENG.wav U000_INF0309_ENG.wav U000_INF0310_ENG.wav U000_INF0311_ENG.wav U000_INF0312_ENG.wav U000_INF0313_ENG.wav U000_INF0314_ENG.wav U000_INF0315_ENG.wav</Samples>
+				<Samples>
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE1.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE2.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE3.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE4.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING31.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING32.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING33.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING34.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING35.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING38.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_ENEMIESINCOMING312.wav
+				</Samples>
+			<Min_Volume>80</Min_Volume>
+			<Max_Volume>80</Max_Volume>	
 					<Localize> Yes </Localize>
 					<Play_Sequentially> Yes </Play_Sequentially>
 					<Probability>60</Probability>
-					<Text_ID>TEXT_SFX_INF_ASSIST_1, TEXT_SFX_INF_ASSIST_2,  TEXT_SFX_INF_ASSIST_3, TEXT_SFX_INF_ATTACK_1, TEXT_SFX_INF_ATTACK_2, TEXT_SFX_INF_ATTACK_3, TEXT_SFX_INF_ATTACK_4, TEXT_SFX_INF_ATTACK_5, TEXT_SFX_INF_ATTACK_6, TEXT_SFX_INF_ATTACK_7, TEXT_SFX_INF_ATTACK_8, TEXT_SFX_INF_ATTACK_9, TEXT_SFX_INF_ATTACK_10, TEXT_SFX_INF_ATTACK_11, TEXT_SFX_INF_ATTACK_12, TEXT_SFX_INF_ATTACK_13, TEXT_SFX_INF_ATTACK_14, TEXT_SFX_INF_ATTACK_15</Text_ID>			
+					<Text_ID></Text_ID>			
 				<Overlap_Test> Unit_Rebel_Infiltrator </Overlap_Test>
 		 </SFXEvent>
 
@@ -974,7 +1061,15 @@
 
 		<SFXEvent Name="Unit_Attack_02_Rebel_Infiltrator">
 				<Use_Preset>Preset_UR</Use_Preset>
-				<Samples>U000_INF0401_ENG.wav U000_INF0402_ENG.wav U000_INF0403_ENG.wav U000_INF0404_ENG.wav U000_INF0405_ENG.wav U000_INF0406_ENG.wav</Samples>
+				<Samples>
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE1.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE2.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE3.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE4.wav
+				</Samples>
+			<Min_Volume>80</Min_Volume>
+			<Max_Volume>80</Max_Volume>					
 					<Localize> Yes </Localize>
 					<Play_Sequentially> Yes </Play_Sequentially>
 					<Text_ID>TEXT_SFX_INF_ATTACK_02_1, TEXT_SFX_INF_ATTACK_02_2, TEXT_SFX_INF_ATTACK_02_3, TEXT_SFX_INF_ATTACK_02_4, TEXT_SFX_INF_ATTACK_02_5, TEXT_SFX_INF_ATTACK_6</Text_ID>			
@@ -984,13 +1079,32 @@
 
 		<SFXEvent Name="Unit_Guard_Rebel_Infiltrator">
 				<Use_Preset>Preset_UR</Use_Preset>
-				<Samples>U000_INF0501_ENG.wav U000_INF0502_ENG.wav</Samples>
+				<Samples>
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE1.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE2.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE3.wav
+				Data\Audio\SFX\Battlefront\SW01_VO_REBEL_FEMALE_AUTO_INWORLD_EMOTE_SALUTE4.wav
+				</Samples>
+			<Min_Volume>80</Min_Volume>
+			<Max_Volume>80</Max_Volume>
 					<Localize> Yes </Localize>
 					<Play_Sequentially> Yes </Play_Sequentially>
 					<Text_ID>TEXT_SFX_INF_GUARD_1, TEXT_SFX_INF_GUARD_2</Text_ID>
 				<Overlap_Test> Unit_Rebel_Infiltrator </Overlap_Test>
 		 </SFXEvent>
 
+		 
+		 <SFXEvent Name="Unit_Grenade_Rebel_Infiltrator">
+				<Use_Preset>Preset_UR</Use_Preset>
+				<Samples>Data\Audio\SFX\Battlefront\un_Rebel_sniper_nade.wav  Data\Audio\SFX\Battlefront\un_Rebel_sniper_nade_2.wav</Samples>
+			<Min_Volume>80</Min_Volume>
+			<Max_Volume>80</Max_Volume>
+					<Localize> Yes </Localize>
+					<Play_Sequentially> Yes </Play_Sequentially>
+					<Text_ID></Text_ID>			
+				<Overlap_Test> Unit_Rebel_Infiltrator </Overlap_Test>
+		 </SFXEvent>
 
 
 

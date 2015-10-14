@@ -184,6 +184,14 @@
 			<Use_Preset>Preset_GUN</Use_Preset>
 			<Samples>GUN_Rebel_Trooper_1.wav GUN_Rebel_Trooper_2.wav GUN_Rebel_Trooper_3.wav</Samples>
     </SFXEvent>
+	
+	<SFXEvent Name="Unit_Rebel_Sniper_Fire">
+			<Use_Preset>Preset_GUN</Use_Preset>
+			<Samples>Data\Audio\SFX\wep_Sniper_Rifle_fire_01.wav Data\Audio\SFX\wep_Sniper_Rifle_impact_01.wav</Samples>
+			<Min_Volume>80</Min_Volume>
+			<Max_Volume>80</Max_Volume>
+    </SFXEvent>
+
 
 	<SFXEvent Name="Unit_Storm_Trooper_Fire">
 			<Use_Preset>Preset_GUN</Use_Preset>
