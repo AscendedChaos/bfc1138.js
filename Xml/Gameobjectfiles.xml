@@ -188,6 +188,7 @@
 	<File>Units_land_rebel_v_wing_speeder.xml</File>
 	<File>Units_land_Rebel_Grenadier.xml</File>
     <File>Units_Land_Rebel_Commando.xml</File>
+    <File>Units_land_rebel_skyhopper.xml</File>
 	
 	<!-- Expansion Units: Rebel Space -->
 	<File>Units_Space_Rebel_BWing.xml</File>	
