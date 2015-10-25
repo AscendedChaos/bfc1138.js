@@ -188,7 +188,6 @@
 	<File>Units_land_rebel_v_wing_speeder.xml</File>
 	<File>Units_land_Rebel_Grenadier.xml</File>
     <File>Units_Land_Rebel_Commando.xml</File>
-    <File>Units_land_rebel_skyhopper.xml</File>
 	
 	<!-- Expansion Units: Rebel Space -->
 	<File>Units_Space_Rebel_BWing.xml</File>	
@@ -311,6 +310,7 @@
 	<File>Units_hero_republic_obiwan.xml</File>
 	<File>Units_hero_republic_omegasquad.xml</File>
 	<File>Units_hero_Republic_Rex.xml</File>
+	<File>Units_land_republic_Jedi.xml</File>
 	
 	<!-- Expansion Units: Republic Space -->
 	<File>Units_space_republic_arquitens.xml</File>

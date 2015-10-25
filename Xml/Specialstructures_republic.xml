@@ -278,6 +278,9 @@
             Plex_CloneTrooper_Squad,
             Republic_Rifleman_Squad,
             Clone_Heavy_Squad,
+			Jedi_Master_Knight_Team,
+			Jedi_Master_Padawan_Team,
+			Jedi_Master_Padawan_v2_Team,
         </Tactical_Buildable_Objects_Multiplayer>
 
 
@@ -1113,7 +1116,7 @@
         <Political_Control>0</Political_Control>
         <Build_Cost_Credits>1000</Build_Cost_Credits>
         <Build_Time_Seconds>22</Build_Time_Seconds>
-        <Build_Tab_Special_Structures>No</Build_Tab_Special_Structures>
+        <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
         <Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
         <Size_Value>50</Size_Value>
         <Base_Position>In_Base</Base_Position>
@@ -1121,7 +1124,7 @@
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
         <Required_Special_Structures />
-        <Required_Planets />
+        <Required_Planets>Coruscant</Required_Planets>
         <Tactical_Health>650</Tactical_Health>
         <Shield_Points>700</Shield_Points>
         <Shield_Refresh_Rate>25</Shield_Refresh_Rate>
@@ -1153,23 +1156,21 @@
         <Property_Flags>InBase</Property_Flags>
 
 
-        <Tactical_Buildable_Objects_Multiplayer> 
+        <Tactical_Buildable_Objects_Campaign> 
 
             Republic,
-            Jedi_Squad,
-            Yoda_Team_R,
-            Anakin_Skywalker_Jedi_Team,
-            Obi_Wan_Team_Young,
-            Plo_Koon_Team
+			Jedi_Master_Knight_Team,
+			Jedi_Master_Padawan_Team,
+			Jedi_Master_Padawan_v2_Team,
 
-        </Tactical_Buildable_Objects_Multiplayer>
+        </Tactical_Buildable_Objects_Campaign>
 
 
 
         <AI_Combat_Power>300</AI_Combat_Power>
 
-        <Starting_Spawned_Units_Tech_0>Jedi_Squad, 1</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>CIS_Geonosian_Squad, -1</Reserve_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Jedi_Master_Padawan_Team, 1</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Jedi_Master_Padawan_Team, -1</Reserve_Spawned_Units_Tech_0>
 
         <Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>		
         <Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
