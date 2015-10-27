@@ -311,6 +311,9 @@
 	<File>Units_hero_republic_omegasquad.xml</File>
 	<File>Units_hero_Republic_Rex.xml</File>
 	<File>Units_land_republic_Jedi.xml</File>
+	<File>Units_hero_republic_shaak_ti.xml</File>
+	<File>Units_hero_republic_luminara.xml</File>
+	<File>Units_hero_republic_aayla_secura.xml</File>
 	
 	<!-- Expansion Units: Republic Space -->
 	<File>Units_space_republic_arquitens.xml</File>
