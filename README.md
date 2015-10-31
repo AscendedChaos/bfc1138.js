@@ -1,5 +1,4 @@
-# BF_commander_mod
-SW: BF Commander Mod
+# BFC1138_Mod
 
 Allright!
 
@@ -9,4 +8,4 @@ The repository will keep track and let us know what and when each file in our co
 
 MTFBWY.
 
-[Branches now merged!]
+[Repository name now changed!]
