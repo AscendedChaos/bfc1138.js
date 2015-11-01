@@ -67,11 +67,22 @@
 
         <!-- Fighter complement -->
         <Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 10</Starting_Spawned_Units_Tech_0>
-        <Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Belbullab_Squadron, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 160</Reserve_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 60</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 60</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Belbullab_Squadron, 30</Reserve_Spawned_Units_Tech_0>
 
+        
+        <Starting_Spawned_Units_Tech_3>Vulture_Droid_Squadron, 10</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_3>Tri_Droid_Squadron, 8</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_3>Hyena_DroidBomber_Squadron, 4</Starting_Spawned_Units_Tech_3>
+        <Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_3>Vulture_Droid_Squadron, 60</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_3>Tri_Droid_Squadron, 40</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_3>Hyena_DroidBomber_Squadron, 30</Reserve_Spawned_Units_Tech_3>
+
+        
+        
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <Death_Explosions>Large_Explosion_Space</Death_Explosions>
         <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>

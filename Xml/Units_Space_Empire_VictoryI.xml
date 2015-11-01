@@ -251,11 +251,29 @@
         <Affiliation>Republic</Affiliation>
         
         <!-- Fighter complement -->
-        <Starting_Spawned_Units_Tech_0>V19_Torrent_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <!--<Starting_Spawned_Units_Tech_0>V19_Torrent_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>ARC-170_Squadron_MP, 1</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>V19_Torrent_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>ARC-170_Squadron_MP, 1</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>ARC-170_Squadron_MP, 1</Reserve_Spawned_Units_Tech_0>-->
+        
+        
+        <Starting_Spawned_Units_Tech_0>V19_Torrent_Squadron, 6</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>NTB_630_Squadron, 4</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>V19_Torrent_Squadron, 4</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_0>V19_Torrent_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>NTB_630_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>V19_Torrent_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+
+        <Starting_Spawned_Units_Tech_3>ARC-170_Squadron, 6</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_3>NTB_630_Squadron, 4</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_3>VWing_Squadron_Rep, 8</Starting_Spawned_Units_Tech_3>
+        <Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_3>ARC-170_Squadron, 3</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_3>NTB_630_Squadron, 3</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_3>VWing_Squadron_Rep, 4</Reserve_Spawned_Units_Tech_3>
+        
         <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
         <Population_Value>3</Population_Value>
 

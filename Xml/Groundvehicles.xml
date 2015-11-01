@@ -25,11 +25,17 @@
         <Encyclopedia_Good_Against>Rebel_Trooper Underworld_Merc DSD</Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To>T4B_Tank T2B_Tank OG9_Walker</Encyclopedia_Vulnerable_To>
 
-        <Land_Model_Name>Rep_AT_RT_Walker.ALO</Land_Model_Name>
+        <Land_Model_Name>Rep_ATRT.ALO</Land_Model_Name>
         <Land_Terrain_Model_Mapping>
-            Temperate, Rep_AT_RT_Walker.ALO, Urban, Rep_AT_RT_Walker.ALO, Arctic, Rep_AT_RT_Walker.ALO, Volcanic, Rep_AT_RT_Walker.ALO, Desert, Rep_AT_RT_Walker_Forest.ALO, Forest, Rep_AT_RT_Walker_Forest.ALO, Swamp, Rep_AT_RT_Walker_Forest.ALO
+            Temperate, Rep_ATRT.ALO, 
+            Urban, Rep_ATRT.ALO, 
+            Arctic, Rep_ATRT.ALO, 
+            Volcanic, Rep_ATRT.ALO, 
+            Desert, Rep_ATRT.ALO, 
+            Forest, Rep_ATRT.ALO, 
+            Swamp, Rep_ATRT.ALO
         </Land_Terrain_Model_Mapping>
-        <Land_Model_Anim_Override_Name>Rep_AT_RT_Walker.ALO</Land_Model_Anim_Override_Name>
+        <Land_Model_Anim_Override_Name></Land_Model_Anim_Override_Name>
         <Behavior>SELECTABLE</Behavior>
         <LandBehavior>BARRAGE, ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON, POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, SQUASH, GARRISON_UNIT</LandBehavior>
         <!-- Ground vehicles priority 1, ground infantry priority 2, air vehicles priority 3 (N/A = 9999) -->
@@ -45,7 +51,8 @@
         <Ranking_In_Category>7</Ranking_In_Category>
         <Autoresolve_Health>200</Autoresolve_Health>
         <Mass>1.0</Mass>
-        <Scale_Factor>1.0</Scale_Factor>
+        <!--<Scale_Factor>1.0</Scale_Factor>-->
+        <Scale_Factor>1.5</Scale_Factor>
 
 
         <Movement_Animation_Speed>0.8117</Movement_Animation_Speed>
@@ -53,7 +60,7 @@
         <Max_Speed>1.1</Max_Speed>
         <Max_Rate_Of_Turn>4</Max_Rate_Of_Turn>
         <Stopped_Rate_Of_Turn>3.75</Stopped_Rate_Of_Turn>
-        <Walk_Transition>Yes</Walk_Transition>
+        <Walk_Transition>No</Walk_Transition>
         <Has_Pre_Turn_Anim>yes</Has_Pre_Turn_Anim>
         <Min_Speed_Fraction_For_Turn>.4</Min_Speed_Fraction_For_Turn>
         <Min_Speed>.3</Min_Speed>

@@ -2651,7 +2651,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
 		 
-		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>2500.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Select_Box_Scale>50</Select_Box_Scale>
 

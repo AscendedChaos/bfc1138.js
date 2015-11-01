@@ -106,7 +106,7 @@
 		<Starting_Spawned_Units_Tech_0>Belbullab_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>6</Spawned_Squadron_Delay_Seconds>
 		<!--Currently no reserves -->
-		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 10</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 8</Reserve_Spawned_Units_Tech_0>
     	<Reserve_Spawned_Units_Tech_0>Belbullab_Squadron, 5</Reserve_Spawned_Units_Tech_0> <!-- From 6 -->
 		<Population_Value>2</Population_Value>
 		

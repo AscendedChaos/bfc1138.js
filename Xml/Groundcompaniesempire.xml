@@ -269,7 +269,7 @@
         <Build_Time_Seconds>40</Build_Time_Seconds>
         <Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
         <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-        <Tech_Level>2</Tech_Level>
+        <Tech_Level>1</Tech_Level>
         <Required_Timeline>0</Required_Timeline>
         <!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
         <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
@@ -284,7 +284,7 @@
         <Company_Units>AT_RT_Walker, AT_RT_Walker, AT_RT_Walker, AT_RT_Walker, AT_RT_Walker, AT_RT_Walker</Company_Units>
         <Max_Squad_Size>1</Max_Squad_Size>
         <Icon_Name>i_button_atrt_walker.tga</Icon_Name>
-        <GUI_Model_Name>Rep_AT_RT_Walker.ALO</GUI_Model_Name>
+        <GUI_Model_Name>Rep_ATRT.ALO</GUI_Model_Name>
         <GUI_Distance>115</GUI_Distance>
         <GUI_Offset>0 0 15</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>

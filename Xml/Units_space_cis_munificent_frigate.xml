@@ -87,12 +87,12 @@
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- From 12 -->
 		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 8 -->
-		<Starting_Spawned_Units_Tech_0>Hyena_DroidBomber_Squadron, 3</Starting_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_2>Hyena_DroidBomber_Squadron, 3</Starting_Spawned_Units_Tech_2> 
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
 		<!--Currently no reserves -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 4</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 2</Reserve_Spawned_Units_Tech_0> <!-- From 24 -->
-		<Reserve_Spawned_Units_Tech_0>Hyena_DroidBomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_2>Hyena_DroidBomber_Squadron, 2</Reserve_Spawned_Units_Tech_2>
 
 		<HardPoints>
 			HP_Munificent_Front, 
