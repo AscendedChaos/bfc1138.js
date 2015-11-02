@@ -544,6 +544,12 @@
 
         <!-- Non-Hero unit abilities description -->
 
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+        
 
     </GroundCompany>
 
@@ -606,6 +612,12 @@
 
         <!-- Non-Hero unit abilities description -->
 
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+        
 
     </GroundCompany>
 

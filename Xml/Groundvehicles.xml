@@ -1122,7 +1122,7 @@
         <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
         <Behavior>SELECTABLE</Behavior>
-        <LandBehavior>AFFECTED_BY_SHIELD, SHIELDED, TREAD_SCROLL, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING</LandBehavior>
+        <LandBehavior>HUNT, AFFECTED_BY_SHIELD, SHIELDED, TREAD_SCROLL, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING</LandBehavior>
         <Property_Flags>GoodInfantryCrusher</Property_Flags>
 
         <Is_Affected_By_Gravity_Control_Field>Yes</Is_Affected_By_Gravity_Control_Field>
@@ -1250,6 +1250,12 @@
                 <SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
             </Redirect_Blaster_Ability>
         </Abilities>
+        
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
 
         <Converted_To_Enemy_Die_Time_Seconds>45</Converted_To_Enemy_Die_Time_Seconds>
     </GroundVehicle>
@@ -1266,6 +1272,13 @@
 
         <Icon_Name>I_BUTTON_IFTX_REP.TGA</Icon_Name>
         <Land_Model_Name>Rep_IFTX.ALO</Land_Model_Name>
+        
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+        
     </GroundVehicle>
     <GroundVehicle Name="Sabertank_Telekinesis_Death_Clone">
         <Variant_Of_Existing_Type>Saber_Tank</Variant_Of_Existing_Type>

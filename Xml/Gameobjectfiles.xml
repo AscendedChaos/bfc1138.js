@@ -305,6 +305,7 @@
 	<!-- Expansion Units: Republic -->
 	<File>Units_hero_republic_Commander_Keller.xml</File>
 	<File>Units_hero_republic_Commander_Wolffe.xml</File>
+	<File>Units_hero_republic_Commander_Fox.xml</File>
 	<File>Units_hero_republic_deltasquad.xml</File>
 	<File>Units_hero_republic_mace_windu.xml</File>
 	<File>Units_hero_republic_obiwan.xml</File>
