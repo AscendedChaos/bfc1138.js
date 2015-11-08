@@ -678,7 +678,7 @@
 		<SFXEvent_Guard>Unit_Guard_Sabateur</SFXEvent_Guard>
 		<SFXEvent_Group_Move>Unit_Assist_Move_Sabateur</SFXEvent_Group_Move>
 		<SFXEvent_Group_Attack>Unit_Assist_Attack_Sabateur</SFXEvent_Group_Attack>
-		<SFXEvent_Fire>Unit_Underworld_Infantry_Fire</SFXEvent_Fire>
+        <SFXEvent_Fire>Unit_Z6_Fire</SFXEvent_Fire>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sabateur</SFXEvent_Fleet_Move>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_2_Death</Death_SFXEvent_Start_Die>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>

@@ -106,7 +106,7 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Boss </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Boss </Death_SFXEvent_Start_Die>
 
-		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Scale>150</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Republic_Hero</Selection_Blob_Material_Name>
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
@@ -322,7 +322,7 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Fixer </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Fixer </Death_SFXEvent_Start_Die>
 
-		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Scale>150</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Republic_Hero</Selection_Blob_Material_Name>
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
@@ -561,7 +561,7 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Sev </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Sev </Death_SFXEvent_Start_Die>
 
-		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Scale>150</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Republic_Hero</Selection_Blob_Material_Name>
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
@@ -779,7 +779,7 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Scorch </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Scorch </Death_SFXEvent_Start_Die>
 
-		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Scale>150</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Republic_Hero</Selection_Blob_Material_Name>
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>

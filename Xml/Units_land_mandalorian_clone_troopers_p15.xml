@@ -48,7 +48,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 				
-		<Scale_Factor>5.5</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>5.4</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>

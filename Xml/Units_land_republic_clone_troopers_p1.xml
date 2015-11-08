@@ -1351,7 +1351,7 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
-		<Company_Transport_Unit>Republic_Nu_Shuttle_Landing</Company_Transport_Unit>
+		<Company_Transport_Unit>Republic_Nu_Shuttle</Company_Transport_Unit>
 		<Create_Team_Type>Clonetrooper_P1_Team </Create_Team_Type>
         <!-- AI  Changed to 18 troopers in squads of 9 -->
 		<Company_Units>       
@@ -1715,7 +1715,7 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
-		<Company_Transport_Unit>Republic_Nu_Shuttle_Landing</Company_Transport_Unit>
+		<Company_Transport_Unit>Republic_Nu_Shuttle</Company_Transport_Unit>
 		<Create_Team_Type>Clonetrooper_P1_Team</Create_Team_Type>
         <!-- AI  Changed to 18 troopers in squads of 9 -->
 		<Company_Units>       
@@ -1798,7 +1798,7 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
-		<Company_Transport_Unit>Republic_Nu_Shuttle_Landing</Company_Transport_Unit>
+		<Company_Transport_Unit>Republic_Nu_Shuttle</Company_Transport_Unit>
 		<Create_Team_Type>Clonetrooper_P1_Team</Create_Team_Type>
         <!-- AI  Changed to 18 troopers in squads of 9 -->
 			<Company_Units>       
@@ -1889,7 +1889,7 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
-		<Company_Transport_Unit>Republic_Nu_Shuttle_Landing</Company_Transport_Unit>
+		<Company_Transport_Unit>Republic_Nu_Shuttle</Company_Transport_Unit>
 		<Create_Team_Type>Clonetrooper_P1_Team</Create_Team_Type>
         <!-- AI  Changed to 18 troopers in squads of 9 -->
 	    <Company_Units>       

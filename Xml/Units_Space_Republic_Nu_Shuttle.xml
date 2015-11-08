@@ -10,7 +10,7 @@
 		<Select_Box_Scale>150</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
-		<Scale_Factor>0.05</Scale_Factor>
+		<Scale_Factor>0.07</Scale_Factor>
 		<No_Colorization_Color> 255, 0, 0, 255 </No_Colorization_Color>
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
 
@@ -119,7 +119,7 @@
 		<Text_ID>TEXT_UNIT_IMPERIAL_LANDING_CRAFT</Text_ID>
 		<Space_Model_Name>REP_NU_SHUTTLE.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-        <Scale_Factor>0.05</Scale_Factor>
+        <Scale_Factor>0.01</Scale_Factor>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Max_Speed>0.25</Max_Speed>
 		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>

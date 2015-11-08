@@ -256,7 +256,7 @@
         <Formation_Priority>1</Formation_Priority>
         <Is_Escort>yes</Is_Escort>
         <Ship_Class>infantry</Ship_Class>
-        <!--<Company_Transport_Unit>Republic_Botajef_Landing</Company_Transport_Unit>-->
+        <!--<Company_Transport_Unit>Republic_Botajef</Company_Transport_Unit>-->
         <Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
         <Company_Units>Rebel_AT_RT_Walker, Rebel_AT_RT_Walker, Rebel_AT_RT_Walker, Rebel_AT_RT_Walker, Rebel_AT_RT_Walker, Rebel_AT_RT_Walker</Company_Units>
         <Max_Squad_Size> 1 </Max_Squad_Size>

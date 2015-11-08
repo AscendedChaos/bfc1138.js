@@ -200,7 +200,7 @@
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>artillery</Ship_Class>
-		<Company_Transport_Unit>Republic_Botajef_Landing</Company_Transport_Unit>
+		<Company_Transport_Unit>Republic_Botajef</Company_Transport_Unit>
 		<Company_Units>LAAT, LAAT </Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -261,7 +261,7 @@
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>artillery</Ship_Class>
-		<Company_Transport_Unit>Republic_Botajef_Landing</Company_Transport_Unit>
+		<Company_Transport_Unit>Republic_Botajef</Company_Transport_Unit>
 		<Company_Units>LAAT, LAAT </Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>

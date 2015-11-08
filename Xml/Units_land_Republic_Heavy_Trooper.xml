@@ -336,7 +336,7 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
-		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+        <Company_Transport_Unit>Republic_Nu_Shuttle</Company_Transport_Unit>
 		<Create_Team_Type> Clone_Heavy_Team </Create_Team_Type>
 		<!-- AI  Changed to 15 soldiers with 5 per troop -->
 		<Company_Units>
