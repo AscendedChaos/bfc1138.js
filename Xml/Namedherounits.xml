@@ -496,7 +496,7 @@
 	</HeroUnit>
 
 	<HeroUnit Name="X1">
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Named_Hero>No</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_X1</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_X1 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>

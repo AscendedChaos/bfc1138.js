@@ -608,11 +608,11 @@
 		<Build_Time_Seconds>24</Build_Time_Seconds>
 		<Build_Cost_Credits>2300</Build_Cost_Credits>
 		<Combat_Power_Value>0</Combat_Power_Value>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>3</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures />
+<Required_Special_Structures>Jedi_Temple</Required_Special_Structures>
 		<Required_Planets>Coruscant</Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Obiwan_Jedi_Eta2</Company_Transport_Unit>
@@ -662,17 +662,8 @@
 		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, GARRISON_UNIT </LandBehavior>
 
-		<!-- Lightsaber holstering data  -->
-		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
-		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
-		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
-		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
-		<Holster_Holstered_Bone_Translation> 0.0, -5.1705, 0.0 </Holster_Holstered_Bone_Translation>
-		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
-		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
-		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
 
 		<Garrison_Category> Infantry </Garrison_Category>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
@@ -1252,16 +1243,16 @@
 		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
-		<Affiliation>Republic,Rebel</Affiliation>
+		<Affiliation>Republic</Affiliation>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
 		<Build_Time_Seconds>17</Build_Time_Seconds>
 		<Build_Cost_Credits>1300</Build_Cost_Credits>
 		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>1</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>Jedi_Temple</Required_Special_Structures>
 		<Required_Planets>Coruscant</Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Obiwan_Jedi_Eta2</Company_Transport_Unit>
@@ -1907,11 +1898,11 @@
 		<Build_Time_Seconds>28</Build_Time_Seconds>
 		<Build_Cost_Credits>3300</Build_Cost_Credits>
 		<Combat_Power_Value>0</Combat_Power_Value>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>5</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures />
+<Required_Special_Structures>Jedi_Temple</Required_Special_Structures>
 		<Required_Planets>Coruscant</Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Obiwan_Jedi_Eta2</Company_Transport_Unit>

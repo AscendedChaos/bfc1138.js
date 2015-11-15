@@ -67,6 +67,7 @@
 			Shaak_Ti_Team,
 			Aayla_Secura_Team,
 			Luminara_Team,
+			Kit_Fisto_Team,
             REPC_Level_Two_Tech_Upgrade,
             REPC_Level_Three_Tech_Upgrade,
             REPC_Level_Four_Tech_Upgrade,
@@ -1070,7 +1071,7 @@
         <Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
         <Land_Model_Name>W_JediTemple.alo</Land_Model_Name>
-        <Icon_Name>REPUBLIC.tga</Icon_Name>
+        <Icon_Name>I_Button_Jedi_Temple.tga</Icon_Name>
 
         <GUI_Row> 0 </GUI_Row>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>

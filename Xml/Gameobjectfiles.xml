@@ -268,6 +268,8 @@
 
     <!-- Expansion Units: CIS -->
 	<File>Units_hero_cis_grievous.xml</File>
+	<File>Units_land_cis_darkside_adepts.xml</File>
+	<File>Units_hero_cis_asajj_ventress.xml</File>
 	
 	<!-- Expansion Units: CIS Space -->
     <File>Units_space_cis_lucrehulk.xml</File>	
@@ -305,7 +307,6 @@
 	<!-- Expansion Units: Republic -->
 	<File>Units_hero_republic_Commander_Keller.xml</File>
 	<File>Units_hero_republic_Commander_Wolffe.xml</File>
-	<File>Units_hero_republic_Commander_Fox.xml</File>
 	<File>Units_hero_republic_deltasquad.xml</File>
 	<File>Units_hero_republic_mace_windu.xml</File>
 	<File>Units_hero_republic_obiwan.xml</File>
@@ -315,6 +316,8 @@
 	<File>Units_hero_republic_shaak_ti.xml</File>
 	<File>Units_hero_republic_luminara.xml</File>
 	<File>Units_hero_republic_aayla_secura.xml</File>
+	<File>Units_hero_republic_kit_fisto.xml</File>
+	<File>Units_hero_republic_plokoon.xml</File>
 	
 	<!-- Expansion Units: Republic Space -->
 	<File>Units_space_republic_arquitens.xml</File>
