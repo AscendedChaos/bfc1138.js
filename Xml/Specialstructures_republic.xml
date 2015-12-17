@@ -523,7 +523,7 @@
         <Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
         <Select_Box_Scale>180</Select_Box_Scale>
         <Mass>1.0</Mass>
-        <Scale_Factor>1.25</Scale_Factor>
+        <Scale_Factor>1.55</Scale_Factor>
         <!--<Is_Sprite>No</Is_Sprite>-->
         <GUI_Bracket_Size>2</GUI_Bracket_Size> 
         <Is_Dummy>No</Is_Dummy>

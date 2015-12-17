@@ -265,7 +265,27 @@
         <Build_Initially_Locked>Yes</Build_Initially_Locked>
         <Has_Space_Evaluator>True</Has_Space_Evaluator>
         <Tactical_Buildable_Objects_Multiplayer>
-            Republic, Anakin_Skywalker_Team_Space_MP, Obiwan_Team_Space_MP, VWing_Squadron_Rep, Eta2_Actis_Squadron_MP, V19_Torrent_Squadron, ARC-170_Squadron_MP, NTB_630_Squadron, Venator, Victory_Destroyer_Rep, Acclamator_Assault_Ship_Rep, REP_VictorIICruiser_MP, Jedi_Corvette_01,, Republic_Corvette_02, Republic_Corvette_03, Republic_Corvette_04, Republic_Corvette_05, Republic_Corvette_06, Republic_Interdictor_Cruiser, Justice_Cruiser, Republic_Light_Cruiser, Skirmish_Republic_Star_Base_1,
+            Republic, 
+			Anakin_Skywalker_Team_Space_MP, 
+			Obiwan_Team_Space_MP, 
+			VWing_Squadron_Rep, 
+			Eta2_Actis_Squadron_MP, 
+			V19_Torrent_Squadron, 
+			ARC-170_Squadron_MP, 
+			NTB_630_Squadron, 
+			Venator, 
+			Victory_Destroyer_Rep,
+			Acclamator_Assault_Ship_Rep, 
+			REP_VictorIICruiser_MP, 
+			Jedi_Corvette_01, 
+			Republic_Corvette_02, 
+			Republic_Corvette_03,
+			Republic_Corvette_04,
+			Republic_Corvette_05,
+			Republic_Corvette_06,
+			Republic_Interdictor_Cruiser,
+			Justice_Cruiser, 
+			Republic_Light_Cruiser,
         </Tactical_Buildable_Objects_Multiplayer>
 
         <SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Empire_Space_Station</SFXEvent_Attack_Hardpoint>
@@ -2337,6 +2357,7 @@ HP_NEWISD_Engines,
     <UniqueUnit Name="Slave_I_Landing">
         <Variant_Of_Existing_Type>Slave_I</Variant_Of_Existing_Type>
         <Is_Valid_Target>No</Is_Valid_Target>
+		<Scale_Factor>2.0</Scale_Factor>
         <User_Bound_Min>-700, -700, 0</User_Bound_Min>
         <User_Bound_Max>700, 700, 1500</User_Bound_Max>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>

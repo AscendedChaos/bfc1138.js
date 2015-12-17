@@ -27,15 +27,9 @@
 
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 
-		<!--<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
-        <Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-        <Walk_Animation_Speed> 12.0</Walk_Animation_Speed>-->
-        <Movement_Animation_Speed> 0.0 </Movement_Animation_Speed>
-        <Rotation_Animation_Speed> 12.0 </Rotation_Animation_Speed>
-        <Walk_Animation_Speed> 12.0</Walk_Animation_Speed>
-        <Crouch_Animation_Speed> 12.0 </Crouch_Animation_Speed>
-		<!--<Max_Speed> 0.08 </Max_Speed>-->
-        <Max_Speed> 1 </Max_Speed>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Max_Speed> 1 </Max_Speed>
 		<Alternate_Max_Speed> 2.5 </Alternate_Max_Speed>
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
@@ -51,7 +45,7 @@
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<Max_Lift> .6 </Max_Lift>
 		
-        <Scale_Factor>0.17</Scale_Factor>
+		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -110,7 +104,8 @@
 		<Lua_Script>BobaFettPlan</Lua_Script>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		
-		<Select_Box_Scale>180</Select_Box_Scale>
+		
+		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Cis_Hero</Selection_Blob_Material_Name>
         <Highlight_Blob_Material_Name>Highlight_Cis_Hero</Highlight_Blob_Material_Name>

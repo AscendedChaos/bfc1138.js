@@ -1,6 +1,47 @@
 <?xml version="1.0"?>
 <UpgradeObjects_Underworld>
 
+
+	<UpgradeObject Name="UL_Enhanced_Base_Shield_Upgrade_NoPre">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_base_shield.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_BASE_SHIELD </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_BASE_SHIELD</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="EL_Enhanced_Base_Shield_Effect">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Base_Shield_Upgrade>Yes</Base_Shield_Upgrade>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="UL_Enhanced_Base_Shield_Upgrade">
+		<Variant_Of_Existing_Type>UL_Enhanced_Base_Shield_Upgrade_NoPre</Variant_Of_Existing_Type>
+		<Tactical_Build_Prerequisites>UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+
 <!-- ================== UNDERWORLD LAND MULTIPLAYER GENERAL UPGRADE OBJECTS =================== -->
 
 <!-- Black Market Shielding (Level 1): Structures gain a 25% bonus to shield strength. -->
@@ -2916,6 +2957,403 @@
 		</Abilities>
 	</UpgradeObject>
 	
+
+	<!-- ******************************************************************************************* -->
+<!-- ******				                 NEW PLANETARY UPGRADES                                 ****** -->
+<!-- ******************************************************************************************* -->
+	
+	<UpgradeObject Name="Bespin_Venator_Damage_Bonus">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Republic</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_IMPROVED_WEAPONS_REP1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_PLANET_BESPIN_ENCYC_00  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_PLANET_BESPIN_INFO_ADV_00</Text_ID>
+	
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Bespin_Venator_Damage_Upgrade">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Venator </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	
+	</UpgradeObject>
+
+<UpgradeObject Name="Ryloth_Providence_Shield_Bonus">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Republic</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_ENHANCED_SHIELD1.TGA</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_PLANET_RYLOTH_ENCYC_01  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_PLANET_RYLOTH_INFO_ADV_01</Text_ID>
+	
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Ryloth_Providence_Shield_Upgrade">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Providence </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	
+	</UpgradeObject>
+
+<UpgradeObject Name="Corulag_Fighter_Speed_Bonus">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Republic</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_BLACK_MARKET_ENG1.TGA</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_PLANET_CORULAG_ENCYC_01  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_PLANET_CORULAG_INFO_ADV</Text_ID>
+	
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Corulag_Fighter_Engine_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	<CategoryMask>Upgrade</CategoryMask>
+
+	</UpgradeObject>
+
+<!-- Felucia Planetary Advantage: Immunity to the gameplay effects of Weather. -->
+	<UpgradeObject Name="Felucia_Plantary_Advantage">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>CIS, Republic, Underworld,Rebel,Empire</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_weather_affinity.tga</Icon_Name>
+		
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_FELUCIA_WEATHER_PROOF</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_FELUCIA_WEATHER_PROOF</Text_ID>
+		
+		<Abilities SubObjectList="Yes">
+			<Weatherproof_Ability Name="Felucia_Weatherproof_Upgrade_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+			</Weatherproof_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+<!-- Republic Saleucami Planetary Advantage: Light Frigates do 20% more damage. -->
+	<UpgradeObject Name="R_Saleucami_Plantary_Advantage">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>CIS,Republic,Rebel</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+
+		<Icon_Name>I_MULTI_IMPROVED_WEAPONS_REP1.tga</Icon_Name>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_SALEUCAMI_LIGHT_FRIGATE_DAMAGE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_SALEUCAMI_LIGHT_FRIGATE_DAMAGE </Text_ID>
+		
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="R_Saleucami_Frigate_Damage_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Republic_light_frigate </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+		
+	<!-- CIS Saleucami Planetary Advantage: Patrol Frigates do 20% more damage. -->
+	<UpgradeObject Name="C_Saleucami_Plantary_Advantage">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+
+		<Icon_Name>I_MULTI_IMPROVED_WEAPONS_CIS1.tga</Icon_Name>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_SALEUCAMI_PATROL_FRIGATE_DAMAGE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_SALEUCAMI_PATROL_FRIGATE_DAMAGE </Text_ID>
+		
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="C_Saleucami_Frigate_Damage_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Cis_Patrol_Frigate </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>	
+
+<!-- Honoghr Planetary Advantage: Capture points are converted faster. -->
+  	<UpgradeObject Name="Honoghr_Planetary_Advantage">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>CIS, Republic</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+
+		<Icon_Name>I_MULTI_SECURE_AREA.tga</Icon_Name>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_HONOGHR_SECURE_AREA </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_HONOGHR_SECURE_AREA</Text_ID>
+		
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="Honoghr_Secure_Area_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Capture_Point_Time_Multiplier>0.85</Capture_Point_Time_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>3</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Korriban Planetary Advantage: Darkside Bonus: Sith and Dark Jedi special abilities recharge 15% faster. -->
+	<UpgradeObject Name="Korriban_Planetary_Advantage">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>CIS,Rebel,Underworld</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_RECHARGE_DARK1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_CL_DARKSIDE_ABILITY_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_CL_DARKSIDE_ABILITY_L1 </Text_ID>
+				
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Korriban_Darkside_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+			<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Darkside_Adepts, Asajj_Ventress, Aurra_Sing, Count_Dooku  </Applicable_Unit_Types>
+				<Ability_Recharge_Bonus_Percentage>0.85</Ability_Recharge_Bonus_Percentage>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+<!-- Ilum Planetary Advantage: Lightside Bonus: Jedi cause more damage. -->
+	<UpgradeObject Name="Ilum_Planetary_Advantage">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Republic,Rebel</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_LIGHTSIDE_SPECIAL1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_LIGHTSIDE_ABILITY_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RL_LIGHTSIDE_ABILITY_L1 </Text_ID>
+				
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Ilum_Lightside_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+			<Applicable_Unit_Categories />
+					<Applicable_Unit_Types>Aayla_Secura,  Anakin_Skywalker, Barris_Offee, Luminara_Unduli, Mace_Windu, Obiwan, Plokoon, Shaak_Ti, Yoda </Applicable_Unit_Types>
+								<Ability_Recharge_Bonus_Percentage>0.0</Ability_Recharge_Bonus_Percentage>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.85</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+<!-- Yavin Planetary Advantage: Lightside Bonus: Jedi special abilities recharge 15% faster. -->
+	<UpgradeObject Name="Yavin_Planetary_Advantage">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Republic,Rebel</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_LIGHTSIDE_DAMAGE.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_LIGHTSIDE_ABILITY_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RL_LIGHTSIDE_ABILITY_L2 </Text_ID>
+				
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Yavin_Lightside_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+			<Applicable_Unit_Categories />
+					<Applicable_Unit_Types>Aayla_Secura,  Anakin_Skywalker, Barris_Offee, Luminara_Unduli, Mace_Windu, Obiwan, Plokoon, Shaak_Ti, Yoda </Applicable_Unit_Types>
+								<Ability_Recharge_Bonus_Percentage>0.85</Ability_Recharge_Bonus_Percentage>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+<!-- Mustafar Planetary Advantage: B2 Battledroid Durability Boost -->
+	<UpgradeObject Name="Mustafar_Planetary_Advantage">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>CIS,Rebel,Underworld</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_b2_durability.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_CL_B2_DURABILITY_BOOST  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_CL_B2_DURABILITY_BOOST</Text_ID>
+		
+	
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Mustafar_B2_Battledroid_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Super_Battledroid</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.15</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+<UpgradeObject Name="Ord_Mantell_Planetary_Advantage">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Republic,Underworld</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+      <Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Icon_Name>i_icon_salvage.tga</Icon_Name>
+		
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		
+		<Encyclopedia_Text> TEXT_PLANET_ORDMANTEL_ENCYC_01  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_PLANET_ORDMANTEL_INFO_ADV_01</Text_ID>
+		
+		
+		
+		<CategoryMask>Upgrade</CategoryMask>
+
+		<Abilities SubObjectList="Yes">
+			<Bounty_On_Faction_Ability Name="Ord_Mantell_Salvage_Bonus">
+				<Bounty_Percentage_Amount> 0.15 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> CIS </Target_Faction_Names>
+				<Apply_To_All_Allies> No </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+		</Abilities>		
+	</UpgradeObject>
+
+<UpgradeObject Name="Raxus_Prime_Planetary_Advantage">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>CIS,Rebel,Underworld</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+      <Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Icon_Name>i_icon_salvage.tga</Icon_Name>
+		
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		
+		<Encyclopedia_Text> TEXT_PLANET_RAXUS_PRIME_ENCYC  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_PLANET_RAXUS_PRIME_INFO_ADV</Text_ID>
+		
+		
+		
+		<CategoryMask>Upgrade</CategoryMask>
+
+		<Abilities SubObjectList="Yes">
+			<Bounty_On_Faction_Ability Name="Raxus_Prime_Salvage_Bonus">
+				<Bounty_Percentage_Amount> 0.15 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<Target_Faction_Names> Republic </Target_Faction_Names>
+				<Apply_To_All_Allies> No </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+		</Abilities>		
+	</UpgradeObject>
+
 
 
 

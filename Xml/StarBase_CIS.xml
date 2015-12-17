@@ -826,6 +826,9 @@
 			CIS,
 			    Vulture_Droid_Squadron,
 				Tri_Droid_Squadron,
+				Cad_Bane_Team_Space_MP,
+				RS_Enhanced_Shielding_L1_Upgrade,
+				RS_Improved_Weapons_L1_Upgrade,
 				CIS_Level_Two_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -909,8 +912,12 @@
 			CIS,
 				Vulture_Droid_Squadron,
 				Tri_Droid_Squadron,
+                Cad_Bane_Team_Space_MP,				
 				Hyena_DroidBomber_Squadron,
-				Munificent_Frigate,
+				Recusant_Light_Frigate,
+				Technounion_Frigate,
+				RS_Enhanced_Shielding_L1_Upgrade,
+				RS_Improved_Weapons_L1_Upgrade,
 				CIS_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -994,11 +1001,23 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			CIS,
+			Asajj_Ventress_Team_Space,
 				Vulture_Droid_Squadron,
 				Tri_Droid_Squadron,
+                Cad_Bane_Team_Space_MP,					
 				Hyena_DroidBomber_Squadron,
-			    Nantex_Squadron,	
+			    Nantex_Squadron,
+                Recusant_Light_Frigate,
+                Recusant_Frigate,				
 				Munificent_Frigate,
+				CIS_Carrier,
+				Technounion_Frigate,
+				RS_Enhanced_Shielding_L1_Upgrade,
+				RS_Enhanced_Shielding_L2_Upgrade,
+				RS_Improved_Weapons_L1_Upgrade,
+				RS_Improved_Weapons_L2_Upgrade,
+				RS_Improved_Defenses_L1_Upgrade,
+                RS_Ion_Cannon_Use_Upgrade,				
 				CIS_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -1085,12 +1104,27 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 				CIS,
+				Asajj_Ventress_Team_Space,
 				Vulture_Droid_Squadron,
 				Tri_Droid_Squadron,
+                Cad_Bane_Team_Space_MP,					
 				Hyena_DroidBomber_Squadron,
-			    Nantex_Squadron,	
+				Belbullab_Squadron,
+			    Nantex_Squadron,
+                Recusant_Light_Frigate,
+                Recusant_Frigate,				
 				Munificent_Frigate,
+				CIS_Carrier,
+				Technounion_Frigate,
 				Providence_Class_Carrier,
+				Invisible_Hand,
+				RS_Enhanced_Shielding_L1_Upgrade,
+				RS_Enhanced_Shielding_L2_Upgrade,
+				RS_Improved_Weapons_L1_Upgrade,
+				RS_Improved_Weapons_L2_Upgrade,
+				RS_Improved_Defenses_L1_Upgrade,
+				RS_Improved_Defenses_L2_Upgrade,
+                RS_Ion_Cannon_Use_Upgrade,					
 				CIS_Level_Five_Starbase_Upgrade
 
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -1186,13 +1220,32 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 				CIS,
+				Asajj_Ventress_Team_Space,
 				Vulture_Droid_Squadron,
 				Tri_Droid_Squadron,
+                Cad_Bane_Team_Space_MP,					
 				Hyena_DroidBomber_Squadron,
-			    Nantex_Squadron,	
+				Belbullab_Squadron,
+			    Nantex_Squadron,
+                Recusant_Light_Frigate,
+                Recusant_Frigate,				
 				Munificent_Frigate,
+				CIS_Carrier,
+				Technounion_Frigate,
 				Providence_Class_Carrier,
 				Lucrehulk_Battleship,
+				Malevolence,
+				Invisible_Hand,
+				RS_Enhanced_Shielding_L1_Upgrade,
+				RS_Enhanced_Shielding_L2_Upgrade,
+				RS_Enhanced_Shielding_L3_Upgrade,
+				RS_Improved_Weapons_L1_Upgrade,
+				RS_Improved_Weapons_L2_Upgrade,
+				RS_Improved_Weapons_L3_Upgrade,
+				RS_Improved_Defenses_L1_Upgrade,
+				RS_Improved_Defenses_L2_Upgrade,
+				RS_Improved_Defenses_L3_Upgrade,
+                RS_Ion_Cannon_Use_Upgrade				
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	

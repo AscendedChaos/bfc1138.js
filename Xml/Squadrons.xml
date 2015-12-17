@@ -797,7 +797,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>Empire_Station_GC</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
 		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
@@ -875,7 +875,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>Empire_Station_GC</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>Y-Wing, Y-Wing, Y-Wing</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
@@ -1338,7 +1338,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets />
+        <Required_Special_Structures>Empire_Station_GC</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>Z-95_Headhunter_Rebel, Z-95_Headhunter_Rebel</Squadron_Units>
 		<Squadron_Units>Z-95_Headhunter_Rebel, Z-95_Headhunter_Rebel, Z-95_Headhunter_Rebel</Squadron_Units>

@@ -197,7 +197,7 @@
         <Tech_Level>0</Tech_Level>
         <Required_Timeline></Required_Timeline>
         <Required_Star_Base_Level>1</Required_Star_Base_Level>
-        <Required_Special_Structures />
+        <Required_Special_Structures>Empire_Station_GC</Required_Special_Structures>
         <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
         <!--<Squadron_Units>Rebel_R41_Fighter, Rebel_R41_Fighter, Rebel_R41_Fighter, Rebel_R41_Fighter, Rebel_R41_Fighter, Rebel_R41_Fighter, Rebel_R41_Fighter, Rebel_R41_Fighter, Rebel_R41_Fighter, Rebel_R41_Fighter, Rebel_R41_Fighter, Rebel_R41_Fighter</Squadron_Units>
         <Max_Squad_Size>12</Max_Squad_Size>

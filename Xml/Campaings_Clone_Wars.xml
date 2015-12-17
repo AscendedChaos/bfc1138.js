@@ -860,6 +860,7 @@
 		<Starting_Forces> CIS, Geonosis, Providence_Class_Carrier </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, Count_Dooku_Team </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Cad_Bane_Team </Starting_Forces>
 		<!-- Geonosis Land Forces -->
 		<Starting_Forces> CIS, Geonosis, Cis_Ground_Droid_Works </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, BattleDroid_Squad </Starting_Forces>
@@ -869,6 +870,8 @@
 		<Starting_Forces> CIS, Geonosis, Nute_Gunray_Team </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, General_Grievous_Team </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, Jango_Fett_Team </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Asajj_Ventress_Team </Starting_Forces>
+		
 
 		<!-- Hypori Space Forces -->
 		<Starting_Forces> CIS, Hypori, CIS_Star_Base_5 </Starting_Forces>
@@ -1990,7 +1993,7 @@
 		<!-- Geonosis Space Forces -->
 		<Starting_Forces> CIS, Geonosis, CIS_Star_Base_5 </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, Lucrehulk_Battleship </Starting_Forces>
-		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Lucrehulk_Battleship </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
@@ -1999,6 +2002,7 @@
 		<Starting_Forces> CIS, Geonosis, Providence_Class_Carrier </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, Munificent_Frigate </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, Count_Dooku_Team </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Cad_Bane_Team </Starting_Forces>
 		<!-- Geonosis Land Forces -->
 		<Starting_Forces> CIS, Geonosis, Cis_Ground_Droid_Works </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, BattleDroid_Squad </Starting_Forces>
@@ -2008,6 +2012,7 @@
 		<Starting_Forces> CIS, Geonosis, Nute_Gunray_Team </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, General_Grievous_Team </Starting_Forces>
 		<Starting_Forces> CIS, Geonosis, Jango_Fett_Team </Starting_Forces>
+		<Starting_Forces> CIS, Geonosis, Asajj_Ventress_Team </Starting_Forces>
 
 		<!-- Hypori Space Forces -->
 		<Starting_Forces> CIS, Hypori, CIS_Star_Base_5 </Starting_Forces>

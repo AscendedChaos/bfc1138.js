@@ -254,7 +254,7 @@
         <Text_ID>TEXT_MANDO_DEATH_WATCH_BASIC_SQUAD</Text_ID>
         <Encyclopedia_Good_Against>Rebel_Trooper Plex_Soldier</Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To>MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret</Encyclopedia_Vulnerable_To>
-        <Encyclopedia_Text>TEXT_TOOLTIP_MANDO_DEATH_WATCH_BASIC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_DEATH_WATCH_BASIC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
         <GUI_Row>1</GUI_Row>
         <Is_Dummy>Yes</Is_Dummy>
@@ -700,7 +700,7 @@
         <Text_ID>TEXT_MANDO_DEATH_WATCH_LIGHT_SQUAD</Text_ID>
         <Encyclopedia_Good_Against>Rebel_Trooper Plex_Soldier</Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To>MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret</Encyclopedia_Vulnerable_To>
-        <Encyclopedia_Text>TEXT_TOOLTIP_DEATH_WATCH_LIGHT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_MANDO_DEATH_WATCH_LIGHT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
         <Show_Name>No</Show_Name>
         <Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
@@ -1598,7 +1598,7 @@
         <Text_ID>TEXT_MANDO_DEATH_WATCH_SUPER_COMMANDO_SQUAD</Text_ID>
         <Encyclopedia_Good_Against>Rebel_Trooper Plex_Soldier</Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To>MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret</Encyclopedia_Vulnerable_To>
-        <Encyclopedia_Text>TEXT_TOOLTIP_MANDO_DEATH_WATCH_SUPER_COMMANDO TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_DEATH_WATCH_SUPER_COMMANDO TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
         <GUI_Row>1</GUI_Row>
         <Is_Dummy>Yes</Is_Dummy>

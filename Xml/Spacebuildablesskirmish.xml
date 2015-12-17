@@ -2121,6 +2121,9 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				RS_Increased_Supplies_L1_Upgrade,
+				RS_Increased_Supplies_L2_Upgrade,
+			CIS,
+				RS_Increased_Supplies_L1_Upgrade,
 				RS_Increased_Supplies_L2_Upgrade,				
 		</Tactical_Buildable_Objects_Multiplayer>
 	</SpaceBuildable>

@@ -15,7 +15,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_KNIGHT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
 		<Land_Model_Name>Rep_Jedi_Knight.ALO</Land_Model_Name>
-		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_J_KNIGHT_1.TGA</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
@@ -298,7 +298,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_MASTER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Land_Model_Name>Rep_Jedi_Master_Zabrak.ALO</Land_Model_Name>
-		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_J_MASTER_2.TGA</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
@@ -600,7 +600,7 @@
 		<Text_ID>TEXT_HERO_JEDI_KNIGHT_MASTER_TEAM</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_KNIGHT_MASTER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_J_MASTER_2.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
 		<Affiliation>Republic,Rebel</Affiliation>
@@ -655,11 +655,11 @@
 		<LOD_Bias>5</LOD_Bias>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
-		<Text_ID>TEXT_HERO_JEDI_KNIGHT</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_KNIGHT</Encyclopedia_Text>
+		<Text_ID>TEXT_HERO_JEDI_PADAWAN</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_PADAWAN</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_PADAWAN </Encyclopedia_Unit_Class>
 		<Land_Model_Name>Rep_Jedi_Male_Padawan.ALO</Land_Model_Name>
-		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_J_PADAWAN_1.TGA</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, GARRISON_UNIT </LandBehavior>
@@ -936,7 +936,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_MASTER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Land_Model_Name>Rep_Jedi_Knight_Female.ALO</Land_Model_Name>
-		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_J_KNIGHT_2.TGA</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
@@ -1238,9 +1238,9 @@
 	<HeroCompany Name="Jedi_Master_Padawan_Team">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_HERO_JEDI_PADAWAN_MASTER_TEAM</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_PADAWAN_MASTER</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_MASTER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_PADAWAN TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_J_KNIGHT_2.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
 		<Affiliation>Republic</Affiliation>
@@ -1296,7 +1296,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_PADAWAN</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_PADAWAN </Encyclopedia_Unit_Class>
 		<Land_Model_Name>Rep_Jedi_Padawan.ALO</Land_Model_Name>
-		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_J_PADAWAN_2.TGA</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
@@ -1584,7 +1584,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_MASTER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Land_Model_Name>Rep_Jedi_Master.ALO</Land_Model_Name>
-		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_J_MASTER_1.TGA</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
@@ -1888,9 +1888,9 @@
 	<HeroCompany Name="Jedi_Master_Padawan_v2_Team">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_HERO_JEDI_PADAWAN_MASTER_TEAM</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_PADAWAN_MASTER</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_MASTER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_PADAWAN TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_J_MASTER_1.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
 		<Affiliation>Republic,Rebel</Affiliation>

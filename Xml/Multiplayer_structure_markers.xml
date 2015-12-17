@@ -62,7 +62,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> Communications_Array_R, Communications_Array_E,Communications_Array_Rep,Communications_Array_Cis </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> Communications_Array_R, Communications_Array_E,Communications_Array_Rep,Communications_Array_Cis,Communications_Array_U </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -76,7 +76,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type>Rep_Ground_Research_Facility_Build_Pad, R_Ground_Research_Facility, E_Ground_Research_Facility,CIS_Ground_Research_Facility </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>Rep_Ground_Research_Facility, R_Ground_Research_Facility, E_Ground_Research_Facility,CIS_Ground_Research_Facility,U_Ground_Research_Facility </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -90,7 +90,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type>Power_Generator_Rep, Power_Generator_E, Power_Generator_R, Power_Generator_CIS </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>Power_Generator_Rep, Power_Generator_E, Power_Generator_R, Power_Generator_CIS, Power_Generator_U </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -104,7 +104,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> R_Ground_Base_Shield, E_Ground_Base_Shield, Hutt_Ground_Base_Shield,Rep_Ground_Base_Shield </Marker_For_Specific_Object_Type>
+<Marker_For_Specific_Object_Type> R_Ground_Base_Shield, E_Ground_Base_Shield, Hutt_Ground_Base_Shield,Rep_Ground_Base_Shield,U_Ground_Base_Shield,CIS_Ground_Base_Shield </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -220,7 +220,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> Communications_Array_R_Build_Pad, Communications_Array_E_Build_Pad, Communications_Array_Rep_Build_Pad,Communications_Array_CIS_Build_Pad </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> Communications_Array_R_Build_Pad, Communications_Array_E_Build_Pad,Communications_Array_Rep_Build_Pad,Communications_Array_Cis_Build_Pad,Communications_Array_U_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -234,7 +234,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> R_Ground_Research_Facility_Build_Pad, E_Ground_Research_Facility_Build_Pad, Rep_Ground_Research_Facility_Build_Pad,Cis_Ground_Research_Facility_Build_Pad </Marker_For_Specific_Object_Type>
+        <Marker_For_Specific_Object_Type>Rep_Ground_Research_Facility_Build_Pad, R_Ground_Research_Facility_Build_Pad, E_Ground_Research_Facility_Build_Pad,CIS_Ground_Research_Facility_Build_Pad,U_Ground_Research_Facility_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -248,7 +248,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> Power_Generator_E, Power_Generator_R, Power_Generator_CIS,Power_Generator_Rep </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>Power_Generator_Rep, Power_Generator_E, Power_Generator_R, Power_Generator_CIS, Power_Generator_U </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -262,7 +262,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> R_Ground_Base_Shield, E_Ground_Base_Shield, Hutt_Ground_Base_Shield,Rep_Ground_Base_Shield </Marker_For_Specific_Object_Type>
+<Marker_For_Specific_Object_Type> R_Ground_Base_Shield_Build_Pad, E_Ground_Base_Shield_Build_Pad, Hutt_Ground_Base_Shield_Build_Pad,Rep_Ground_Base_Shield_Build_Pad,U_Ground_Base_Shield_Build_Pad,CIS_Ground_Base_Shield_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -276,7 +276,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> E_Small_Ground_Base_Shield_Build_Pad, R_Small_Ground_Base_Shield_Build_Pad,Rep_Ground_Base_Shield_Small </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> E_Small_Ground_Base_Shield_Build_Pad, R_Small_Ground_Base_Shield_Build_Pad,Rep_Small_Ground_Base_Shield_Build_Pad,U_Small_Ground_Base_Shield_Build_Pad,CIS_Small_Ground_Base_Shield_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>NB_BASESHIELDGEN_small.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -454,7 +454,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> Communications_Array_R, Communications_Array_E, Communications_Array_Rep</Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> Communications_Array_R, Communications_Array_E,Communications_Array_Rep,Communications_Array_Cis,Communications_Array_U </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -468,7 +468,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type>Rep_Ground_Research_Facility_Build_Pad, R_Ground_Research_Facility, E_Ground_Research_Facility </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>Rep_Ground_Research_Facility, R_Ground_Research_Facility, E_Ground_Research_Facility,CIS_Ground_Research_Facility,U_Ground_Research_Facility </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -482,7 +482,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type>Power_Generator_Rep, Power_Generator_E, Power_Generator_R, Power_Generator_CIS </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>Power_Generator_Rep, Power_Generator_E, Power_Generator_R, Power_Generator_CIS, Power_Generator_U </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -496,7 +496,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> R_Ground_Base_Shield, E_Ground_Base_Shield, Hutt_Ground_Base_Shield,Rep_Ground_Base_Shield </Marker_For_Specific_Object_Type>
+        <Marker_For_Specific_Object_Type> R_Ground_Base_Shield, E_Ground_Base_Shield, Hutt_Ground_Base_Shield,Rep_Ground_Base_Shield,U_Ground_Base_Shield,CIS_Ground_Base_Shield </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -600,7 +600,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> Communications_Array_R_Build_Pad, Communications_Array_E_Build_Pad, Communications_Array_Rep_Build_Pad </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> Communications_Array_R_Build_Pad, Communications_Array_E_Build_Pad,Communications_Array_Rep_Build_Pad,Communications_Array_Cis_Build_Pad,Communications_Array_U_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -614,7 +614,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> R_Ground_Research_Facility_Build_Pad, E_Ground_Research_Facility_Build_Pad, Rep_Ground_Research_Facility_Build_Pad </Marker_For_Specific_Object_Type>
+<Marker_For_Specific_Object_Type>Rep_Ground_Research_Facility_Build_Pad, R_Ground_Research_Facility_Build_Pad, E_Ground_Research_Facility_Build_Pad,CIS_Ground_Research_Facility_Build_Pad,U_Ground_Research_Facility_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -628,7 +628,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> Power_Generator_Rep, Power_Generator_E, Power_Generator_R, Power_Generator_CIS_Build_Pad </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>Power_Generator_Rep, Power_Generator_E, Power_Generator_R, Power_Generator_CIS, Power_Generator_U </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -642,7 +642,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> R_Ground_Base_Shield, E_Ground_Base_Shield, Hutt_Ground_Base_Shield, Rep_Ground_Base_Shield </Marker_For_Specific_Object_Type>
+<Marker_For_Specific_Object_Type> R_Ground_Base_Shield_Build_Pad, E_Ground_Base_Shield_Build_Pad, Hutt_Ground_Base_Shield_Build_Pad,Rep_Ground_Base_Shield_Build_Pad,U_Ground_Base_Shield_Build_Pad,CIS_Ground_Base_Shield_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -656,7 +656,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> E_Small_Ground_Base_Shield_Build_Pad, R_Small_Ground_Base_Shield_Build_Pad,Rep_Small_Ground_Base_Shield_Build_Pad </Marker_For_Specific_Object_Type>
+				<Marker_For_Specific_Object_Type> E_Small_Ground_Base_Shield_Build_Pad, R_Small_Ground_Base_Shield_Build_Pad,Rep_Small_Ground_Base_Shield_Build_Pad,U_Small_Ground_Base_Shield_Build_Pad,CIS_Small_Ground_Base_Shield_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>NB_BASESHIELDGEN_small.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -834,7 +834,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type>Communications_Array_Rep, Communications_Array_R, Communications_Array_E </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> Communications_Array_R, Communications_Array_E,Communications_Array_Rep,Communications_Array_Cis,Communications_Array_U </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -848,7 +848,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type>Rep_Ground_Research_Facility_Build_Pad, R_Ground_Research_Facility, E_Ground_Research_Facility </Marker_For_Specific_Object_Type>
+<Marker_For_Specific_Object_Type>Rep_Ground_Research_Facility, R_Ground_Research_Facility, E_Ground_Research_Facility,CIS_Ground_Research_Facility,U_Ground_Research_Facility </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -862,7 +862,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type>Power_Generator_Rep, Power_Generator_E, Power_Generator_R, Power_Generator_CIS </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>Power_Generator_Rep, Power_Generator_E, Power_Generator_R, Power_Generator_CIS, Power_Generator_U </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -876,7 +876,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> R_Ground_Base_Shield, E_Ground_Base_Shield, Hutt_Ground_Base_Shield,Rep_Ground_Base_Shield </Marker_For_Specific_Object_Type>
+<Marker_For_Specific_Object_Type> R_Ground_Base_Shield, E_Ground_Base_Shield, Hutt_Ground_Base_Shield,Rep_Ground_Base_Shield,U_Ground_Base_Shield,CIS_Ground_Base_Shield </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -981,7 +981,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> Communications_Array_R_Build_Pad, Communications_Array_E_Build_Pad, Communications_Array_Rep_Build_Pad </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> Communications_Array_R_Build_Pad, Communications_Array_E_Build_Pad,Communications_Array_Rep_Build_Pad,Communications_Array_Cis_Build_Pad,Communications_Array_U_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -995,7 +995,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> R_Ground_Research_Facility_Build_Pad, E_Ground_Research_Facility_Build_Pad, Rep_Ground_Research_Facility_Build_Pad </Marker_For_Specific_Object_Type>
+<Marker_For_Specific_Object_Type>Rep_Ground_Research_Facility_Build_Pad, R_Ground_Research_Facility_Build_Pad, E_Ground_Research_Facility_Build_Pad,CIS_Ground_Research_Facility_Build_Pad,U_Ground_Research_Facility_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -1009,7 +1009,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type>Power_Generator_Rep, Power_Generator_E, Power_Generator_R, Power_Generator_CIS_Build_Pad </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>Power_Generator_Rep, Power_Generator_E, Power_Generator_R, Power_Generator_CIS, Power_Generator_U </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -1023,7 +1023,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> R_Ground_Base_Shield, E_Ground_Base_Shield, Hutt_Ground_Base_Shield,Rep_Ground_Base_Shield </Marker_For_Specific_Object_Type>
+<Marker_For_Specific_Object_Type> R_Ground_Base_Shield_Build_Pad, E_Ground_Base_Shield_Build_Pad, Hutt_Ground_Base_Shield_Build_Pad,Rep_Ground_Base_Shield_Build_Pad,U_Ground_Base_Shield_Build_Pad,CIS_Ground_Base_Shield_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -1037,8 +1037,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>
 		<Space_Model_Name/>
-		<Marker_For_Specific_Object_Type> E_Small_Ground_Base_Shield_Build_Pad, R_Small_Ground_Base_Shield_Build_Pad,Rep_Small_Ground_Base_Shield_Build_Pad </Marker_For_Specific_Object_Type>
-		<Land_Model_Name>NB_BASESHIELDGEN_small.ALO</Land_Model_Name>
+		<Marker_For_Specific_Object_Type> E_Small_Ground_Base_Shield_Build_Pad, R_Small_Ground_Base_Shield_Build_Pad,Rep_Small_Ground_Base_Shield_Build_Pad,U_Small_Ground_Base_Shield_Build_Pad,CIS_Small_Ground_Base_Shield_Build_Pad </Marker_For_Specific_Object_Type>		<Land_Model_Name>NB_BASESHIELDGEN_small.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
 		<Is_Discardable>false</Is_Discardable>  

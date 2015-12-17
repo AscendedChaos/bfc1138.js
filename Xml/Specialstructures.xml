@@ -1590,24 +1590,6 @@
 	
 	</SpecialStructure>
 	
-	<SpecialStructure Name="U_Ground_Base_Shield">
-		<Variant_Of_Existing_Type>R_Ground_Base_Shield</Variant_Of_Existing_Type>
-		<Affiliation>Underworld</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-	</SpecialStructure>
-	
-	<SpecialStructure Name="U_Ground_Base_Shield_Small">
-		<Variant_Of_Existing_Type>R_Ground_Base_Shield</Variant_Of_Existing_Type>
-		<Land_Model_Name>NB_BASESHIELDGEN_small.ALO</Land_Model_Name>
-		<Tactical_Health>500</Tactical_Health>
-		<Reinforcement_Prevention_Radius>370</Reinforcement_Prevention_Radius>
-		<Base_Shield_Radius>370</Base_Shield_Radius>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-    	<Affiliation>Underworld</Affiliation>
-	</SpecialStructure>
-		
 	
 	<SpecialStructure Name="R_Ground_Base_Shield_Small">
 		<Variant_Of_Existing_Type>R_Ground_Base_Shield</Variant_Of_Existing_Type>
@@ -3074,6 +3056,7 @@
 				Rebel_Elite_Team,
 				Rebel_Elite_Light_Squad,
 				Alliance_Grenadier_Squad,
+				Rebel_Commando_Squad,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		
@@ -4391,7 +4374,7 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>800</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
-		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Tab_Special_Structures>No</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
@@ -5640,6 +5623,7 @@
 				General_Kota_Jedi_Team,
 				Yoda_Team,
 				Garm_Bel_Iblis_Team,
+				X2_Rebel_Team,
 				RC_Level_Two_Tech_Upgrade,
 				RC_Level_Three_Tech_Upgrade,
 			</Tactical_Buildable_Objects_Multiplayer>

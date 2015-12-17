@@ -49,7 +49,7 @@
 		<Armor_Type> Armor_Corellian_Gunboat </Armor_Type>
 		<Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
 
-		<Affiliation>Rebel, Underworld, Pirates</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -232,10 +232,10 @@
 		<Variant_Of_Existing_Type>YT2000</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout TIE_Bomber</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Crusader_Gunship</Encyclopedia_Vulnerable_To>
-		<Affiliation>Underworld, Pirates</Affiliation>
+		<Affiliation></Affiliation>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
-		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
 		
  <Build_Limit_Current_Per_Player>6</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
