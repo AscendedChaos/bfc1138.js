@@ -45,7 +45,7 @@
         <FormationSpacing>.5</FormationSpacing>
 
 
-        <Scale_Factor>1.7</Scale_Factor>
+        <Scale_Factor>1.5</Scale_Factor>
         <!--<Is_Sprite>No</Is_Sprite>-->
         <Type>Walk</Type>
         <Deploys>No</Deploys>

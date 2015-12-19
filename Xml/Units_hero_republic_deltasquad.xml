@@ -905,9 +905,9 @@
 		<Affiliation>Republic</Affiliation>
 		<Build_Cost_Credits>1900</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
         
-        <Build_Tab_Heroes>Yes</Build_Tab_Heroes>
+        <Build_Tab_Heroes>No</Build_Tab_Heroes>
         
 		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>2</Tech_Level>

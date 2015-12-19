@@ -271,7 +271,7 @@
 		<Text_ID>TEXT_HERO_AAYLA_SECURA_TEAM</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_AAYLA_SECURA </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_AAYLA_SECURA1.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_AAYLA_SECURA.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
 		<Affiliation>Republic</Affiliation>
@@ -323,7 +323,7 @@
 		<Text_ID>TEXT_HERO_AAYLA_SECURA_TEAM</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_AAYLA_SECURA </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_AAYLA_SECURA1.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_AAYLA_SECURA.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
 		<Affiliation>Empire</Affiliation>

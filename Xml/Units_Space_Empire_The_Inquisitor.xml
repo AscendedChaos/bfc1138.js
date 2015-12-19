@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<FighterUnits>
+<The_Inquisitor_Hero>
 
     <HeroUnit Name="The_Inquisitor_Hero">  
         <LOD_Bias>5</LOD_Bias>
@@ -12,15 +12,15 @@
         <GalacticBehavior> SELECTABLE </GalacticBehavior>
         <LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE,REVEAL,HIDE_WHEN_FOGGED, TARGETING, WEAPON ,DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, IMPOSING_PRESENCE, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 
-        <!-- Lightsaber holstering data -->
-        <SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
-        <SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
-        <Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
-        <Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
-        <Holster_Holstered_Bone_Translation> 0.0, 4.365, 0.0 </Holster_Holstered_Bone_Translation>
-        <Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
-        <Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
-        <Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
+		<!-- Lightsaber holstering data  -->
+		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
+		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
+		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
+		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, -5.1705, 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
+		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
+		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
 
         <Garrison_Category> Infantry </Garrison_Category>
         <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
@@ -70,7 +70,7 @@
         <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
         <Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
-        <Projectile_Types>Proj_Lightsaber_Vader</Projectile_Types>
+        <Projectile_Types>Proj_Lightsaber_Luke</Projectile_Types>
         <Targeting_Max_Attack_Distance>20.0</Targeting_Max_Attack_Distance>
         <Projectile_Appearance_Delay_Frames> 10 </Projectile_Appearance_Delay_Frames>
         <Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
@@ -145,7 +145,7 @@
 
         <Target_Stealth_Units>Yes</Target_Stealth_Units>
 
-        <Unique_Space_Unit>The_Inquisitor_Squadron</Unique_Space_Unit>
+        <Unique_Space_Unit>Inquisitor_TIE_v1</Unique_Space_Unit>
         
         <!-- Non-Hero unit abilities description -->
         <Unit_Abilities_Data SubObjectList="Yes">
@@ -412,8 +412,6 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-
-        <Landing_Transport_Variant>Shuttle_Tyderium_Landing</Landing_Transport_Variant>
         
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -527,9 +525,9 @@
 	</Squadron>
 
     <HeroCompany Name="The_Inquisitor_Team">  
-        <Text_ID>TEXT_HERO_VADER_TEAM</Text_ID>
+        <Text_ID>TEXT_HERO_INQUISITOR</Text_ID>
         <!--<Encyclopedia_Text>TEXT_TOOLTIP_DARTH_VADER TEXT_TOOLTIP_EXECUTOR</Encyclopedia_Text>-->
-        <Encyclopedia_Text>TEXT_TOOLTIP_DARTH_VADER</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_INQUISITOR</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD</Encyclopedia_Unit_Class>
         <Icon_Name>I_Button_The_Inquisitor.tga</Icon_Name>
 
@@ -551,7 +549,7 @@
 
         <Is_Dummy>Yes</Is_Dummy>
         <Behavior>DUMMY_GROUND_COMPANY</Behavior>
-        <Company_Transport_Unit>Inquisitor_TIE_v1</Company_Transport_Unit>
+        <Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
         <Company_Units>The_Inquisitor_Hero</Company_Units>
         <Is_Named_Hero>Yes</Is_Named_Hero>
         <Is_Force_Sensitive>Yes</Is_Force_Sensitive>
@@ -599,4 +597,4 @@
         </Unit_Abilities_Data>
     </HeroCompany>
     
-</FighterUnits>
+</The_Inquisitor_Hero>

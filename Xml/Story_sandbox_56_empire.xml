@@ -272,7 +272,7 @@
         <Event_Type>STORY_TRIGGER</Event_Type>
         <!--<Reward_Type>LOCK_UNIT</Reward_Type>-->
         <Reward_Type>REMOVE_UNIT</Reward_Type>
-        <Reward_Param1>THE_Inquisitor_Squadron</Reward_Param1>
+        <Reward_Param1>The_Inquisitor_Team</Reward_Param1>
         <Prereq>Empire_Enters_Tech_03</Prereq>
     </Event>
 

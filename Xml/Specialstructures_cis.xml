@@ -726,6 +726,8 @@
             Crab_Droid_Company,
             Homing_Spider_Droid_Company,
             Snail_Tank_Enforcer_Company,
+			Octuparra_Droid_Company,
+			CIS_Heavy_Spider_Brigade,
         </Tactical_Buildable_Objects_Multiplayer>
 
 

@@ -1583,7 +1583,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Political_Control>0</Political_Control>
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-	    <Planet_Credit_Value>100000</Planet_Credit_Value>
+	    <Planet_Credit_Value>5000</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>15</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-75.0, 346.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -2795,7 +2795,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Arctic</Terrain>
-		<Planet_Credit_Value>200000</Planet_Credit_Value>
+		<Planet_Credit_Value>3000</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-738.0, -521.0, 10.0</Galactic_Position>
 

@@ -469,7 +469,7 @@
 		<Starting_Forces> Republic, Coruscant, Rep_Yoda_Team </Starting_Forces>
         <Starting_Forces> Republic, Coruscant, Chancellor_Palpatine_Team </Starting_Forces>
 		<Starting_Forces> Republic, Coruscant, Mace_Windu_Team </Starting_Forces>
-
+        <Starting_Forces> Republic, Coruscant, Deltasquad_Team </Starting_Forces>
 
 
 
@@ -1613,7 +1613,7 @@
 		<Starting_Forces> Republic, Coruscant, Rep_Yoda_Team </Starting_Forces>
         <Starting_Forces> Republic, Coruscant, Chancellor_Palpatine_Team </Starting_Forces>
 		<Starting_Forces> Republic, Coruscant, Mace_Windu_Team </Starting_Forces>
-
+        <Starting_Forces> Republic, Coruscant, Deltasquad_Team </Starting_Forces>
 
 		<!-- Dantooine Space Forces -->
 		<Starting_Forces> Republic, Dantooine, Republic_Star_Base_2 </Starting_Forces>
