@@ -1,4 +1,4 @@
-# SW: Battlefront Commander Mod - Bug tracking and solving repostistory
+# SW: Battlefront Commander Mod - Bug tracking and solving repostitory
 
 Allright!
 
@@ -14,11 +14,11 @@ RED: Bug
 
 GRAY: Duplicate
 
-LIGHT BLUE: Enhancement
+LIGHT BLUE: MISSING icons - textures
 
 GREEN: Help wanted (either by the modders of if you don't know how to achieve something)
 
-LIGHT GRAY: Invalid issue
+ORANGE - MISSING models
 
 BLUE: MISSING Tooltip text
 
