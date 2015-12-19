@@ -27,6 +27,9 @@ PURPLE: Question
 WHITE: Non fixable issues
 
 
+PLEASE NOTE: DO NOT DOWNLOAD ANY OF THE FILES IN THIS REPOSITORY, THEY ARE EITHER INCOMPLETE OR FOR TESTING PURPOSES ONLY, AND CAN AFFECT YOUR GAME OR MAKE IT IMPOSSIBLE TO RUN IF YOU DOWNLOAD THEM!!!!!
+
+
 We will endeavour to followup all issues and let you know, remember to check out the repository every now and then to see what will be changed and how everything progresses.
 
 Thanks for your support and enjoy the game!
