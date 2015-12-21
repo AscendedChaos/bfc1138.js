@@ -457,8 +457,8 @@
 		<Damage>175</Damage>
 		<Autoresolve_Health>600</Autoresolve_Health> 
 		<Affiliation>Republic</Affiliation>
-		<Build_Cost_Credits>50</Build_Cost_Credits><!--1500-->
-		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Build_Cost_Credits>150</Build_Cost_Credits><!--1500-->
+		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<!--<Build_Time_Seconds>15</Build_Time_Seconds>-->
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>

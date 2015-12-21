@@ -9,7 +9,7 @@
 
 	<HeroUnit Name="Jedi_Knight">
 		<LOD_Bias>5</LOD_Bias>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Named_Hero>No</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_JEDI_KNIGHT</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_KNIGHT</Encyclopedia_Text>
@@ -292,7 +292,7 @@
 
 	<HeroUnit Name="Jedi_Master">
 		<LOD_Bias>5</LOD_Bias>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Named_Hero>No</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_JEDI_MASTER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_MASTER</Encyclopedia_Text>
@@ -653,7 +653,7 @@
 
 	<HeroUnit Name="Jedi_Padawan">
 		<LOD_Bias>5</LOD_Bias>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Named_Hero>No</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_JEDI_PADAWAN</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_PADAWAN</Encyclopedia_Text>
@@ -930,7 +930,7 @@
 
 	<HeroUnit Name="Jedi_Master_v2">
 		<LOD_Bias>5</LOD_Bias>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Named_Hero>No</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_JEDI_MASTER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_MASTER</Encyclopedia_Text>
@@ -1290,7 +1290,7 @@
 
 	<HeroUnit Name="Jedi_Padawan_v2">
 		<LOD_Bias>5</LOD_Bias>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Named_Hero>No</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_JEDI_PADAWAN</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_PADAWAN</Encyclopedia_Text>
@@ -1578,7 +1578,7 @@
 
 	<HeroUnit Name="Jedi_Master_v3">
 		<LOD_Bias>5</LOD_Bias>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Named_Hero>No</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_JEDI_MASTER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_MASTER</Encyclopedia_Text>
@@ -1902,7 +1902,7 @@
 		<Required_Timeline>5</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-<Required_Special_Structures>Jedi_Temple</Required_Special_Structures>
+        <Required_Special_Structures>Jedi_Temple</Required_Special_Structures>
 		<Required_Planets>Coruscant</Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Obiwan_Jedi_Eta2</Company_Transport_Unit>

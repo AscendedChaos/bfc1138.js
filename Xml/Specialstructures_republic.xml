@@ -495,8 +495,8 @@
 
     <SpecialStructure Name="Rep_Ground_Light_Vehicle_Factory">
         <GUI_Bounds_Scale>0.45</GUI_Bounds_Scale>
-        <Text_ID>TEXT_GROUND_LIGHT_VEHICLE_FACTORY</Text_ID>
-        <Encyclopedia_Text> TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00, TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01 TEXT_TOOLTIP_GARRISON_E_LTFAC </Encyclopedia_Text>
+        <Text_ID>TEXT_GROUND_REP_LIGHT_VEHICLE_FACTORY</Text_ID>
+        <Encyclopedia_Text> TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REPUBLIC_00, TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01 TEXT_TOOLTIP_GARRISON_REP_LTFAC </Encyclopedia_Text>
         <MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00, MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01 </MP_Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
         <GUI_Row> 0 </GUI_Row>
@@ -620,8 +620,8 @@
   </Tactical_Buildable_Objects_Multiplayer>-->
 
         <AI_Combat_Power>500</AI_Combat_Power>
-        <Starting_Spawned_Units_Tech_0>AT_ST_Walker, 4</Starting_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>AT_ST_Walker, -1</Reserve_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Republic_ATXT_Squad, 4</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Republic_ATXT_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
         <Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
         <Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -770,7 +770,7 @@
     <SpecialStructure Name="Republic_HVehicle_Factory">
         <GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
         <Text_ID>TEXT_GROUND_HEAVY_VEHICLE_FACTORY</Text_ID>
-        <Encyclopedia_Text> TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00, TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01 TEXT_TOOLTIP_GARRISON_E_HVYFAC </Encyclopedia_Text>
+        <Encyclopedia_Text> TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REPUBLIC_00, TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01 TEXT_TOOLTIP_GARRISON_REP_HVYFAC </Encyclopedia_Text>
         <MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00, MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01 </MP_Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
         <Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
@@ -882,7 +882,7 @@
 
 
         <AI_Combat_Power>800</AI_Combat_Power>
-        <Starting_Spawned_Units_Tech_0>Republic_ATRT_Scout_Squad, 1</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>AT_TE_Company, 1</Starting_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>AT_TE_Company, -1</Reserve_Spawned_Units_Tech_0>
 
         <Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		

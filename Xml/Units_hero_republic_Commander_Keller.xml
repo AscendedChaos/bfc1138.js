@@ -4,11 +4,11 @@
 
     <HeroUnit Name="Commander_Keller">
         <Is_Named_Hero>No</Is_Named_Hero>
-        <Text_ID>TEXT_UNIT_Commander_Keller</Text_ID>
+        <Text_ID>TEXT_UNIT_COMMANDER_KELLER</Text_ID>
 
         <Show_Hero_Head>No</Show_Hero_Head>
         
-        <Encyclopedia_Text>TEXT_TOOLTIP_Commander_Keller TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY TEXT_TOOLTIP_UNIT_COMMANDER_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_COMMANDER_KELLER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY TEXT_TOOLTIP_UNIT_COMMANDER_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SENIOR_COMMANDER</Encyclopedia_Unit_Class>
         <Land_Model_Name>Rep_Commander_Keller.ALO</Land_Model_Name>
 
@@ -218,8 +218,8 @@
     <!--Rep_Commander_Keller-->
     <HeroCompany Name="Commander_Keller_Team">
         <LOD_Bias>5</LOD_Bias>
-        <Text_ID>TEXT_UNIT_Commander_Keller</Text_ID>
-        <Encyclopedia_Text>TEXT_TOOLTIP_Commander_Keller TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Text_ID>TEXT_UNIT_COMMANDER_KELLER</Text_ID>
+        <Encyclopedia_Text>TEXT_TOOLTIP_COMMANDER_KELLER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SENIOR_COMMANDER</Encyclopedia_Unit_Class>
         <Icon_Name>I_BUTTON_KELLER.TGA</Icon_Name>
 

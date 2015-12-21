@@ -299,7 +299,7 @@
 		<Scale_Factor>0.10</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
-       	<Is_Named_Hero>Yes</Is_Named_Hero>
+       	<Is_Named_Hero>No</Is_Named_Hero>
         <Show_Hero_Head>No</Show_Hero_Head>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
