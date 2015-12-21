@@ -35,8 +35,8 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3400</Autoresolve_Health>
 		<Shield_Points>800</Shield_Points>
-		<Tactical_Health>3400</Tactical_Health>  <!-- was 2600 -->
-		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<Tactical_Health>3000</Tactical_Health>  <!-- was 2600 --> <!--was 3400-->
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate> 
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -84,26 +84,28 @@
 		<Death_Clone>Damage_Normal, Kyramud_Death_Clone</Death_Clone>
 
 		<HardPoints>
-			HP_Kyramud_01, 
-			HP_Kyramud_02, 
-			HP_Kyramud_03, 
-			HP_Kyramud_04, 
-			HP_Kyramud_05,
-			HP_Kyramud_06, 
-			HP_Kyramud_07, 
-			HP_Kyramud_07, 
-			HP_Kyramud_08, 
-			HP_Kyramud_09, 
+			<!--HP_Kyramud_01, -->
+			<!--HP_Kyramud_02, -->
+			<!--HP_Kyramud_03,--> 
+			<!--HP_Kyramud_04, -->
+			<!--HP_Kyramud_05,-->
+            
+			<!--HP_Kyramud_06, -->
+			<!--HP_Kyramud_07, -->
+			<!--HP_Kyramud_07, -->
+			<!--HP_Kyramud_08, -->
+			<!--HP_Kyramud_09,--> 
+            
 			HP_Kyramud_10, 
-			HP_Kyramud_11, 
-			HP_Kyramud_12, 
-			HP_Kyramud_13, 
+			<!--HP_Kyramud_11, -->
+			<!--HP_Kyramud_12, -->
+			<!--HP_Kyramud_13, -->
 			HP_Kyramud_14, 
 			HP_Kyramud_15, 
 			HP_Kyramud_Shields,
 			HP_Kyramud_Engines,  
 			HP_Kyramud_Fighter_Bay
-		</HardPoints>
+		</HardPoints> 
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>i_button_Kyramud.tga</Icon_Name>
