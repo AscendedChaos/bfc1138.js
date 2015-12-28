@@ -59,7 +59,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Obiwan_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>			
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>1.70</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Republic</Affiliation>

@@ -280,7 +280,7 @@
 
     <GroundCompany Name="Alliance_Grenadier_Squad">
         <LOD_Bias>5</LOD_Bias>
-        <Text_ID>TEXT_IMPERIAL_REBEL_GRENADIER_SQUAD</Text_ID>
+        <Text_ID>TEXT_ALLIANCE_REBEL_GRENADIER_SQUAD</Text_ID>
         <Encyclopedia_Good_Against>Rebel_Trooper Plex_Soldier</Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To>MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret</Encyclopedia_Vulnerable_To>
         <Encyclopedia_Text>TEXT_TOOLTIP_REBEL_GRENADIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>

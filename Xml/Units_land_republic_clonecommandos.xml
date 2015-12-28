@@ -201,8 +201,8 @@
     </GroundInfantry>
 
     <GroundCompany Name="Republic_Commando_Squad">
-        <Text_ID>TEXT_HERO_UNIT_IMP_COMMANDO</Text_ID>
-        <Encyclopedia_Text>TEXT_TOOLTIP_IMP_COMMANDO</Encyclopedia_Text>
+        <Text_ID>TEXT_HERO_UNIT_REP_COMMANDO</Text_ID>
+        <Encyclopedia_Text>TEXT_TOOLTIP_REP_COMMANDO</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against>Battledroids Stap</Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To>Destroyer_Droid Hailfire_Tank AAT_Tank</Encyclopedia_Vulnerable_To>>

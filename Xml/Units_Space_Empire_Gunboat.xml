@@ -4,7 +4,7 @@
     
 
 	<SpaceUnit Name="Imperial_Gunboat">
-		<Text_ID>TEXT_UNIT_Imperial_Gunboat</Text_ID>
+		<Text_ID>TEXT_UNIT_IMPERIAL_GUNBOAT</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber Starviper_Fighter </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -140,7 +140,7 @@
 
 		<Tactical_Bribe_Cost>625</Tactical_Bribe_Cost>
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_Imperial_Gunboat</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_IMPERIAL_GUNBOAT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 1250</Score_Cost_Credits>
 
