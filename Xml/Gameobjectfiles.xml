@@ -305,7 +305,10 @@
     <File>Units_space_CIS_Heavy_Spider_Droid.xml</File>
     <File>Units_land_cis_B1_droid_commander.xml</File>
     <File>Units_land_cis_plex_droid.xml</File>
-    
+    <File>Units_land_cis_bx_commando.xml</File>
+	<File>Units_land_cis_mtt.xml</File>
+	<File>Units_land_cis_hag.xml</File>
+	<File>Units_land_cis_magnaguards.xml</File>
 	
 	<!-- Expansion Units: Republic -->
 	<File>Units_hero_republic_Commander_Keller.xml</File>
@@ -335,7 +338,7 @@
 	<File>Units_Space_Republic_Nu_Shuttle.xml</File>
 	<File>Units_Space_Republic_Pelta_Frigate.xml</File>
 	<File>Units_Space_Republic_Valiant.xml</File>
-	<!--<File>Units_Space_Republic_Y-Wing_Proto.xml</File>-->
+    <File>Units_Space_republic_centax.xml</File>
 
 	<!-- Expansion Units: Republic Land -->
 	<File>Units_land_republic_501st.xml</File>

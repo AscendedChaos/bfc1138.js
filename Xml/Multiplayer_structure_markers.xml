@@ -407,7 +407,7 @@
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
 	
-		<MultiplayerStructureMarker Name="Barracks_Hunt">
+	<MultiplayerStructureMarker Name="Barracks_Hunt">
 		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name/>

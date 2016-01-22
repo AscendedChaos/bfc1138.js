@@ -54,7 +54,7 @@
 		<Affiliation>Republic</Affiliation>
 		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Kuat_1</Required_Planets>
+		<Required_Planets>Kuat</Required_Planets>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Damage>70</Damage>

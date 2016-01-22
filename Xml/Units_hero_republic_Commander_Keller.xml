@@ -224,8 +224,7 @@
         <Icon_Name>I_BUTTON_KELLER.TGA</Icon_Name>
 
 
-        <GUI_Row>0</GUI_Row>
-        <Build_Tab_Space_Station>0</Build_Tab_Space_Station>
+        <GUI_Row>1</GUI_Row>
 
 
         <Is_Dummy>Yes</Is_Dummy>
@@ -250,7 +249,7 @@
         <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
         <Required_Special_Structures></Required_Special_Structures>
-        <Required_Planets>Kamino, Coruscant</Required_Planets>
+        <Required_Planets>Hoth</Required_Planets>
         <Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
         <Always_Spawn_In_Orbit>NO</Always_Spawn_In_Orbit>

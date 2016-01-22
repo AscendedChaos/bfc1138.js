@@ -58,7 +58,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>50</Squadron_Capacity>
-		<Build_Cost_Credits>6000</Build_Cost_Credits>
+		<Build_Cost_Credits>8000</Build_Cost_Credits>
 		<Piracy_Value_Credits>450</Piracy_Value_Credits>
 		<AI_Combat_Power>4250</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
@@ -77,7 +77,7 @@
 		<Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>-->
         
         
-        <Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 10</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 5</Starting_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
 
         <Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 8</Starting_Spawned_Units_Tech_0>
@@ -95,19 +95,19 @@
         <Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>E_Wing_Squadron, 15</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>E_Wing_Squadron, 5</Starting_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>E_Wing_Squadron, 8</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>E_Wing_Squadron, 10</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>E_Wing_Squadron, 5</Starting_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>E_Wing_Squadron, 8</Reserve_Spawned_Units_Tech_0>
         
-        <Starting_Spawned_Units_Tech_0>T_Wing_Squadron, 10</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>T_Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>T_Wing_Squadron, 8</Reserve_Spawned_Units_Tech_0>
         
-        <Starting_Spawned_Units_Tech_0>T_Wing_Squadron, 10</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>T_Wing_Squadron, 5</Starting_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>T_Wing_Squadron, 8</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>K_Wing_Squadron, 10</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>K_Wing_Squadron, 5</Starting_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>K_Wing_Squadron, 8</Reserve_Spawned_Units_Tech_0>
 
         <Starting_Spawned_Units_Tech_0>K_Wing_Squadron, 6</Starting_Spawned_Units_Tech_0>
@@ -266,12 +266,12 @@
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-        <Build_Limit_Current_Per_Player>7</Build_Limit_Current_Per_Player>
+        <Build_Limit_Current_Per_Player>4</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
         
-        <Build_Limit_Current_For_All_Allies>7</Build_Limit_Current_For_All_Allies>
+        <Build_Limit_Current_For_All_Allies>4</Build_Limit_Current_For_All_Allies>
         <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>10</Population_Value>

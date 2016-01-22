@@ -752,25 +752,6 @@
 				<Sabotage_Cost_Increase_Factor> 2.0 </Sabotage_Cost_Increase_Factor>
 			</Galactic_Sabotage_Ability>
 
-			<!--Old-style corruption
-			<Corrupt_Planet_Ability Name="Corruptor_Corrupt_Planet_1">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Ground_Activated</Activation_Style>
-				<Causes_Despawn>Yes</Causes_Despawn>
-				<Required_Corruption_Level> 0 </Required_Corruption_Level>
-				<Transition_Time_In_Secs> 15.0 </Transition_Time_In_Secs>
-				<Gameplay_Effect_Ability_Names>  </Gameplay_Effect_Ability_Names>
-				<SFXEvent_Activate> Unit_Corrupt_Sabateur</SFXEvent_Activate>
-			</Corrupt_Planet_Ability>
-			-->
-			
-			<!-- New-style corruption -->
-			<Corruption_Ability Name="Saboteur_Corruption">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Ground_Activated</Activation_Style>
-				<Causes_Despawn>Yes</Causes_Despawn>
-				<SFXEvent_Activate>Unit_Corrupt_Sabateur</SFXEvent_Activate>
-			</Corruption_Ability>
  
 			<System_Spy_Ability Name="Saboteur_Limited_Spy">
 				<Initially_Enabled>Yes</Initially_Enabled>

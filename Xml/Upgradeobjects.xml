@@ -784,7 +784,7 @@
 				<Income_Additive_Value>0.0</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Rebel_Ground_Mining_Facility</Target_Stream_Source>
+				<Target_Stream_Source>Rebel_Ground_Mining_Facility,CIS_Ground_Mining_Facility</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -821,7 +821,7 @@
 				<Income_Additive_Value>0.0</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Rebel_Ground_Mining_Facility</Target_Stream_Source>
+				<Target_Stream_Source>Rebel_Ground_Mining_Facility,CIS_Ground_Mining_Facility</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -867,7 +867,7 @@
 	<!-- Bombing Runs: Lets the player call in a bombing run, must be purchased for each bombing run. -->	
 	<UpgradeObject Name="RL_Bombing_Run_Use_Upgrade">
 		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_BOMBING_RUN</Behavior>
-		<Affiliation>Rebel,CIS</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 2000 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
@@ -1766,7 +1766,7 @@
 	<!-- Bombing Runs: Lets the player call in a bombing run, must be purchased for each bombing run. -->
 	<UpgradeObject Name="EL_Bombing_Run_Use_Upgrade">
 		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_BOMBING_RUN</Behavior>
-		<Affiliation>Empire,Republic</Affiliation>
+		<Affiliation>Empire</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 2000 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>

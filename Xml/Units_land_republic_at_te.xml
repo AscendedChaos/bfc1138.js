@@ -198,7 +198,7 @@
     <Encyclopedia_Vulnerable_To> HMP Heavy_Artillery_Gun Hailfire_Tank   </Encyclopedia_Vulnerable_To>
     <!--<GUI_Row> 1 </GUI_Row>-->
       
-      <GUI_Row> 0 </GUI_Row><!--was 1-->
+      <GUI_Row> 1 </GUI_Row><!--was 1-->
       <Build_Tab_Space_Station>0</Build_Tab_Space_Station>
       
     <Is_Dummy>Yes</Is_Dummy>

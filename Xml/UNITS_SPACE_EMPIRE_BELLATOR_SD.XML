@@ -279,10 +279,10 @@ HP_Bellator_Hanger_00, HP_Bellator_Hanger_01, HP_Bellator_Bridge, HP_Bellator_OT
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-        <Build_Limit_Current_Per_Player>4</Build_Limit_Current_Per_Player>
+        <Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
         
-		<Build_Limit_Current_For_All_Allies>4</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Current_For_All_Allies>2</Build_Limit_Current_For_All_Allies>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>

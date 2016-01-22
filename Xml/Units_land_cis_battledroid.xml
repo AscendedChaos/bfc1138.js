@@ -634,7 +634,79 @@
 </Container>
   
 	
-		
+	    <!-- Used for exploding Empire buildings -->
+
+    <GroundCompany Name="CIS_Survivors_Small">
+        <Text_ID>TEXT_UNIT_BATTLEDROID</Text_ID>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Damage>3</Damage>
+        <Autoresolve_Health>100</Autoresolve_Health>
+        <Affiliation>CIS</Affiliation>
+        <Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+        <Build_Initially_Locked>Yes</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+        <Formation_Priority>1</Formation_Priority>
+        <Is_Escort>no</Is_Escort>
+        <Ship_Class>infantry</Ship_Class>
+        <Company_Units>Squad_Battledroid, Squad_Battledroid, Squad_Battledroid</Company_Units>
+        <Icon_Name>I_BUTTON_B1_BATTLEDROID.tga</Icon_Name>
+        <Score_Cost_Credits>36</Score_Cost_Credits>
+        <Encyclopedia_Text>TEXT_UNIT_BD_ENCYC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+        <Create_Team_Type>Battledroid_Team</Create_Team_Type>
+    </GroundCompany>
+
+
+    <GroundCompany Name="CIS_Survivors_Medium">
+        <Text_ID>TEXT_UNIT_BATTLEDROID</Text_ID>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Damage>6</Damage>
+        <Autoresolve_Health>100</Autoresolve_Health>
+        <Affiliation>CIS</Affiliation>
+        <Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+        <Build_Initially_Locked>Yes</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+        <Formation_Priority>1</Formation_Priority>
+        <Is_Escort>no</Is_Escort>
+        <Ship_Class>infantry</Ship_Class>
+        <Company_Units>Squad_Battledroid, Squad_Battledroid, Squad_Battledroid, Squad_Battledroid, Squad_Battledroid, Squad_Battledroid</Company_Units>
+        <Icon_Name>I_BUTTON_B1_BATTLEDROID.tga</Icon_Name>
+        <Score_Cost_Credits>48</Score_Cost_Credits>
+        <Encyclopedia_Text>TEXT_UNIT_BD_ENCYC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+
+        <Create_Team_Type>Battledroid_Team</Create_Team_Type>
+    </GroundCompany>
+
+
+    <GroundCompany Name="CIS_Survivors_Large">
+        <Text_ID>TEXT_UNIT_BATTLEDROID</Text_ID>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Damage>9</Damage>
+        <Autoresolve_Health>100</Autoresolve_Health>
+        <Affiliation>CIS</Affiliation>
+        <Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+        <Build_Initially_Locked>Yes</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+        <Formation_Priority>1</Formation_Priority>
+        <Is_Escort>no</Is_Escort>
+        <Ship_Class>infantry</Ship_Class>
+        <Company_Units>Squad_Battledroid, Squad_Battledroid, Squad_Battledroid, Squad_Battledroid, Squad_Battledroid, Squad_Battledroid, Squad_Battledroid, Squad_Battledroid, Squad_Battledroid</Company_Units>
+        <Icon_Name>I_BUTTON_B1_BATTLEDROID.tga</Icon_Name>
+        <Score_Cost_Credits>54</Score_Cost_Credits>
+        <Encyclopedia_Text>TEXT_UNIT_BD_ENCYC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+
+
+        <Create_Team_Type>Battledroid_Team</Create_Team_Type>
+    </GroundCompany>
+
 
  
 

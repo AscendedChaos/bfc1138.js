@@ -65,6 +65,28 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
+		<Projectile Name="Proj_MagnaPike">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Damage_Type> Damage_Force_Pike </Damage_Type>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>15.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>DEFAULT</Projectile_Category>
+		<Projectile_Max_Flight_Distance>35.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>120.0</Projectile_Damage> <!-- From 50 -->
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle />
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>100</AI_Combat_Power>
+	</Projectile>
+	
 	<Projectile Name="Proj_Scorch_Plasma_Grenade">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_grenade.alo</Land_Model_Name>

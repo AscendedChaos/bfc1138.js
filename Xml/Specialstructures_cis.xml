@@ -207,7 +207,9 @@
         <Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
         <Destruction_Survivors> 
-            ,       Battle_Driod_Squad, 1.0
+            CIS_Survivors_Small, 1.0
+            CIS_Survivors_Medium, 1.0
+            CIS_Survivors_Large, 1.0 
         </Destruction_Survivors>
 
         <Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -358,7 +360,9 @@
         <Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
         <Destruction_Survivors> 
-            Battle_Driod_Squad, 1.0
+            CIS_Survivors_Small, 1.0
+            CIS_Survivors_Medium, 1.0
+            CIS_Survivors_Large, 1.0 
         </Destruction_Survivors>
 
         <Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -427,7 +431,9 @@
             Destroyer_Droid_Mk1_Company,
             Cis_Super_BattleDroid_Squad,
             Field_Com_CIS_Squad,
-            CIS_Plex_Soldier_Squad,			
+            CIS_Plex_Soldier_Squad,
+            Bx_Commando_Squad,
+            Magnaguard_Squad_Skirmish,			
             UL_Smuggled_Droid_Systems_L1_Upgrade,
             UL_Smuggled_Droid_Systems_L2_Upgrade,
         </Tactical_Buildable_Objects_Multiplayer>
@@ -663,7 +669,9 @@
         <Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
         <Destruction_Survivors> 
-            Underworld_Merc_Squad, 1.0
+            CIS_Survivors_Small, 1.0
+            CIS_Survivors_Medium, 1.0
+            CIS_Survivors_Large, 1.0 
         </Destruction_Survivors>
 
         <Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -728,6 +736,9 @@
             Snail_Tank_Enforcer_Company,
 			Octuparra_Droid_Company,
 			CIS_Heavy_Spider_Brigade,
+			Heavy_Artillery_Gun_Company,
+			Multi_Troop_Transport_Company,
+			Hailfire_Tank_Company,
         </Tactical_Buildable_Objects_Multiplayer>
 
 
@@ -808,7 +819,7 @@
         <Tactical_Health>700</Tactical_Health>
         <Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
         <LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-        <Obstacle_Proxy_Type> Empire_Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
+        <Obstacle_Proxy_Type> CIS_Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
         <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
         <Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
         <Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -1062,7 +1073,126 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 	</SpecialStructure>
 	
+   <SpecialStructure Name="Ground_Ion_Cannon_CIS">
+		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
+		<Text_ID>TEXT_GROUND_ION_CANNON</Text_ID>
+		<Land_Model_Name>RB_IONCANNON.ALO</Land_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>No</Is_Dummy>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Icon_Name>i_button_ion_cannon.tga</Icon_Name>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_ION_CANNON_00  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
+		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
+		<SpaceBehavior>SPECIAL_WEAPON</SpaceBehavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,SELECTABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+
+		<Affiliation>CIS</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Max_Instances_Per_Planet> 2 </Build_Max_Instances_Per_Planet>
+		<Size_Value>100</Size_Value>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>800</Slice_Cost_Credits>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Base_Position>Out_Base</Base_Position>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+		<Tactical_Additional_Structure_Type>Power_Generator_CIS</Tactical_Additional_Structure_Type>
+
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<Sabotage_Cost_Credits>4000</Sabotage_Cost_Credits>
+		<Tutorial_Sabotage_Cost_Credits>4000</Tutorial_Sabotage_Cost_Credits>
+
+		<Weapon_Type>Ion_Cannon_Planetary</Weapon_Type>
+		<Weapon_Quantity>1</Weapon_Quantity>
+		<SpaceAutoResolveStunRate>3</SpaceAutoResolveStunRate>
+		<Tactical_Health>1500</Tactical_Health>
+		<Projectile_Fire_Recharge_Seconds>30.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Types>Proj_Ion_Cannon_Planetary</Projectile_Types>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+        <Destruction_Survivors> 
+            CIS_Survivors_Small, 1.0
+            CIS_Survivors_Medium, 1.0
+            CIS_Survivors_Large, 1.0 
+        </Destruction_Survivors>
+		
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Is_Special_Weapon_In_Space>Yes</Is_Special_Weapon_In_Space>
+		<Special_Weapon_Index>0</Special_Weapon_Index>
+		<Special_Weapon_Target_Action_Index> 1 </Special_Weapon_Target_Action_Index> <!-- HV Gun = 0, Ion Cannon = 1, Magnepulse Cannon = 2 -->
+		<Special_Weapon_Valid_Targets>Transport | Corvette | Frigate | Capital | Super</Special_Weapon_Valid_Targets>
+
+		<Space_Victory_Relevant>No</Space_Victory_Relevant>
+		<Land_Victory_Relevant>Yes</Land_Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		
+		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Fire>Unit_Ion_Cannon_Fire</SFXEvent_Fire>
+		<SFXEvent_Special_Weapon_Ready>RHD_Ion_Cannon_Available</SFXEvent_Special_Weapon_Ready>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> UHD_Droidworks_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> RHD_Ion_Cannon_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Structure_Ion_Select_SFX</SFXEvent_Select>
+		
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		<Prevents_Blockade_Run_Attrition>True</Prevents_Blockade_Run_Attrition>
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Ion_Cannon_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.025</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	</SpecialStructure>
 
     <SpecialStructure Name="CIS_Ground_Palace">
         <GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
@@ -1118,7 +1248,9 @@
 
 
         <Destruction_Survivors> 
-            Battle_Driod_Squad, 1.0
+            CIS_Survivors_Small, 1.0
+            CIS_Survivors_Medium, 1.0
+            CIS_Survivors_Large, 1.0 
         </Destruction_Survivors>
 
         <Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>

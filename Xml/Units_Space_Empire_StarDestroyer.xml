@@ -593,7 +593,7 @@
         <Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_2>
         <Starting_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_2>
         <Starting_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_2>
-        <Starting_Spawned_Units_Tech_2>Skipray_Squadron, 1</Starting_Spawned_Units_Tech_2>
+        <Starting_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_2>
         <Starting_Spawned_Units_Tech_2>TIE_Vanguard_Squadron, 1</Starting_Spawned_Units_Tech_2>
         
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
@@ -602,7 +602,7 @@
         <Reserve_Spawned_Units_Tech_2>TIE_Vanguard_Squadron, 1</Reserve_Spawned_Units_Tech_2>
         <Reserve_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 10</Reserve_Spawned_Units_Tech_2>
         <Reserve_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_2>
-        <Reserve_Spawned_Units_Tech_2>Skipray_Squadron, 3</Reserve_Spawned_Units_Tech_2>
+        <Reserve_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_2>
         
         <!--Imp clone fighters for tech 0 added (need to be blocked in events)-->
         <Starting_Spawned_Units_Tech_0>VWing_Squadron_E, 3</Starting_Spawned_Units_Tech_0>

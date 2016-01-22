@@ -31,7 +31,7 @@
 		<Can_Win_By_Destroying_Super_Weapon>Yes</Can_Win_By_Destroying_Super_Weapon>
 		<Faction_Super_Weapon />
 		<Skirmish_Land_Bomber>Skipray_Bombing_Run</Skirmish_Land_Bomber>
-		<Space_Tactical_Unit_Cap>25</Space_Tactical_Unit_Cap>
+		<Space_Tactical_Unit_Cap>50</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<!-- Gameplay effects of planetary corruption on this faction. -->
@@ -131,11 +131,11 @@
 		<Land_Skirmish_AI_Default_Forces> 
 			Underworld_Merc_Squad,Mandalorians_Soldiers_Squad, Mandalorians_Soldiers_Squad,Kedalbe_Assault_Tank_Company,Kedalbe_Assault_Tank_Company
 		</Land_Skirmish_AI_Default_Forces>
-		<Land_Skirmish_Unit_Cap_By_Player_Count>
-			0,10,
-			1,10,
-			8,5,
-		</Land_Skirmish_Unit_Cap_By_Player_Count>
+        <Land_Skirmish_Unit_Cap_By_Player_Count>
+            0,100, 
+			1,90, 
+			8,80,
+        </Land_Skirmish_Unit_Cap_By_Player_Count>
 		<Debug_Ground_Structures>
 			U_Ground_Barracks
 		</Debug_Ground_Structures>
@@ -905,7 +905,7 @@
 
 
         <!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
-        <Standalone_Space_Maps_Special_Weapon_A>Ground_Empire_Hypervelocity_Gun</Standalone_Space_Maps_Special_Weapon_A>
+        <Standalone_Space_Maps_Special_Weapon_A>Ground_Republic_Hypervelocity_Gun</Standalone_Space_Maps_Special_Weapon_A>
         <Standalone_Space_Maps_Special_Weapon_B></Standalone_Space_Maps_Special_Weapon_B>
 
 
@@ -1569,7 +1569,7 @@
         <Primary_Enemy>Republic</Primary_Enemy>
         <Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
         <Is_Neutral>No</Is_Neutral>
-        <Force_Alignment>Light</Force_Alignment>
+        <Force_Alignment>Dark</Force_Alignment>
         <Minimum_Visible_Base_Level>3</Minimum_Visible_Base_Level>
         <Basic_AI>BasicEmpire</Basic_AI>
         <Faction_Super_Weapon></Faction_Super_Weapon>
@@ -1665,6 +1665,10 @@
         <Bombardment_Shot_Delay>0.2</Bombardment_Shot_Delay>
         <Bombardment_Salvo_Delay>1.3</Bombardment_Salvo_Delay>
         <Bombardment_Initial_Delay>1.0</Bombardment_Initial_Delay>
+		
+		        <!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
+        <Standalone_Space_Maps_Special_Weapon_A>Ground_Republic_Hypervelocity_Gun</Standalone_Space_Maps_Special_Weapon_A>
+        <Standalone_Space_Maps_Special_Weapon_B></Standalone_Space_Maps_Special_Weapon_B>
 
         <Land_Mode_Selection_Blob_Material_Name>Selection_Empire_Land</Land_Mode_Selection_Blob_Material_Name>
         <Space_Mode_Selection_Blob_Material_Name>Selection_Empire_Space</Space_Mode_Selection_Blob_Material_Name>

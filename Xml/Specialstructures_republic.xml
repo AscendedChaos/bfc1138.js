@@ -1,6 +1,129 @@
 <?xml version="1.0"?>
 <SpecialStructures>
 
+
+	<SpecialStructure Name="Ground_Republic_Hypervelocity_Gun">
+		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
+		<Text_ID>TEXT_GROUND_HYPERVELOCITY</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Land_Model_Name>RB_HyperVelocityGun.alo</Land_Model_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Republic</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Time_Seconds>95</Build_Time_Seconds>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Max_Instances_Per_Planet> 2 </Build_Max_Instances_Per_Planet>
+		<Size_Value>50</Size_Value>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Base_Position>Out_Base</Base_Position>
+		<Tech_Level>3</Tech_Level>
+		<SpaceAutoResolveHitRate>3</SpaceAutoResolveHitRate>
+		<Damage>50</Damage>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>Republic_HVehicle_Factory</Required_Special_Structures>
+		<Required_Planets />
+		<Shield_Points>200</Shield_Points>
+		<Tactical_Health>800</Tactical_Health>
+		<Shield_Refresh_Rate>15</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>6</Energy_Refresh_Rate>
+		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE, SHIELDED, POWERED, REVEAL, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<SpaceBehavior>SPECIAL_WEAPON</SpaceBehavior>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Is_Special_Weapon_In_Space>Yes</Is_Special_Weapon_In_Space>
+		<Special_Weapon_Index>1</Special_Weapon_Index>
+		<Special_Weapon_Target_Action_Index> 0 </Special_Weapon_Target_Action_Index> <!-- HV Gun = 0, Ion Cannon = 1, Magnepulse Cannon = 2 -->
+		<Special_Weapon_Valid_Targets>Transport | Corvette | Frigate | Capital | Super</Special_Weapon_Valid_Targets>
+		<Projectile_Fire_Recharge_Seconds>45.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Types>Proj_Hypervelocity_Gun</Projectile_Types>
+		<Icon_Name>i_button_hypervelocity_gun.tga</Icon_Name>
+		<Space_Victory_Relevant>No</Space_Victory_Relevant>
+		<Land_Victory_Relevant>Yes</Land_Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+
+		<Sabotage_Cost_Credits>6000</Sabotage_Cost_Credits>
+
+        <Destruction_Survivors> 
+            Republic_Survivors_Small, 1.0
+            Republic_Survivors_Medium, 1.0
+            Republic_Survivors_Large, 1.0 
+        </Destruction_Survivors>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<!--
+		<Obstacle_Width>140.0</Obstacle_Width>
+		<Obstacle_Height>80.0</Obstacle_Height>
+		<Obstacle_X_Offset>-70.0</Obstacle_X_Offset>
+		<Obstacle_Y_Offset>-40.0</Obstacle_Y_Offset>
+		-->	
+			
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Fire>Unit_Hyper_Velocity_Fire</SFXEvent_Fire>
+		<SFXEvent_Special_Weapon_Ready>EHD_Hypervelocity_Available</SFXEvent_Special_Weapon_Ready>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Hypervelocity_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Hypervelocity_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Structure_Hyper_Select_SFX</SFXEvent_Select>
+
+
+      <Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		
+		<!-- The ground structures have this data which looks like it's space only because the
+		snowspeeders are using space style pathfinding which needs this information so that we won't
+		path speeders through structures -->
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_HYPERVELOCITY_00  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 30000 </Score_Cost_Credits>
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="E_Hypervelocity_Gun_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.025</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	</SpecialStructure>
+
     <SpecialStructure Name="Republic_Command_Center">
         <GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 
@@ -1864,7 +1987,7 @@
         <Tactical_Health>700</Tactical_Health>
         <Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
         <LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-        <Obstacle_Proxy_Type> Empire_Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
+        <Obstacle_Proxy_Type> Republic_Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
         <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
         <Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
         <Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>

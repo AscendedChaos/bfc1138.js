@@ -8444,7 +8444,7 @@
 				UC_U_Ground_Gravity_Generator,
 			
 			CIS,
-				UC_Underwold_Ground_Mining_Facility,
+				UC_CIS_Ground_Mining_Facility,
 				UC_Ground_Hutt_Palace_U,
 				UC_U_Ground_Gravity_Generator, 
 			Republic,
@@ -8672,7 +8672,7 @@
 
 <!--***************************************************************************************-->
 
-<GroundBuildable Name="UC_Ground_Magnepulse_Cannon_E">
+    <GroundBuildable Name="UC_Ground_Magnepulse_Cannon_E">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
