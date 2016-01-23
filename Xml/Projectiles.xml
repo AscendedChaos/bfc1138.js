@@ -3264,7 +3264,7 @@
         <Projectile_Lifetime_Detonation_Particle>Small_Explosion_Dirt</Projectile_Lifetime_Detonation_Particle>
         <Projectile_Absorbed_By_Shields_Particle>Conc_Missile_Detonation_Particle</Projectile_Absorbed_By_Shields_Particle>
         <AI_Combat_Power>600</AI_Combat_Power>
-        <Lua_Script>FriendlyFire_Gtorp</Lua_Script>
+        <!--<Lua_Script>FriendlyFire_Gtorp</Lua_Script>-->
     </Projectile>
     
     
