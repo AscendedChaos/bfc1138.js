@@ -5,7 +5,7 @@
 
 
 
-	<SpaceUnit Name="Vengeance_Frigate">
+<SpaceUnit Name="Vengeance_Frigate">
 		<Text_ID>TEXT_UNIT_VENGEANCE_FRIGATE</Text_ID>
 		<Encyclopedia_Good_Against> Alliance_Assault_Frigate Victory_Destroyer </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> MC30_Frigate B-wing TIE_Defender </Encyclopedia_Vulnerable_To>
@@ -13,7 +13,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_uv_vengeance.tga</Icon_Name>
 
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UV_VENGEANCE.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Mass>0.999</Mass>
@@ -48,10 +48,10 @@
 		<Build_Cost_Credits>2800</Build_Cost_Credits>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
 
@@ -171,7 +171,7 @@
             <Stop_When_Activated>No</Stop_When_Activated>
    
             <!--<SFXEvent_GUI_Unit_Ability_Activated>Unit_Self_Destruct_Krayt_Class_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>-->
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
    
          </Unit_Ability>
 
@@ -184,7 +184,7 @@
              <Expiration_Seconds>60.0</Expiration_Seconds>
              <SFXEvent_GUI_Unit_Ability_Activated>Unit_Stealth_On_Vengeance_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
              <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Stealth_Off_Vengeance_Frigate</SFXEvent_GUI_Unit_Ability_Deactivated>
-             <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+             <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
          </Unit_Ability>
             
 		</Unit_Abilities_Data>
@@ -195,7 +195,7 @@
                 <Stealth_Color>255, 255, 255, 255</Stealth_Color>
                 <Stealth_Transition_Time>.5</Stealth_Transition_Time>
                 <SFXEvent_Activate></SFXEvent_Activate>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Stealth_Ability>
         </Abilities>
 
@@ -217,7 +217,6 @@
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-
 
 
 

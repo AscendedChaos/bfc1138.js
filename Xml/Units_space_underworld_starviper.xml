@@ -139,7 +139,7 @@
             <Unit_Ability>
                 <Type>BUZZ_DROIDS</Type>
                 <GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name> 
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
                 <Recharge_Seconds>60</Recharge_Seconds>
                 <SFXEvent_Target_Ability> Unit_Buzz_Droids_Star_Viper </SFXEvent_Target_Ability>
 				<!-- Make this double the Chase_Radius in the special ability-->
@@ -206,7 +206,7 @@
                 <Activation_Time_In_Seconds> 1 </Activation_Time_In_Seconds>
                 <Activate_SFX>GUI_Buzz_Droids_SFX</Activate_SFX>
                 <Object_Type>Buzz_Droids</Object_Type>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Buzz_Droids_Ability>
 
 		</Abilities>
@@ -301,7 +301,7 @@
                 <GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name> 
                 <Recharge_Seconds>60</Recharge_Seconds>
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Buzz_Droids_Star_Viper</SFXEvent_GUI_Unit_Ability_Activated>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>NO</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -380,7 +380,7 @@
                 <GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name> 
                 <Recharge_Seconds>60.0</Recharge_Seconds>
                 <SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
 
 
@@ -399,7 +399,7 @@
                 <Activation_Time_In_Seconds> 1 </Activation_Time_In_Seconds>
                 <Activate_SFX>GUI_Buzz_Droids_SFX</Activate_SFX>
                 <Object_Type>Buzz_Droids</Object_Type>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>NO</Must_Be_Bought_On_Black_Market>
             </Buzz_Droids_Ability>
 
         </Abilities>

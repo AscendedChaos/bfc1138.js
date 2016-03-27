@@ -50,7 +50,7 @@
 		<Hyperspace_Speed>1.8</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -167,7 +167,7 @@
                 <Expiration_Seconds>7</Expiration_Seconds>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Interceptor_IV</SFXEvent_GUI_Unit_Ability_Activated>
                 <GUI_Activated_Ability_Name>Interceptor_Full_Salvo</GUI_Activated_Ability_Name> 
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
 			
 		</Unit_Abilities_Data>

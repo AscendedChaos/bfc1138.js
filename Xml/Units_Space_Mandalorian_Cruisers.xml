@@ -41,10 +41,10 @@
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
 		<Affiliation>Underworld</Affiliation>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
 		<Build_Cost_Credits>5200</Build_Cost_Credits>
@@ -257,7 +257,7 @@
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
 		<Affiliation>Underworld</Affiliation>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>

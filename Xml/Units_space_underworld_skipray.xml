@@ -135,7 +135,7 @@
 				<Effective_Radius>300.0</Effective_Radius> 
                 <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 				
 				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated> 
-				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -145,7 +145,7 @@
 			<Sensor_Jamming_Ability Name="Skipray_Sensor_Jamming">
 				<Activation_Style> User_Input </Activation_Style>
                 <Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Sensor_Jamming_Ability>
 
 		</Abilities>
@@ -224,7 +224,7 @@
 				<Recharge_Seconds>35.0</Recharge_Seconds> 
 				<Expiration_Seconds>30.0</Expiration_Seconds>
 				<Effective_Radius>300.0</Effective_Radius> 
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -234,7 +234,7 @@
 			<Sensor_Jamming_Ability Name="Skipray_Sensor_Jamming">
 				<Activation_Style> User_Input </Activation_Style>
                 <Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Sensor_Jamming_Ability>
 
 		</Abilities>

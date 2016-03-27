@@ -134,7 +134,7 @@
 				<Applicable_Unit_Types />
 			</Generic_Attack_Ability>
 			
-		<!-- Commented out due to censorship issues...
+
 			<Eat_Attack_Ability Name="NS_Rancor_Eat_Infantry">
 				<Activation_Chance>1.0</Activation_Chance>
 				<Activation_Min_Range>40.0</Activation_Min_Range>
@@ -161,7 +161,7 @@
                     Cuddles_The_Rancor
                 </Excluded_Unit_Types>
 			</Eat_Attack_Ability>
-		-->
+		
 		
 			<Arc_Sweep_Attack_Ability Name="NS_Rancor_Swat_Infantry_Left">
 				<Activation_Chance>0.5</Activation_Chance>

@@ -2644,7 +2644,7 @@
 	
 	<SpecialStructure Name="U_Ground_Turbolaser_Tower">
 		<Variant_Of_Existing_Type>Template_Ground_Turbolaser_Tower</Variant_Of_Existing_Type>
-		<Tactical_Additional_Structure_Type>U_Ground_Palace</Tactical_Additional_Structure_Type>
+		<Tactical_Additional_Structure_Type>Power_Generator_U</Tactical_Additional_Structure_Type>
 		<Obstacle_Proxy_Type> U_Ground_Turbolaser_Tower_Build_Pad </Obstacle_Proxy_Type>
 
 		<Affiliation>Underworld</Affiliation>
@@ -2749,6 +2749,24 @@
 	</SpecialStructure>
 
 
+    <SpecialStructure Name="U_Galactic_Turbolaser_Tower_Defenses">
+		<Variant_Of_Existing_Type>Template_Galactic_Turbolaser_Tower_Defenses</Variant_Of_Existing_Type>
+
+		<Affiliation>Underworld</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>2</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Tactical_Additional_Structure_Type>Power_Generator_U</Tactical_Additional_Structure_Type>
+
+		<!-- When one of these objects is created in galactic mode, we will populate every marker in land mode
+		that is a specific marker for E_Ground_Turbolaser_Tower. The galactic object will persist unless all
+		instances of those tactical objects have been destroyed. -->
+		<Place_Other_Type_At_Every_Specific_Marker_Position>U_Ground_Turbolaser_Tower</Place_Other_Type_At_Every_Specific_Marker_Position>
+	
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+	</SpecialStructure>
 
 
 	<!-- New Customized Base Buildings -->
@@ -5773,6 +5791,7 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
+			    X1_Empire_Team,
 			    Saber_Guard_Team,
 			    Field_Com_Empire_Team,,
 				Darth_Team_Land_MP,

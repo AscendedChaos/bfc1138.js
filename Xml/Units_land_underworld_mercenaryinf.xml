@@ -136,7 +136,7 @@
                 <Effective_Radius> 500.0 </Effective_Radius>
                 <SFXEvent_Target_Ability />  
                 <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
 
 			<Unit_Ability>
@@ -161,7 +161,7 @@
                 <Number_Of_Mines>6</Number_Of_Mines>
                 <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
                 <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Proximity_Mines_Ability>
 
 		</Abilities>
@@ -202,7 +202,7 @@
                 <Effective_Radius> 500.0 </Effective_Radius>
                 <SFXEvent_Target_Ability />  
                 <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
 
 			<Unit_Ability>
@@ -225,7 +225,7 @@
                 <Number_Of_Mines>3</Number_Of_Mines>
                 <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
                 <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>no</Must_Be_Bought_On_Black_Market>
             </Proximity_Mines_Ability>
 		</Abilities>
 	</GroundInfantry>
@@ -299,7 +299,7 @@
                 <Effective_Radius> 500.0 </Effective_Radius>
                 <SFXEvent_Target_Ability />  
                 <Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
 
 			<Unit_Ability>
@@ -324,7 +324,7 @@
                 <Number_Of_Mines>6</Number_Of_Mines>
                 <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
                 <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Proximity_Mines_Ability>
 
 		</Abilities>
@@ -397,7 +397,7 @@
                 <Effective_Radius> 500.0 </Effective_Radius>
                 <SFXEvent_Target_Ability />  
                 <Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
          
 			<Unit_Ability>
@@ -422,7 +422,7 @@
                 <Number_Of_Mines>6</Number_Of_Mines>
                 <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
                 <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Proximity_Mines_Ability>
 
 		</Abilities>

@@ -205,10 +205,10 @@
 	<File>Units_space_rebel_YT2400.xml</File>
     <File>Unit_Space_Rebel_Blue_Diver.xml</File>
 	
+	<File>UNITS_SPACE_UNDERWORLD_PURSUER.XML</File>
 	<File></File>
 	<File></File>
-	<File></File>
-	<File></File>	
+
 
 	<!-- Expansion Units: Underworld/Mandalorian -->
 
@@ -217,7 +217,7 @@
 	<File>Units_Hero_Underworld_Tyber_Zann.xml</File>
 	<File>Units_Hero_Underworld_Silri.xml</File>
 	<File>Units_Hero_Underworld_Urai_Fen.xml</File>
-
+	<File>Units_hero_Mandalorian_Novoc_Vevut.xml</File>	
 	<!-- Expansion Units: Underworld/Mandalorian Land -->
 	
 	<File>Units_Land_Underworld_MercenaryInf.xml</File>
@@ -261,6 +261,7 @@
 	<File>Units_Space_Mando_Sith_Bomber.XML</File>
 	<File>Units_Space_Mando_Sith_Frigate.XML</File>
 	<File>Units_Space_Mandalorian_Battlecruiser.xml</File>
+	<File>UNITS_SPACE_UNDERWORLD_PURSUER.XML</File>
 
 	<File>SpecialStructures_Underworld.xml</File>
 	<File>StarBases_Underworld.xml</File>
@@ -323,6 +324,7 @@
 	<File>Units_hero_republic_shaak_ti.xml</File>
 	<File>Units_hero_republic_luminara.xml</File>
 	<File>Units_hero_republic_aayla_secura.xml</File>
+	<File>Units_hero_republic_master_ferroda.xml</File>
 	
 	<!-- Expansion Units: Republic Space -->
 	<File>Units_space_republic_arquitens.xml</File>

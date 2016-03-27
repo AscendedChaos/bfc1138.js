@@ -45,10 +45,10 @@
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 
 		<Affiliation>CIS</Affiliation>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>5</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<!--<Required_Special_Structures>Empire_Kuat_Drive_Yards</Required_Special_Structures>-->
 		<Required_Planets>Minntooine</Required_Planets>
 		<Ship_Class>super</Ship_Class>
@@ -353,7 +353,7 @@
 		<AI_Combat_Power>1000</AI_Combat_Power> <!-- From 50000 -->
 		<!--<Build_Time_Seconds>50</Build_Time_Seconds>-->
 		<Build_Time_Seconds>120</Build_Time_Seconds> <!--120-->
-		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 	<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN,SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, WEAPON, IDLE </SpaceBehavior>

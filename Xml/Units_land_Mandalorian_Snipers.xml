@@ -224,7 +224,7 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<Company_Units> Mando_Sniper, Mando_Sniper,Squad_Mandalorians_Commando,Squad_Mandalorians_Commando</Company_Units>
+		<Company_Units> Mando_Sniper, Mando_Sniper,Mando_Sniper,Mando_Sniper</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 
 		<Formation_Priority>1</Formation_Priority>

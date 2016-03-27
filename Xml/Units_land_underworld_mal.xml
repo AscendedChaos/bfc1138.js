@@ -168,7 +168,7 @@
 				<Alternate_Name_Text>TEXT_TOOLTIP_MAL_SWAP</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_MAL_SWAP_DESCRIPTION</Alternate_Description_Text>
                 <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name> 
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
@@ -267,7 +267,7 @@
 				<Alternate_Name_Text>TEXT_TOOLTIP_MAL_SWAP</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_MAL_SWAP_DESCRIPTION</Alternate_Description_Text>
                 <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name> 
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>

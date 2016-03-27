@@ -59,7 +59,7 @@
 		<Size_Value>120</Size_Value>
 
 		<Affiliation>Underworld</Affiliation>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Build_Cost_Credits>1400</Build_Cost_Credits>
@@ -146,7 +146,7 @@
                 <Effective_Radius> 500.0 </Effective_Radius>
                 <SFXEvent_GUI_Unit_Ability_Activated> Unit_Laser_Defense_On_Crusader </SFXEvent_GUI_Unit_Ability_Activated>  <!--(by pressing the activate button)-->
 				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Laser_Defense_Off_Crusader </SFXEvent_GUI_Unit_Ability_Deactivated>  <!--(by pressing deactivate)-->
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
                 <Supports_Autofire>False</Supports_Autofire>
            </Unit_Ability>
         </Unit_Abilities_Data>
@@ -165,7 +165,7 @@
                 <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
                 <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
                 <Recharge_Time_In_Secs>.50</Recharge_Time_In_Secs>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
                 <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
             </Laser_Defense_Ability>
 		</Abilities>

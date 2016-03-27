@@ -2,6 +2,11 @@
 
 <SFXEvents>
 
+    <SFXEvent Name="Unit_Clone_Hovertank_Moving_Engine_Loop">
+				<Use_Preset>Preset_EGLC</Use_Preset>
+            <Samples>Data/Audio/hovertank_running.wav</Samples>
+    </SFXEvent>
+
      <SFXEvent Name="Unit_Star_Destroyer_Idle_Engine_Loop">
 				<Use_Preset>Preset_EGLC_Idle</Use_Preset>
             <Samples>EGL_Star_Destroyer_1.wav</Samples>
@@ -91,6 +96,7 @@
             <Samples>EGL_Nebulon_Frigate_1.wav</Samples>
     </SFXEvent>
 
+	
 
     <SFXEvent Name="Unit_Nebulon_Cinematic_Engine_Loop">
 				<Use_Preset>Preset_EGL_CIN</Use_Preset>

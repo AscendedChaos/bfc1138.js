@@ -16,7 +16,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_Keldabe.tga</Icon_Name>
 
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UV_KedalbeBattleship.alo</Space_Model_Name>
 		<Select_Box_Scale>890</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
@@ -41,12 +41,12 @@
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
 		<Affiliation>Underworld</Affiliation>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>5</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		 <Required_Planets>MonCalimari_1, Kuat_1, Fondor_1, Sullust_1, Hypori_1, Mandalore_1</Required_Planets>
+		 <Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
 		<Build_Cost_Credits>6000</Build_Cost_Credits>
 		<Build_Time_Seconds>75</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -191,7 +191,7 @@
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Leech_Sheilds_Kadalbe</SFXEvent_GUI_Unit_Ability_Activated>
                 <SFXEvent_Target_Ability> Unit_Leech_Sheilds_Kadalbe </SFXEvent_Target_Ability>
 					 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
  				<Supports_Autofire>True</Supports_Autofire>
            </Unit_Ability>
             
@@ -255,9 +255,22 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
 
-
-
-
+<SpaceUnit Name="FENN_SHYSA_Ship">
+		<Variant_Of_Existing_Type>Kedalbe_Battleship</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_FENN_SHYSA</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_FENN_SHYSA</Encyclopedia_Text>
+		<Behavior> SELECTABLE, TRANSPORT, DUMMY_STARSHIP </Behavior>
+		<CategoryMask>Capital | AntiFrigate | SpaceHero</CategoryMask>
+		<Landing_Transport_Variant>Underworld_Hero_Shuttle_Landing</Landing_Transport_Variant>
+		<Autoresolve_Health>9500</Autoresolve_Health>
+		<Tactical_Health>9500</Tactical_Health>
+		<Shield_Points>5200</Shield_Points>
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+		<Energy_Capacity>99999</Energy_Capacity>
+		<Energy_Refresh_Rate>900</Energy_Refresh_Rate>
+		<Damage>90</Damage>
+		<AI_Combat_Power>4250</AI_Combat_Power>
+	</SpaceUnit>
 
      <SpaceUnit Name="FENN_SHYSA_MP">
 		<Variant_Of_Existing_Type>Kedalbe_Battleship</Variant_Of_Existing_Type>

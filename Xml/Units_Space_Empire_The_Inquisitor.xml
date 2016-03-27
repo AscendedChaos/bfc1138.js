@@ -60,9 +60,9 @@
         <Sensor_Range>20</Sensor_Range>
         <Shield_Points>0</Shield_Points>
         <Armor_Type> Armor_Hero </Armor_Type>
-        <Tactical_Health>500</Tactical_Health>
+        <Tactical_Health>800</Tactical_Health>
         <Autoresolve_Health>500</Autoresolve_Health>
-        <Damage>100</Damage>
+        <Damage>220</Damage>
         <Stealth_Capable>No</Stealth_Capable>
         <Victory_Relevant>yes</Victory_Relevant>
         <Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>

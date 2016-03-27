@@ -143,7 +143,10 @@
 
 
 
-
+	<SFXEvent Name="Unit_Clone_Hovertank_Fire">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>Data/Audio/hovertank_fire.wav</Samples>
+    </SFXEvent>
 
 
 
